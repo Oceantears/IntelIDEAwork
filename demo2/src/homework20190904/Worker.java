@@ -1,12 +1,12 @@
 package homework20190904;
 
-import com.sun.xml.internal.ws.wsdl.writer.document.http.Address;
+
 
 public class Worker {
     String name;
     int age;
     double salary;
-    Address add;
+    // AddressNode.Address add;
     public Worker(){
 
     }
