@@ -2,50 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bb13e4d-c9b4-42ba-a790-1589cb055139" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework20190916/StringMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/homework.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190904/ChangeRef.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190904/ClassA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190904/ClassA1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190904/ClassA2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190904/ClassA3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190904/ClassB1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190904/ClassC1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190904/Complex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190904/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190904/HwDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190904/MathOfComplex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190904/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190904/TestClassA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190904/TestConstructor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190904/TestDog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190904/Worker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190905/Animal/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190905/Animal/Bluefish.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190905/Animal/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190905/Animal/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190905/Animal/Lion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190905/Animal/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190905/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190905/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190905/CreditCard/CreditCard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190905/CreditCard/DragonCard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190905/CreditCard/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190905/CreditCard/SliverCard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190905/Employee/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190905/Employee/HourlyWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190905/Employee/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190905/Employee/NormalEmployee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190905/Employee/Salesperson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190905/Patterning.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190905/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190905/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo2/homework20190905/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework20190904/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework20190904/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/homework/homework20190916/StringMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/homework/homework20190916/StringMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework20190916/StringMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework20190916/StringMethod.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -113,11 +72,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/homework20190916/StringMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="82" column="44" lean-forward="true" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
+            <state relative-caret-position="183">
+              <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/homework20190916/StringPractice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="72" column="83" selection-start-line="72" selection-start-column="83" selection-end-line="72" selection-end-column="86" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -130,6 +101,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -171,11 +143,14 @@
         <option value="$PROJECT_DIR$/src/homework20190905/CreditCard/Main.java" />
         <option value="$PROJECT_DIR$/src/homework20190911/JewelryCompany.java" />
         <option value="$PROJECT_DIR$/src/homework20190904/Worker.java" />
+        <option value="$PROJECT_DIR$/src/homework20190916/Haa.java" />
+        <option value="$PROJECT_DIR$/src/homework20190916/Inter.java" />
         <option value="$PROJECT_DIR$/src/homework20190916/StringMethod.java" />
+        <option value="$PROJECT_DIR$/src/homework20190916/StringPractice.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="48" />
     <option name="y" value="16" />
     <option name="width" value="1204" />
@@ -232,12 +207,18 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568198237829" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -251,26 +232,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringMethod">
-    <configuration name="Book" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework20190905.Book" />
+  <component name="RunManager" selected="Application.StringPractice">
+    <configuration name="Haa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework20190916.Haa" />
       <module name="homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework20190905.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework20190905.Employee.Main" />
-      <module name="homework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework20190905.Employee.*" />
+          <option name="PATTERN" value="homework20190916.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -317,20 +285,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework20190916.StringPractice" />
+      <module name="homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework20190916.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Book" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.StringMethod" />
+      <item itemvalue="Application.Haa" />
+      <item itemvalue="Application.StringPractice" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringPractice" />
         <item itemvalue="Application.StringMethod" />
+        <item itemvalue="Application.Haa" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Book" />
       </list>
     </recent_temporary>
   </component>
@@ -355,18 +336,19 @@
       <workItem from="1568207700934" duration="58000" />
       <workItem from="1568207845058" duration="125000" />
       <workItem from="1568633399463" duration="7039000" />
-      <workItem from="1568682685672" duration="5092000" />
+      <workItem from="1568682685672" duration="7338000" />
+      <workItem from="1568700450326" duration="17954000" />
+      <workItem from="1568768641294" duration="268000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86271000" />
+    <option name="totallyTimeSpent" value="106739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24307036" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24840085" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -610,13 +592,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/lib/src.zip!/java.base/java/lang/String.java">
+    <entry file="jar://D:/Java/lib/src.zip!/java.base/java/lang/Character.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7324">
-          <caret line="1956" column="22" lean-forward="true" selection-start-line="1956" selection-start-column="22" selection-end-line="1956" selection-end-column="22" />
+        <state relative-caret-position="197">
+          <caret line="9263" column="26" selection-start-line="9263" selection-start-column="26" selection-end-line="9263" selection-end-column="26" />
+          <folding>
+            <element signature="e#363288#363289#0" expanded="true" />
+            <element signature="e#363327#363328#0" expanded="true" />
+            <element signature="e#364611#364612#0" expanded="true" />
+            <element signature="e#364680#364681#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/Java/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="1993" column="18" selection-start-line="1993" selection-start-column="18" selection-end-line="1993" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/homework20190916/Haa.java" />
+    <entry file="file://$PROJECT_DIR$/src/homework20190916/Inter.java" />
     <entry file="file://$PROJECT_DIR$/src/homework20190905/CreditCard/DragonCard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -661,8 +658,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/homework20190916/StringMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="82" column="44" lean-forward="true" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
+        <state relative-caret-position="183">
+          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/homework20190916/StringPractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="72" column="83" selection-start-line="72" selection-start-column="83" selection-end-line="72" selection-end-column="86" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

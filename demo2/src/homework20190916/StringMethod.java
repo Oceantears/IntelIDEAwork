@@ -35,7 +35,19 @@ public class StringMethod {
         // String n1="name";
         // System.out.println(getPropertyGetMethodName(n1));
 
-        getIndexString();
+        // getIndexString();
+
+        // stringTest();
+
+        Scanner scan=new Scanner(System.in);
+        System.out.println("输入两个字符串：");
+        String str1=scan.nextLine();
+        String str2=scan.nextLine();
+        System.out.println("筛选完的字符串为："+deleteSubString(str1,str2)[0]);
+        System.out.println("包含str2的个数为："+deleteSubString(str1,str2)[1]);
+        System.out.println("================================第二种方法==================================");
+        System.out.println("筛选完的字符串为："+deleteSubString2(str1,str2)[0]);
+        System.out.println("包含str2的个数为："+deleteSubString2(str1,str2)[1]);
     }
 
     //2.分析以下需求，并用代码实现：
@@ -87,9 +99,107 @@ public class StringMethod {
             if(s.equalsIgnoreCase("end")){
                 break;
             }
-
-
+            //System.out.println(s);
+            int upper=0;
+            int lower=0;
+            char[] chars=new char[s.length()];        //建一个char数组容纳String中改变以后的字符
+            for(int i=0;i<s.length();i++){
+                if(Character.isDigit(s.charAt(i))){
+                    chars[i]='*';
+                }
+                if(Character.isUpperCase(s.charAt(i))){
+                    chars[i]=s.substring(i,i+1).toLowerCase().charAt(0);
+                    upper++;
+                }
+                if(Character.isLowerCase(s.charAt(i))){
+                    chars[i]=s.substring(i,i+1).toUpperCase().charAt(0);
+                    lower++;
+                }
+            }
+            String s1=String.copyValueOf(chars);           //将chars中的字符数组连在一起组成字符串
+            System.out.println(s1);
         }
     }
 
+    //5.分析以下需求，并用代码实现：
+    // 	(1)从键盘循环录入录入一个字符串,输入"end"表示结束
+    // 	(2)定义一个方法
+    // 		public Object[] deleteSubString(String str1,String str2) {
+    //
+    // 		}
+    // 	(3)方法功能描述:从str1中删除所有的str2,并返回删除后的结果,返回结果为Object[]数组
+    // 		* 该数组的第一个元素为删除所有的str2后的最终的字符串
+    // 		* 该数组的第二个元素为删除的str2的个数
+
+    //第一种方法：
+    public static Object[] deleteSubString(String str1,String str2){
+        Object[] objects=new Object[2];
+
+        int count=0;
+        for(int i=0;i<str1.length();i++){
+            if(str1.charAt(i)==str2.charAt(0)&&str1.substring(i,i+str2.length()).equals(str2)){
+                str1=str1.substring(0,i)+str1.substring(i+str2.length(),str1.length());
+                count++;
+            }
+        }
+        objects[0]=str1;
+        objects[1]=count;
+        return objects;
+    }
+    //第二种方法：
+    public static Object[] deleteSubString2(String str1,String str2){
+        Object[] objects=new Object[2];
+        String[] str=str1.split(str2);
+        String str3="";
+        for(int i=0;i<str.length;i++){
+            str3+=str[i];
+        }
+        int count=(str1.length()-str3.length())/str2.length();
+        objects[0]=str3;
+        objects[1]=count;
+        return objects;
+    }
+}
+
+//6.关于String类的练习题，分析运行结果？
+class Test01 {
+    public static void main(String[] args) {
+        //demo1();
+        //demo2();
+        //demo3();
+        //demo4();
+        demo5();
+    }
+    private static void demo5() {
+        String s1 = "ab";
+        String s2 = "abc";
+        String s3 = s1 + "c";
+        System.out.println(s3 == s2);
+        System.out.println(s3.equals(s2)); 		//true
+    }
+    private static void demo4() {
+        //byte b = 3 + 4;						//在编译时就变成7,把7赋值给b,常量优化机制
+        String s1 = "a" + "b" + "c";//java中有常量优化机制,在编译时期就能确定s2的值为"abc",所以编译时期,在常量池中创建"abc"
+        String s2 = "abc";//执行到这里时常量池中已经有了"abc",所以就不再创建,所以s1和s2指向的是常量池中同一个字符串常量"abc"
+        System.out.println(s1 == s2); 			//true,java中有常量优化机制
+        System.out.println(s1.equals(s2)); 		//true
+    }
+    private static void demo3() {//==比较的是地址值
+        String s1 = new String("abc");			//录的是堆内存对象的地址值
+        String s2 = "abc";						//记录的是常量池中的地址值
+        System.out.println(s1 == s2); 			//false
+        System.out.println(s1.equals(s2)); 		//true
+    }
+    private static void demo2() {
+        //创建几个对象
+        //创建两个对象,一个在常量池中,一个在堆内存中
+        String s1 = new String("abc");
+        System.out.println(s1);
+    }
+    private static void demo1() {				//常量池中没有这个字符串对象,就创建一个,如果有直接用即可
+        String s1 = "abc";
+        String s2 = "abc";
+        System.out.println(s1 == s2); 			//==号比较的是地址值,true
+        System.out.println(s1.equals(s2)); 		//比较的是字符串的内容:true
+    }
 }
