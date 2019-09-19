@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6bb13e4d-c9b4-42ba-a790-1589cb055139" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/homework/homework20190916/StringMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/homework/homework20190916/StringMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework20190916/StringMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework20190916/StringMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/homework/homework20190916/StringPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/homework/homework20190916/StringPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework20190916/StringPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework20190916/StringPractice.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,64 +19,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/homework20190905/CreditCard/DragonCard.java">
+        <entry file="file://$PROJECT_DIR$/src/homework20190916/StringPractice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+            <state relative-caret-position="138">
+              <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/homework20190905/CreditCard/SliverCard.java">
+        <entry file="file://$PROJECT_DIR$/src/homework20190918/ExceptionPractice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/homework20190905/CreditCard/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/homework20190905/CreditCard/CreditCard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/homework20190905/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/homework20190911/JewelryCompany.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3588">
-              <caret line="180" column="39" selection-start-line="180" selection-start-column="39" selection-end-line="180" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/homework20190916/StringMethod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+            <state relative-caret-position="161">
+              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -85,13 +44,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/homework20190916/StringPractice.java">
+        <entry file="file://$PROJECT_DIR$/src/homework20190918/IntegerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="72" column="83" selection-start-line="72" selection-start-column="83" selection-end-line="72" selection-end-column="86" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="574">
+              <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -105,6 +61,13 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>valueof</find>
+      <find>IntegerCache</find>
+      <find>Integer</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -147,10 +110,13 @@
         <option value="$PROJECT_DIR$/src/homework20190916/Inter.java" />
         <option value="$PROJECT_DIR$/src/homework20190916/StringMethod.java" />
         <option value="$PROJECT_DIR$/src/homework20190916/StringPractice.java" />
+        <option value="$PROJECT_DIR$/src/homework20190916/Test.java" />
+        <option value="$PROJECT_DIR$/src/homework20190918/ExceptionPractice.java" />
+        <option value="$PROJECT_DIR$/src/homework20190918/IntegerTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="48" />
     <option name="y" value="16" />
     <option name="width" value="1204" />
@@ -163,8 +129,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,12 +145,6 @@
               <item name="demo2" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="homework20190904" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="homework20190911" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -195,10 +153,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="homework20190916" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="demo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="homework20190916" type="462c0819:PsiDirectoryNode" />
+              <item name="StringMethod.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="demo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="homework20190918" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,7 +191,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -232,13 +205,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringPractice">
-    <configuration name="Haa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework20190916.Haa" />
+  <component name="RunManager" selected="Application.IntegerTest">
+    <configuration name="ExceptionPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework20190918.ExceptionPractice" />
       <module name="homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework20190916.*" />
+          <option name="PATTERN" value="homework20190918.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,25 +219,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework20190905.Animal.Main" />
+    <configuration name="IntegerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework20190918.IntegerTest" />
       <module name="homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework20190905.Animal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework20190905.CreditCard.Main" />
-      <module name="homework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework20190905.CreditCard.*" />
+          <option name="PATTERN" value="homework20190918.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,20 +258,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework20190916.Test" />
+      <module name="homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework20190916.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.StringMethod" />
-      <item itemvalue="Application.Haa" />
       <item itemvalue="Application.StringPractice" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.ExceptionPractice" />
+      <item itemvalue="Application.IntegerTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntegerTest" />
+        <item itemvalue="Application.ExceptionPractice" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.StringPractice" />
         <item itemvalue="Application.StringMethod" />
-        <item itemvalue="Application.Haa" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -338,17 +311,22 @@
       <workItem from="1568633399463" duration="7039000" />
       <workItem from="1568682685672" duration="7338000" />
       <workItem from="1568700450326" duration="17954000" />
-      <workItem from="1568768641294" duration="268000" />
+      <workItem from="1568768641294" duration="434000" />
+      <workItem from="1568769106253" duration="7084000" />
+      <workItem from="1568787019986" duration="6101000" />
+      <workItem from="1568810659424" duration="2759000" />
+      <workItem from="1568855396532" duration="5095000" />
+      <workItem from="1568873598040" duration="3925000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106739000" />
+    <option name="totallyTimeSpent" value="131869000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24840085" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26172706" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -357,7 +335,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22968581" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -621,24 +599,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/homework20190905/CreditCard/SliverCard.java">
+    <entry file="jar://D:/Java/lib/src.zip!/java.base/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state relative-caret-position="22540">
+          <caret line="1020" column="26" selection-start-line="1020" selection-start-column="26" selection-end-line="1020" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/homework20190905/CreditCard/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/homework20190916/test.java" />
+    <entry file="jar://D:/Java/lib/src.zip!/java.base/java/io/FileSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="220">
+          <caret line="155" column="27" selection-start-line="155" selection-start-column="27" selection-end-line="155" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/homework20190905/CreditCard/CreditCard.java">
+    <entry file="file://$PROJECT_DIR$/src/homework20190916/StringMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+        <state relative-caret-position="805">
+          <caret line="154" column="25" lean-forward="true" selection-start-line="154" selection-start-column="25" selection-end-line="154" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/homework20190911/JewelryCompany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="180" column="39" selection-start-line="180" selection-start-column="39" selection-end-line="180" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -649,30 +638,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/homework20190911/JewelryCompany.java">
+    <entry file="file://$PROJECT_DIR$/src/homework20190905/CreditCard/CreditCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3588">
-          <caret line="180" column="39" selection-start-line="180" selection-start-column="39" selection-end-line="180" selection-end-column="39" />
+        <state relative-caret-position="437">
+          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/homework20190916/StringMethod.java">
+    <entry file="file://$PROJECT_DIR$/src/homework20190905/CreditCard/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="523">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/homework20190905/CreditCard/SliverCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/lib/src.zip!/java.base/java/io/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/lib/src.zip!/java.base/java/io/IOException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/lib/src.zip!/java.base/java/io/FileNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/lib/src.zip!/java.base/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="73" column="27" lean-forward="true" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/homework20190916/StringPractice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="72" column="83" selection-start-line="72" selection-start-column="83" selection-end-line="72" selection-end-column="86" />
+        <state relative-caret-position="138">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/lib/src.zip!/java.base/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4512">
+          <caret line="1094" column="11" selection-start-line="1094" selection-start-column="11" selection-end-line="1094" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/homework20190918/ExceptionPractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/homework20190918/IntegerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -682,6 +728,17 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

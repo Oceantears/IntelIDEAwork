@@ -7,13 +7,17 @@
  */
 package homework20190916;
 
+import java.io.File;
+import java.io.IOException;
+
 public class StringPractice {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         //findString();
 
         // getIO();
 
-        stringAPItest();
+        // stringAPItest();
+
     }
 
     //1、从字符串“abcdefzhig”中取下标为偶数的字符放入另一字符串中，并输出。（用两种方法完成：①、用字符数组来完成。②、用字符串来完成。）
@@ -66,13 +70,15 @@ public class StringPractice {
     // 15)去掉该字符串两边的空格.
     public static void stringAPItest(){
         String s=" Call Me Ishmael ";
-        System.out.println("1===========>"+s);
-        System.out.println("2===========>"+s.length());
-        System.out.println("3===========>"+s.charAt(0));
-        System.out.println("4===========>"+s.charAt(s.length()-1));
-        System.out.println("5===========>"+s.substring(1,s.substring(1).indexOf(" ")+1));
-        System.out.println("6===========>"+s.replace('C','B'));
-        System.out.println("7===========>"+s.substring(6,8));
-
+        System.out.println("2===========>"+s);
+        System.out.println("3===========>"+s.length());
+        System.out.println("4===========>"+s.charAt(0));
+        System.out.println("5===========>"+s.charAt(s.length()-1));
+        System.out.println("6===========>"+s.substring(1,s.substring(1).indexOf(" ")+1));
+        System.out.println("7===========>"+s.replace('C','B'));
+        System.out.println("8===========>"+s.substring(6,8));
+        String str1=s.substring(1,s.substring(1).indexOf(" ")+1);
+        String str2=s.substring(1+str1.length()+1,s.substring(1+str1.length()+1).indexOf(" ")+1);
+        // String str3=
     }
 }
