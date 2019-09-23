@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2da7a18-f9f0-402b-9d9b-d86238be99fc" name="Default Changelist" comment="" />
+    <list default="true" id="e2da7a18-f9f0-402b-9d9b-d86238be99fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../practice/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo2/out/production/homework/homework20190918/ExceptionPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/out/production/homework/homework20190918/ExceptionPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo2/out/production/homework/homework20190918/IntegerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/out/production/homework/homework20190918/IntegerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo2/src/homework20190918/ExceptionPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/src/homework20190918/ExceptionPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice/out/production/practice/practice20190909/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/out/production/practice/practice20190909/Team.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +71,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -78,6 +90,7 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -115,8 +128,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -161,16 +176,17 @@
       <workItem from="1563291667384" duration="1556000" />
       <workItem from="1568265661395" duration="599000" />
       <workItem from="1568266687847" duration="49000" />
+      <workItem from="1568969539461" duration="11000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5649000" />
+    <option name="totallyTimeSpent" value="5660000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1945629" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19669509" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
