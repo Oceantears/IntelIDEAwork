@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6c30e95-837b-4a47-b03d-cd1660d2937c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/commons-dbcp-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/commons-dbutils-1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/commons-pool-1.5.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/mysql-connector-java-5.1.6-bin.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../demo2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/hometest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/hometest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/src/interfaceTest2/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/src/interfaceTest2/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191011/ClassifyFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191011/ClassifyFiles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191011/File_test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191011/File_test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191011/MyFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191011/MyFileFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo2/src/homework20191013/CopyWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/src/homework20191013/CopyWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practice.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,16 +22,45 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/practice20190920/StringTest.java">
+        <entry file="file://$PROJECT_DIR$/src/practice20191016/com/it/cbs/bean/JDBCUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            <state relative-caret-position="594">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#736#737#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/practice20191016/com/it/cbs/app/MainApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -33,77 +69,78 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/practice20190920/flyFish/FlyGame.java">
+        <entry file="file://$PROJECT_DIR$/src/practice20191016/com/it/cbs/bean/ChuBanShe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            <state>
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
+              <folding>
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#599#600#0" expanded="true" />
+                <element signature="e#628#629#0" expanded="true" />
+                <element signature="e#661#662#0" expanded="true" />
+                <element signature="e#684#685#0" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
+                <element signature="e#764#765#0" expanded="true" />
+                <element signature="e#794#795#0" expanded="true" />
+                <element signature="e#814#815#0" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#882#883#0" expanded="true" />
+                <element signature="e#915#916#0" expanded="true" />
+                <element signature="e#938#939#0" expanded="true" />
+                <element signature="e#985#986#0" expanded="true" />
+                <element signature="e#1018#1019#0" expanded="true" />
+                <element signature="e#1047#1048#0" expanded="true" />
+                <element signature="e#1066#1067#0" expanded="true" />
+                <element signature="e#1105#1106#0" expanded="true" />
+                <element signature="e#1130#1131#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/practice20191016/cn/it/cbs/dao/ChuBanSheDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="34" column="90" lean-forward="true" selection-start-line="34" selection-start-column="90" selection-end-line="34" selection-end-column="90" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/practice20191016/cn/it/cbs/service/ChuBanSheService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/practice20191016/com/it/cbs/view/MainView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="89" selection-start-line="89" selection-end-line="89" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/practice20190920/BuyChicken.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/practice20190920/worker/Worker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/practice20190920/worker/Address.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding>
-                <element signature="e#174#175#0" expanded="true" />
-                <element signature="e#204#205#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/practice20190920/flyFish/FlyFish.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/practice20190920/flyFish/Animal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-              <folding>
-                <element signature="e#206#207#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/practice20190920/flyFish/Swiner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -140,10 +177,16 @@
         <option value="$PROJECT_DIR$/src/practice20190920/flyFish/Animal.java" />
         <option value="$PROJECT_DIR$/src/practice20190920/flyFish/FlyFish.java" />
         <option value="$PROJECT_DIR$/src/practice20190920/flyFish/FlyGame.java" />
-        <option value="$PROJECT_DIR$/src/practice20190920/BuyChicken.java" />
         <option value="$PROJECT_DIR$/src/practice20190920/worker/Worker.java" />
         <option value="$PROJECT_DIR$/src/practice20190920/worker/Address.java" />
         <option value="$PROJECT_DIR$/src/practice20190920/StringTest.java" />
+        <option value="$PROJECT_DIR$/src/practice20191016/com/it/cbs/app/MainApp.java" />
+        <option value="$PROJECT_DIR$/src/practice20190920/BuyChicken.java" />
+        <option value="$PROJECT_DIR$/src/practice20191016/com/it/cbs/view/MainView.java" />
+        <option value="$PROJECT_DIR$/src/practice20191016/cn/it/cbs/service/ChuBanSheService.java" />
+        <option value="$PROJECT_DIR$/src/practice20191016/com/it/cbs/bean/ChuBanShe.java" />
+        <option value="$PROJECT_DIR$/src/practice20191016/cn/it/cbs/dao/ChuBanSheDAO.java" />
+        <option value="$PROJECT_DIR$/src/practice20191016/com/it/cbs/bean/JDBCUtils.java" />
       </list>
     </option>
   </component>
@@ -160,6 +203,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,19 +216,90 @@
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="practice20191016" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="practice20191016" type="462c0819:PsiDirectoryNode" />
+              <item name="cbs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="practice20191016" type="462c0819:PsiDirectoryNode" />
+              <item name="cbs" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="practice20191016" type="462c0819:PsiDirectoryNode" />
+              <item name="cbs" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="practice20191016" type="462c0819:PsiDirectoryNode" />
+              <item name="it" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="practice20191016" type="462c0819:PsiDirectoryNode" />
+              <item name="it" type="462c0819:PsiDirectoryNode" />
+              <item name="cbs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="practice20191016" type="462c0819:PsiDirectoryNode" />
+              <item name="it" type="462c0819:PsiDirectoryNode" />
+              <item name="cbs" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="practice20191016" type="462c0819:PsiDirectoryNode" />
+              <item name="it" type="462c0819:PsiDirectoryNode" />
+              <item name="cbs" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="practice20191016" type="462c0819:PsiDirectoryNode" />
+              <item name="it" type="462c0819:PsiDirectoryNode" />
+              <item name="cbs" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568184079904" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hometest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -193,10 +308,16 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IntelIDEAwork\practice\bin" />
+      <recent name="D:\IntelIDEAwork\practice\src\practice20191016\lib" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -210,7 +331,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringTest">
+  <component name="RunManager" selected="Application.MainApp">
     <configuration name="BuyChicken" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice20190920.BuyChicken" />
       <module name="practice" />
@@ -237,12 +358,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice20190920.StringTest" />
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice20191016.com.it.cbs.app.MainApp" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice20190920.*" />
+          <option name="PATTERN" value="practice20191016.com.it.cbs.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,12 +371,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuperSub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice20190909.TestSuperSub" />
+    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice20190920.StringTest" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice20190909.*" />
+          <option name="PATTERN" value="practice20190920.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -277,19 +398,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestSuperSub" />
       <item itemvalue="Application.FlyGame" />
       <item itemvalue="Application.BuyChicken" />
       <item itemvalue="Application.Worker" />
       <item itemvalue="Application.StringTest" />
+      <item itemvalue="Application.MainApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainApp" />
+        <item itemvalue="Application.BuyChicken" />
         <item itemvalue="Application.StringTest" />
         <item itemvalue="Application.Worker" />
-        <item itemvalue="Application.BuyChicken" />
         <item itemvalue="Application.FlyGame" />
-        <item itemvalue="Application.TestSuperSub" />
       </list>
     </recent_temporary>
   </component>
@@ -314,16 +435,18 @@
       <workItem from="1569201094397" duration="3117000" />
       <workItem from="1570431366974" duration="17000" />
       <workItem from="1570583345332" duration="13000" />
+      <workItem from="1571190327081" duration="15719000" />
+      <workItem from="1571212460459" duration="4262000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56869000" />
+    <option name="totallyTimeSpent" value="76850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20309168" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20735608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -348,7 +471,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32995737" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
@@ -389,6 +512,24 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/practice20191016/com/it/cbs/view/MainView.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/practice20191016/com/it/cbs/view/MainView.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/practice20190909/TestSuperSub.java">
@@ -518,7 +659,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/practice20190920/StringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="270">
           <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -528,18 +669,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/practice20190920/flyFish/FlyGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
+        <state relative-caret-position="126">
           <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice20190920/BuyChicken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -548,14 +679,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/practice20190920/worker/Worker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
+        <state relative-caret-position="378">
           <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/practice20190920/worker/Address.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
+        <state relative-caret-position="108">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="e#174#175#0" expanded="true" />
@@ -564,16 +695,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice20190920/flyFish/FlyFish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/practice20190920/flyFish/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
+        <state relative-caret-position="72">
           <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding>
             <element signature="e#206#207#0" expanded="true" />
@@ -583,8 +707,127 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/practice20190920/flyFish/Swiner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
+        <state relative-caret-position="72">
           <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice20191016/A.java" />
+    <entry file="file://$PROJECT_DIR$/src/practice20190920/BuyChicken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice20190920/flyFish/FlyFish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/bin/commons-dbutils-1.6.jar!/org/apache/commons/dbutils/handlers/BeanListHandler.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/bin/commons-dbutils-1.6.jar!/org/apache/commons/dbutils/AbstractQueryRunner.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/bin/commons-dbutils-1.6.jar!/org/apache/commons/dbutils/QueryRunner.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice20191016/com/it/cbs/app/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice20191016/com/it/cbs/bean/ChuBanShe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="e#1047#1048#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#1105#1106#0" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice20191016/cn/it/cbs/service/ChuBanSheService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice20191016/com/it/cbs/view/MainView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice20191016/cn/it/cbs/dao/ChuBanSheDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="34" column="90" lean-forward="true" selection-start-line="34" selection-start-column="90" selection-end-line="34" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice20191016/com/it/cbs/bean/JDBCUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -605,6 +848,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -627,7 +871,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -639,6 +883,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
+          <last-edited>practice</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -649,6 +894,17 @@
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">

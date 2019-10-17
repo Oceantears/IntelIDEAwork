@@ -8,6 +8,7 @@
 package homework20191013;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.util.Scanner;
 
@@ -16,13 +17,23 @@ public class CopyWords {
 		Scanner scanner=new Scanner(System.in);
 		//获取需要输出的文件夹路径
 		System.out.println("请输入输出文件的文件夹的路径：");
-		String s1=scanner.nextLine();
+		//String s1=scanner.nextLine();
+		String s1="D:\\file_test";
 		System.out.println("请输入输入文件的文件夹的路径：");
-		String s2=scanner.nextLine();
+		//String s2=scanner.nextLine();
+		String s2="";
 
 		FileInputStream fis=null;
 		FileOutputStream fos=null;
 
-		
+		try {
+			fis=new FileInputStream(s1);
+			fos=new FileOutputStream(s2);
+
+			int len=0;
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+
 	}
 }
