@@ -104,8 +104,8 @@ public class MainView {
 		chu.setBook_no(scanner.nextInt());
 		scanner.nextLine();
 
-		System.out.println("请输入价格：");
-		chu.setPrice(scanner.nextDouble());
+		System.out.println("请输入书籍作者：");
+		chu.setAuthor(scanner.next());
 
 		chuBanSheService.updateBook(chu);
 		System.out.println("编辑成功！！");

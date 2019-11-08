@@ -39,9 +39,9 @@ public class ChuBanSheDAO {
 	}
 
 	public void updateBook(ChuBanShe chuBanShe){
-		String sql="update cbs set price=? where book_no=?";      //type_no=?,book_name=?,author=?,publisher=?
+		String sql="update cbs set author=? where book_no=?";      //type_no=?,book_name=?,author=?,publisher=?
 		try {
-			Object[] params={chuBanShe.getPrice(),chuBanShe.getBook_no()};       //chuBanShe.getType_no(),chuBanShe.getBook_name(),chuBanShe.getAuthor(),chuBanShe.getPublisher(),
+			Object[] params={chuBanShe.getAuthor(),chuBanShe.getBook_no()};       //chuBanShe.getType_no(),chuBanShe.getBook_name(),chuBanShe.getAuthor(),chuBanShe.getPublisher(),
 
 			queryRunner.update(sql,params);
 		} catch (SQLException e) {

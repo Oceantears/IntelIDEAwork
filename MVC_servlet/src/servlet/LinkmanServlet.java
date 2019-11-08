@@ -1,0 +1,23 @@
+package servlet;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+
+@WebServlet(name = "LinkmanServlet")
+public class LinkmanServlet extends HttpServlet {
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		doPost(request,response);
+	}
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		//1.处理乱码
+		request.setCharacterEncoding("UTF-8");
+		//response.setContentType("");
+		//2.获取页面信息，获取opt
+		String opt=request.getParameter("opt");
+		String 
+	}
+}

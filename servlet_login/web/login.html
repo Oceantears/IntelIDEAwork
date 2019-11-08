@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    <!--		<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <!--		<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+    <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/zh_CN.js"></script>
+    <script type="text/javascript" src="js/bootstrapValidator.min.js"></script>
+    <style>
+        body{
+            background-color: #FCDC58;
+        }
+        #loginForm{
+            margin: 50px 0 0 0;
+        }
+        .login-box{
+            height: 1000px;
+            width: 1000px;
+            background: url(img/login.gif) no-repeat ;
+            background-size: 100%;
+        }
+        .form-group{
+            margin: 50px 0 0 0;
+        }
+        lead{
+            font-size: 20px;
+        }
+        label{
+            font-size: medium;
+            color: ghostwhite;
+        }
+        input{
+            border-color: white;
+        }
+        .form-horizontal{
+            margin: auto;
+            width: 1000px;
+            border: #000000;
+        }
+        .form-submit{
+            margin: auto;
+            margin-top: 40px;
+        }
+    </style>
+
+    <script>
+        $(function () {
+            $("#loginForm").bootstrapValidator({
+                message: 'This value is not valid',
+                excluded: 'disabled',         //关键配置，表示只对于禁用域不进行验证，其他的表单元素都要验证
+                feedbackIcons: {
+                    valid: 'glyphicon glyphicon-ok',      //验证成功图标
+                    invalid: 'glyphicon glyphicon-remove',        //验证失败图标
+                    validating: 'glyphicon glyphicon-refresh'      //验证中图标
+                },
+                fields: {
+                    stu_name: {
+                        message: '用户名验证失败',
+                        validators: {
+                            notEmpty: {
+                                message: '用户名不能为空'
+                            },
+                            stringLength: {
+                                min: 2,
+                                max: 18,
+                                message: '用户名长度必须在3到18位之间'
+                            },
+                            regexp: {
+                                //^ 与字符串开始的地方匹配,(?!_)  不能以 _ 开头,(?!.*?_$)  不能以 _ 结尾
+                                // a-zA-Z0-9_\u4e00-\u9fa5]+　　至少一个汉字、数字、字母、下划线
+                                regexp: /^(?!_)(?!.*?_$)[a-zA-Z0-9_\u4e00-\u9fa5]+$/,
+                                message: '用户名只能包含中文、大写、小写、数字和下划线,不能以_开头或者结尾'
+                            }
+                        }
+                    },
+                    stu_tel:{
+                        message:'电话验证失败',
+                        validators:{
+                            notEmpty:{
+                                message:'电话不能为空'
+                            },
+                            regexp:{
+                                regexp:/^[1-9][0-9]{7}$/,
+                                message:'电话是8位数字',
+                            }
+                        }
+                    }
+                }
+            });
+        });
+
+    </script>
+</head>
+<body>
+<!-- .container 类用于固定宽度并支持响应式布局的容器。
+    .container-fluid 类用于 100% 宽度，占据全部视口（viewport）的容器。 -->
+<div class="container">
+    <form id="loginForm" action="login.do" method="post">
+        <div class="form-horizontal">
+            <h2 class="lead" style="color: ghostwhite">登 录</h2>
+            <hr />
+            <div class="login-box col-md-8">
+                <div class="form-group">
+                    <label class="col-md-3 control-label">学 生：</label>
+                    <div class="col-md-3">
+                        <!--autocomplete表示是否帮助填写历史记录，默认on(打开)-->
+                        <input type="text" class="form-control" id="stu_name" name="stu_name" placeholder="此处输入用户" autocomplete="off"
+                               style="background-color:transparent" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-3 control-label">电 话：</label>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" id="stu_tel" name="stu_tel" placeholder="此处输入电话" autocomplete="off"
+                               style="background-color:transparent" />
+                    </div>
+                </div>
+                <br />
+                <br />
+                <br />
+                <br />
+                <div class="form-submit">
+                    <div class="col-md-2 col-sm-offset-2">
+                        <input type="submit" class="btn btn-primary" id="login-button" name="registered" value="登录" />
+                    </div>
+                    <div class="col-md-2 col-sm-offset-2">
+                        <input type="button" class="btn btn-default" id="regist-button" value="注册" onclick="javascript:window.location.href='register.html'" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>

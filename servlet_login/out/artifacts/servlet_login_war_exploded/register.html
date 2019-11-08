@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:panelHeight="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+    <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/zh_CN.js"></script>
+    <script type="text/javascript" src="js/bootstrapValidator.min.js"></script>
+    <style>
+        body{
+            margin-top: 150px;
+            margin-left: 750px;
+            background: url(img/suonike.gif) no-repeat;
+            background-size: cover;
+        }
+        lead{
+            font-size: 20px;
+        }
+        label{
+            color: ghostwhite;
+        }
+        input{
+            border-color: white;
+        }
+        .form-horizontal{
+            margin: auto;
+            width: 500px;
+            border: #000000;
+        }
+        .form-submit{
+            margin: auto;
+            margin-top: 40px;
+        }
+    </style>
+    <script>
+        $(function () {
+            $("#checkForm").bootstrapValidator({
+                message: 'This value is not valid',
+                excluded: 'disabled',         //关键配置，表示只对于禁用域不进行验证，其他的表单元素都要验证
+                feedbackIcons: {
+                    valid: 'glyphicon glyphicon-ok',      //验证成功图标
+                    invalid: 'glyphicon glyphicon-remove',        //验证失败图标
+                    validating: 'glyphicon glyphicon-refresh'      //验证中图标
+                },
+                fields: {
+                    stu_name: {
+                        message: '用户名验证失败',
+                        validators: {
+                            notEmpty: {
+                                message: '用户名不能为空'
+                            },
+                            stringLength: {
+                                min: 2,
+                                max: 18,
+                                message: '用户名长度必须在3到18位之间'
+                            },
+                            regexp: {
+                                //^ 与字符串开始的地方匹配,(?!_)  不能以 _ 开头,(?!.*?_$)  不能以 _ 结尾
+                                // a-zA-Z0-9_\u4e00-\u9fa5]+　　至少一个汉字、数字、字母、下划线
+                                regexp: /^(?!_)(?!.*?_$)[a-zA-Z0-9_\u4e00-\u9fa5]+$/,
+                                message: '用户名只能包含中文、大写、小写、数字和下划线,不能以_开头或者结尾'
+                            }
+                        }
+                    },
+                    stu_addr: {
+                        message: '学校地址验证失败',
+                        validators: {
+                            notEmpty: {
+                                message: '地址不能为空'
+                            }
+                        }
+                    },
+                    stu_zip:{
+                        message:'邮编验证失败',
+                        validators:{
+                            notEmpty:{
+                                message:'邮编不能为空'
+                            },
+                            // stringLength:{
+                            //     min:6,
+                            //     max:6,
+                            //     message:'邮编长度必须是6位数'
+                            // },
+                            regexp:{
+                                regexp:/^[0-9]{6}$/,
+                                message:'邮编必须是6位数字'
+                            }
+
+                        }
+                    },
+                    stu_tel:{
+                        message:'电话验证失败',
+                        validators:{
+                            notEmpty:{
+                                message:'电话不能为空'
+                            },
+                            regexp:{
+                                regexp:/^[1-9][0-9]{7}$/,
+                                message:'电话是8位数字',
+                            }
+                        }
+                    },
+                    stu_email: {
+                        message: '邮箱验证失败',
+                        validators: {
+                            // notEmpty: {
+                            // 	message: '邮箱不能为空'
+                            // },
+                            emailAddress: {
+                                message: '邮箱地址格式有误'
+                            }
+                        }
+                    },
+                    stu_depno: {
+                        message: '部门号验证失败',
+                        validators: {
+                            notEmpty: {
+                                message: '部门必须选择'
+                            }
+                        }
+                    },
+                    stu_birth: {
+                        message: '日期验证失败',
+                        validators: {
+                            notEmpty: {
+                                message: '日期不能为空'
+                            },
+                            date: {
+                                message: '日期格式有误'
+                            }
+                        }
+                    },
+
+                    stu_sex:{
+                        message: '性别验证失败',
+                        validators: {
+                            notEmpty: {
+                                message: '性别必须选择'
+                            }
+                        }
+                    }
+
+
+                    // password: {
+                    // 	message: '密码验证失败',
+                    // 	validators: {
+                    // 		notEmpty: {
+                    // 			message: '密码不能为空'
+                    // 		},
+                    // 		stringLength: {
+                    // 			min: 3,
+                    // 			max: 18,
+                    // 			message: '密码长度必须在3到18位之间'
+                    // 		},
+                    // 		regexp: {
+                    // 			regexp: /^[a-zA-Z0-9_]+$/,
+                    // 			message: '密码只能包含大写、小写、数字和下划线'
+                    // 		}
+                    // 	}
+                    // },
+                    // repassword: {
+                    // 	message: '确认密码验证失败',
+                    // 	validators: {
+                    // 		notEmpty: {
+                    // 			message: '确认密码不能为空'
+                    // 		},
+                    // 		identical: {
+                    //             field: 'password',
+                    //             message: '用户新密码与确认密码不一致！'
+                    //         }
+                    // 	}
+                    // },
+                    // age: {
+                    // 	message: '年龄验证失败',
+                    // 	validators: {
+                    // 		notEmpty: {
+                    // 			message: '年龄不能为空'
+                    // 		},
+                    // 		regexp: {
+                    // 			regexp: /^[0-9]{1,3}$/,
+                    // 			message: '年龄只能包含数字'
+                    // 		},
+                    // 		greaterThan:{
+                    // 			value : 18,
+                    // 			message: '年龄最小18周岁'
+                    // 		},
+                    // 		lessThan:{
+                    // 			value : 100,
+                    // 			message: '年龄最大100岁'
+                    // 		}
+                    // 	}
+                    // },
+                    // qq: {
+                    // 	message: 'qq号码验证失败',
+                    // 	validators: {
+                    // 		notEmpty: {
+                    // 			message: 'qq号码不能为空'
+                    // 		},
+                    // 		regexp: {
+                    // 			regexp: /^[1-9][0-9]{4,12}$/,
+                    // 			message: 'qq号码格式有误'
+                    // 		}
+                    // 	}
+                    // },
+                }
+            });
+        });
+        function reload() {
+            window.location.reload();
+        }
+    </script>
+</head>
+<body>
+<div class="container">
+    <!--  http://127.0.0.1:8080/xxx/reg.do -->
+    <form id="checkForm" action="reg.do" method="post" >
+        <div class="form-horizontal">
+            <h2 class="lead" style="color: ghostwhite">学生注册页面</h2>
+            <hr />
+            <div class="form-group">
+                <label class="col-md-3 control-label">学   生：</label>
+                <div class="col-md-8">
+                    <!--autocomplete表示是否帮助填写历史记录，默认on(打开)-->
+                    <input type="text" class="form-control" id="stu_name" name="stu_name" placeholder="此处输入用户" autocomplete="off" style="background-color:transparent" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-3 control-label">地  址(学校)：</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" id="stu_addr" name="stu_addr" placeholder="此处输入学校地址" autocomplete="off" style="background-color:transparent" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-3 control-label">邮  编：</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" id="stu_zip" name="stu_zip" placeholder="此处输入邮编" autocomplete="off" style="background-color:transparent" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-3 control-label">电  话：</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" id="stu_tel" name="stu_tel" placeholder="此处输入电话" autocomplete="off" style="background-color:transparent" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-3 control-label">邮  箱：</label>
+                <div class="col-md-8">
+                    <input type="email" class="form-control" id="stu_email" name="stu_email" placeholder="此处输入邮箱" autocomplete="off" style="background-color:transparent" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-3 control-label">部门号：</label>
+                <div class="col-md-8">
+                    <select class="form-control" name="stu_depno"  panelHeight:auto style="background-color:transparent">
+                        <option value="">--请选择--</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-3 control-label">日  期：</label>
+                <div class="col-md-8">
+                    <input type="date" class="form-control" id="stu_birth" name="stu_birth" autocomplete="off" style="background-color:transparent" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-3 control-label">性  别：</label>
+                <div class="col-md-4">
+                    <div class="radio">
+                        <label><input type="radio" value="男" name="stu_sex" />男</label>
+                        <label><input type="radio" value="女" name="stu_sex" />女</label>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="form-submit">
+                <div class="col-md-2 col-sm-offset-2">
+                    <input type="submit" class="btn btn-primary" id="registered" name="registered" value="提交" />
+                </div>
+                <div class="col-md-4 col-sm-offset-2">
+                    <input type="reset" class="btn btn-default" id="reset" value="重置" onclick="reload()" />
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>

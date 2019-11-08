@@ -13,11 +13,13 @@ package leetCode20191018;
 
 public class TwoSum {
 	public int[] twoSum(int[] nums, int target) {
+		int[] twoNum=new int[2];
 
-		return null;
+
+		return twoNum;
 	}
-
 	public static void main(String[] args) {
+
 
 	}
 }
