@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="97e22e04-0951-4240-9233-09768e99a58f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../javaWebPractice/javaWebPractice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC_servlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC_servlet/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC_servlet/src/servlet/LinkmanServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC_servlet/src/servlet/LinkmanServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/bean/Cst_customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/bean/Cst_linkman.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/bean/Sys_user.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/dao/cst_customer/Cst_customer_DAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/dao/cst_customer/Icst_customer_DAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/dao/cst_linkman/Cst_linkman_DAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/dao/cst_linkman/Icst_linkman_DAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/dao/sys_user/Isys_user_DAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/dao/sys_user/Sys_user_DAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/service/cst_customer/Cst_customerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/service/cst_customer/Icst_customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/service/cst_linkman/Cst_linkmanImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/service/cst_linkman/Icst_linkman.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/service/sys_user/Isys_user.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/service/sys_user/Sys_userImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/utils/JDBCUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/servlet/Sys_userServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hometest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/JDBC_DBUtil/DBUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/JDBC_DBUtil/action/StudentAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/JDBC_DBUtil/dao/Students_dao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/JDBC_DBUtil/model/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/about_JDBC/JDBC_search.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/about_JDBC/Jdbc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/abstractTest/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/abstractTest/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/abstractTest/PersonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/abstractTest/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/inherit/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/inherit/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/inherit/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/inherit/D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/inherit/InheritTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest/Computer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest/Keyboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest/Mouse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest/USB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest/USBtest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest1/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest1/EmployeeSortTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest1/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest2/Base.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest2/Sub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest2/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/java_base/Int_test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaWeb_test/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaWeb_test/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaWeb_test/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaWeb_test/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaWeb_test/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaWeb_test/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaWeb_test/proj_web1029/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaWeb_test/proj_web1029/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaWeb_test/proj_web1029/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaWeb_test/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaWeb_test/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servlet_login/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../servlet_login/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servlet_login/out/artifacts/servlet_login_war_exploded/WEB-INF/classes/com/it/dao/StudentsDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../servlet_login/out/artifacts/servlet_login_war_exploded/WEB-INF/classes/com/it/dao/StudentsDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servlet_login/out/artifacts/servlet_login_war_exploded/WEB-INF/classes/com/it/utils/JDBCUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../servlet_login/out/artifacts/servlet_login_war_exploded/WEB-INF/classes/com/it/utils/JDBCUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servlet_login/web/WEB-INF/classes/com/it/dao/StudentsDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../servlet_login/web/WEB-INF/classes/com/it/dao/StudentsDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servlet_login/web/WEB-INF/classes/com/it/utils/JDBCUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../servlet_login/web/WEB-INF/classes/com/it/utils/JDBCUtils.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/it/dao/UsersDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="38" column="55" lean-forward="true" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/it/servlet/UserServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3303">
+              <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/it/utils/DateUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/it/utils/JDBCUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-423">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/it/utils/ResponseUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/it/utils/StringUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="48" />
+    <option name="y" value="16" />
+    <option name="width" value="1204" />
+    <option name="height" value="720" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ajax_JQuery_easyUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ajax_JQuery_easyUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ajax_JQuery_easyUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ajax_JQuery_easyUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ajax_JQuery_easyUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ajax_JQuery_easyUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="it" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ajax_JQuery_easyUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ajax_JQuery_easyUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="it" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ajax_JQuery_easyUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ajax_JQuery_easyUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="it" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ajax_JQuery_easyUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ajax_JQuery_easyUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="it" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ajax_JQuery_easyUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ajax_JQuery_easyUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="it" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ajax_JQuery_easyUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ajax_JQuery_easyUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="it" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ajax_JQuery_easyUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ajax_JQuery_easyUI" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ajax_JQuery_easyUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ajax_JQuery_easyUI" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ajax_JQuery_easyUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ajax_JQuery_easyUI" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ajaxDemo" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IntelIDEAwork\ajax_JQuery_easyUI\src" />
+      <recent name="D:\IntelIDEAwork\ajax_JQuery_easyUI\web" />
+      <recent name="D:\IntelIDEAwork\ajax_JQuery_easyUI\web\WEB-INF\lib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.37" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.37" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="ajax_JQuery_easyUI:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ajax_JQuery_easyUI" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_37_ajax_JQuery_easyUI" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57801" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ajax_JQuery_easyUI:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97e22e04-0951-4240-9233-09768e99a58f" name="Default Changelist" comment="" />
+      <created>1574086247559</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574086247559</updated>
+      <workItem from="1574086252008" duration="326000" />
+      <workItem from="1574086681365" duration="1563000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1889000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/jquery-easyui-1.4.2/src/easyloader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-918" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/it/dao/UsersDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="38" column="55" lean-forward="true" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/it/servlet/UserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3303">
+          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/it/utils/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/it/utils/JDBCUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-423">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/it/utils/ResponseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/it/utils/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ajax_JQuery_easyUI</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
