@@ -19,7 +19,7 @@ import java.sql.SQLException;
 import java.util.List;
 
 public class Cst_customer_DAOImpl implements Icst_customer_DAO {
-	QueryRunner queryRunner=new QueryRunner();
+	QueryRunner queryRunner=new QueryRunner(JDBCUtils.getDataSource());
 	@Override
 	public void addCustomer(Cst_customer cst_customer) {
 		String sql="insert into cst_customer (cust_name,cust_source,cust_industry,cust_level,cust_phone,cust_mobile) values (?,?,?,?,?,?)";

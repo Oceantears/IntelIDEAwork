@@ -2,29 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6c30e95-837b-4a47-b03d-cd1660d2937c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../demo2/.idea/artifacts/homework20191029_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hometest/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC_servlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC_servlet/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC_servlet/out/artifacts/MVC_servlet_war_exploded/WEB-INF/classes/com/it/dao/cst_customer/Cst_customer_DAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC_servlet/out/artifacts/MVC_servlet_war_exploded/WEB-INF/classes/com/it/dao/cst_customer/Cst_customer_DAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC_servlet/out/artifacts/MVC_servlet_war_exploded/WEB-INF/classes/servlet/LinkmanServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC_servlet/out/artifacts/MVC_servlet_war_exploded/WEB-INF/classes/servlet/LinkmanServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC_servlet/src/com/it/dao/cst_customer/Cst_customer_DAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC_servlet/src/com/it/dao/cst_customer/Cst_customer_DAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_demo1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_demo1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_demo1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_demo1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My_demo1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_demo1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../demo2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191015/OlympicsList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191015/OlympicsList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hometest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/JDBC_DBUtil/DBUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/out/production/hometest/JDBC_DBUtil/DBUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/JDBC_DBUtil/dao/Students_dao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/out/production/hometest/JDBC_DBUtil/dao/Students_dao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/about_JDBC/Jdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/out/production/hometest/about_JDBC/Jdbc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/abstractTest/PersonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/out/production/hometest/abstractTest/PersonTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest/Computer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest/Computer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest/Keyboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest/Keyboard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest/Mouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest/Mouse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest2/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest2/Base.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest2/Sub.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest2/Sub.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/java_base/Int_test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/out/production/hometest/java_base/Int_test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hometest/src/java_base/Int_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/src/java_base/Int_test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leetCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetCode/src/leetCode20191018/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/src/leetCode20191018/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCode20191018/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCode20191018/TwoSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetCode/src/leetCode20191021/LongerString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/src/leetCode20191021/LongerString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/practice20191016/cn/it/cbs/dao/ChuBanSheDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice/practice20191016/cn/it/cbs/dao/ChuBanSheDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/practice20191016/com/it/cbs/bean/JDBCUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice/practice20191016/com/it/cbs/bean/JDBCUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/practice20191016/com/it/cbs/view/MainView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice/practice20191016/com/it/cbs/view/MainView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice20191016/cn/it/cbs/dao/ChuBanSheDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice20191016/cn/it/cbs/dao/ChuBanSheDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice20191016/com/it/cbs/view/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice20191016/com/it/cbs/view/MainView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../practice1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../practice1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../practice1/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/practice20191016/com/it/cbs/bean/JDBCUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="252">
               <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -68,7 +64,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/practice20191016/com/it/cbs/app/MainApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="90">
               <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -112,13 +108,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/practice20191016/cn/it/cbs/dao/ChuBanSheDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="30" column="97" selection-start-line="30" selection-start-column="97" selection-end-line="30" selection-end-column="97" />
+            <state relative-caret-position="482">
+              <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/practice20190909/TestSuperSub.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+              <folding>
+                <element signature="e#115#116#0" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,7 +136,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/practice20191016/cn/it/cbs/service/ChuBanSheService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="180">
               <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -245,56 +254,6 @@
               <item name="cbs" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="practice20191016" type="462c0819:PsiDirectoryNode" />
-              <item name="cbs" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="practice20191016" type="462c0819:PsiDirectoryNode" />
-              <item name="it" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="practice20191016" type="462c0819:PsiDirectoryNode" />
-              <item name="it" type="462c0819:PsiDirectoryNode" />
-              <item name="cbs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="practice20191016" type="462c0819:PsiDirectoryNode" />
-              <item name="it" type="462c0819:PsiDirectoryNode" />
-              <item name="cbs" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="practice20191016" type="462c0819:PsiDirectoryNode" />
-              <item name="it" type="462c0819:PsiDirectoryNode" />
-              <item name="cbs" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="practice20191016" type="462c0819:PsiDirectoryNode" />
-              <item name="it" type="462c0819:PsiDirectoryNode" />
-              <item name="cbs" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -308,7 +267,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568184079904" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../practice1" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -449,17 +408,18 @@
       <workItem from="1572365621363" duration="789000" />
       <workItem from="1572800620651" duration="567000" />
       <workItem from="1572839871530" duration="1832000" />
+      <workItem from="1575361638061" duration="324000" />
+      <workItem from="1575437210923" duration="47000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80038000" />
+    <option name="totallyTimeSpent" value="80409000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21375267" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21801706" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -527,17 +487,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/practice20190909/TestSuperSub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-          <folding>
-            <element signature="e#115#116#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/practice20190909/AreaAndGirth.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="827">
@@ -734,6 +683,27 @@
     <entry file="jar://$PROJECT_DIR$/bin/commons-dbutils-1.6.jar!/org/apache/commons/dbutils/QueryRunner.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice20191016/com/it/cbs/bean/JDBCUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice20191016/com/it/cbs/app/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/practice20191016/com/it/cbs/bean/ChuBanShe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -767,20 +737,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice20191016/com/it/cbs/view/MainView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1728">
-          <caret line="106" column="35" selection-start-line="106" selection-start-column="35" selection-end-line="106" selection-end-column="35" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/practice20191016/cn/it/cbs/service/ChuBanSheService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="180">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -793,20 +752,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice20191016/com/it/cbs/app/MainApp.java">
+    <entry file="file://$PROJECT_DIR$/src/practice20191016/com/it/cbs/view/MainView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice20191016/com/it/cbs/bean/JDBCUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        <state relative-caret-position="1728">
+          <caret line="106" column="35" selection-start-line="106" selection-start-column="35" selection-end-line="106" selection-end-column="35" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -816,10 +765,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/practice20191016/cn/it/cbs/dao/ChuBanSheDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="30" column="97" selection-start-line="30" selection-start-column="97" selection-end-line="30" selection-end-column="97" />
+        <state relative-caret-position="482">
+          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice20190909/TestSuperSub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
           </folding>
         </state>
       </provider>

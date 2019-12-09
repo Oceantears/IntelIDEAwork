@@ -2,22 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b9f2627-84d2-4795-91d1-ddb57a33bbf5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../demo2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191015/OlympicsList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191015/OlympicsList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC_servlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC_servlet/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC_servlet/out/artifacts/MVC_servlet_war_exploded/WEB-INF/classes/com/it/dao/cst_customer/Cst_customer_DAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC_servlet/out/artifacts/MVC_servlet_war_exploded/WEB-INF/classes/com/it/dao/cst_customer/Cst_customer_DAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC_servlet/out/artifacts/MVC_servlet_war_exploded/WEB-INF/classes/servlet/LinkmanServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC_servlet/out/artifacts/MVC_servlet_war_exploded/WEB-INF/classes/servlet/LinkmanServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC_servlet/src/com/it/dao/cst_customer/Cst_customer_DAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC_servlet/src/com/it/dao/cst_customer/Cst_customer_DAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hometest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/JDBC_DBUtil/DBUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/out/production/hometest/JDBC_DBUtil/DBUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/JDBC_DBUtil/dao/Students_dao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/out/production/hometest/JDBC_DBUtil/dao/Students_dao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/about_JDBC/Jdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/out/production/hometest/about_JDBC/Jdbc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/abstractTest/PersonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/out/production/hometest/abstractTest/PersonTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest/Computer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest/Computer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest/Keyboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest/Keyboard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest/Mouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest/Mouse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest2/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest2/Base.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest2/Sub.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest2/Sub.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/java_base/Int_test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/out/production/hometest/java_base/Int_test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hometest/src/java_base/Int_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/src/java_base/Int_test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode20191018/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCode20191018/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetCode/leetCode20191018/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/leetCode20191018/TwoSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetCode20191021/LongerString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCode20191021/LongerString.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,10 +24,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/leetCode20191018/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
+            <state relative-caret-position="1098">
               <caret line="61" column="26" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -46,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetCode20191022/BackNum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="207">
               <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -58,20 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetCode20191022/LongestPalindrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
+            <state relative-caret-position="234">
               <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetCode20191021/NumSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -82,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetCode20191021/LongerString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+            <state relative-caret-position="576">
+              <caret line="32" column="63" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -91,13 +72,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetCode20191018/TwoSum.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetCode20191021/NumSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="459">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetCodeTest/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetCodeTest/Operator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2070">
+              <caret line="149" column="26" selection-start-line="149" selection-start-column="26" selection-end-line="149" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,6 +118,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Test</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -123,8 +134,11 @@
         <option value="$PROJECT_DIR$/src/leetCode20191021/NumSort.java" />
         <option value="$PROJECT_DIR$/src/leetCode20191022/BackNum.java" />
         <option value="$PROJECT_DIR$/src/leetCode20191022/LongestPalindrome.java" />
-        <option value="$PROJECT_DIR$/src/leetCode20191021/LongerString.java" />
         <option value="$PROJECT_DIR$/src/leetCode20191018/TwoSum.java" />
+        <option value="$PROJECT_DIR$/src/leetCodeTest/Test.java" />
+        <option value="$PROJECT_DIR$/src/leetCodeTest/Test2.java" />
+        <option value="$PROJECT_DIR$/src/leetCodeTest/Operator.java" />
+        <option value="$PROJECT_DIR$/src/leetCode20191021/LongerString.java" />
       </list>
     </option>
   </component>
@@ -140,6 +154,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -171,18 +186,30 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetCode20191022" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetCodeTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetCodeTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Operator.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hometest" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -204,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BackNum">
+  <component name="RunManager" selected="Application.Test1">
     <configuration name="BackNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCode20191022.BackNum" />
       <module name="leetCode" />
@@ -244,12 +271,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode20191018.Solution" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeTest.Test" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetCode20191018.*" />
+          <option name="PATTERN" value="leetCodeTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeTest.Test1" />
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetCodeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,10 +299,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.BackNum" />
         <item itemvalue="Application.LongerString" />
         <item itemvalue="Application.NumSort" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -301,16 +342,18 @@
       <workItem from="1571971772630" duration="599000" />
       <workItem from="1572002340487" duration="48000" />
       <workItem from="1572161488664" duration="92000" />
+      <workItem from="1575275132341" duration="3524000" />
+      <workItem from="1575359436634" duration="906000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49702000" />
+    <option name="totallyTimeSpent" value="54132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2585288" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26385927" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -377,19 +420,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetCode20191018/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/leetCode20191018/TwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="61" column="26" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+        <state relative-caret-position="432">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCodeTest/Test2.java" />
+    <entry file="file://$PROJECT_DIR$/src/leetCodeTest/Operator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="149" column="26" selection-start-line="149" selection-start-column="26" selection-end-line="149" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCodeTest/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetCode20191022/BackNum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="207">
           <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -399,18 +464,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetCode20191022/LongestPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
+        <state relative-caret-position="234">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetCode20191021/NumSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -419,18 +474,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetCode20191021/LongerString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        <state relative-caret-position="576">
+          <caret line="32" column="63" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetCode20191018/TwoSum.java">
+    <entry file="file://$PROJECT_DIR$/src/leetCode20191021/NumSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="459">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCode20191018/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1098">
+          <caret line="61" column="26" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
