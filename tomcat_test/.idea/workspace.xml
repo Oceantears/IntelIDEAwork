@@ -7,80 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d101997-60e6-499f-923a-2711634ff017" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../javaWebPractice/javaWebPractice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC_servlet/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/src/servlet/LinkmanServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC_servlet/src/servlet/LinkmanServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/bean/Cst_customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/bean/Cst_linkman.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/bean/Sys_user.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/dao/cst_customer/Cst_customer_DAOImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/dao/cst_customer/Icst_customer_DAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/dao/cst_linkman/Cst_linkman_DAOImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/dao/cst_linkman/Icst_linkman_DAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/dao/sys_user/Isys_user_DAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/dao/sys_user/Sys_user_DAOImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/service/cst_customer/Cst_customerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/service/cst_customer/Icst_customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/service/cst_linkman/Cst_linkmanImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/service/cst_linkman/Icst_linkman.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/service/sys_user/Isys_user.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/service/sys_user/Sys_userImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/utils/JDBCUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/servlet/Sys_userServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/JDBC_DBUtil/DBUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/JDBC_DBUtil/action/StudentAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/JDBC_DBUtil/dao/Students_dao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/JDBC_DBUtil/model/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/about_JDBC/JDBC_search.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/about_JDBC/Jdbc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/abstractTest/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/abstractTest/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/abstractTest/PersonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/abstractTest/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/inherit/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/inherit/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/inherit/C.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/inherit/D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/inherit/InheritTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest/Computer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest/Keyboard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest/Mouse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest/USB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest/USBtest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest1/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest1/EmployeeSortTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest1/Manager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest2/Base.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest2/Sub.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest2/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/java_base/Int_test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaWeb_test/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaWeb_test/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaWeb_test/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaWeb_test/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaWeb_test/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaWeb_test/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaWeb_test/proj_web1029/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaWeb_test/proj_web1029/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaWeb_test/proj_web1029/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaWeb_test/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaWeb_test/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servlet_login/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../servlet_login/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servlet_login/out/artifacts/servlet_login_war_exploded/WEB-INF/classes/com/it/dao/StudentsDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../servlet_login/out/artifacts/servlet_login_war_exploded/WEB-INF/classes/com/it/dao/StudentsDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servlet_login/out/artifacts/servlet_login_war_exploded/WEB-INF/classes/com/it/utils/JDBCUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../servlet_login/out/artifacts/servlet_login_war_exploded/WEB-INF/classes/com/it/utils/JDBCUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servlet_login/web/WEB-INF/classes/com/it/bean/Students.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servlet_login/web/WEB-INF/classes/com/it/dao/IStudentsDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servlet_login/web/WEB-INF/classes/com/it/dao/StudentsDAOImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servlet_login/web/WEB-INF/classes/com/it/service/IStudents.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servlet_login/web/WEB-INF/classes/com/it/service/StudentsImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servlet_login/web/WEB-INF/classes/com/it/utils/JDBCUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servlet_login/web/WEB-INF/classes/servlet/DelServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servlet_login/web/WEB-INF/classes/servlet/FindSingerByIDServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servlet_login/web/WEB-INF/classes/servlet/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servlet_login/web/WEB-INF/classes/servlet/QueryAllStudentsServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servlet_login/web/WEB-INF/classes/servlet/RegServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servlet_login/web/WEB-INF/classes/servlet/UpdateServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,12 +18,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/test1.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
@@ -104,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="180">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -128,8 +55,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/test1.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
       </list>
     </option>
   </component>
@@ -159,7 +86,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,6 +106,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -187,7 +114,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../layui" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mybatisdemo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -212,20 +139,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.test1.jsp">
-    <configuration name="Tomcat 8.5.372" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.372" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER" value="false" />
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/tomcat_test_war_exploded/" />
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.37" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.37" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="tomcat_test:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/tomcat_test_war_exploded" />
+            <option name="CONTEXT_PATH" value="/tomcat_test" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_372_tomcat_test_2" />
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_372_tomcat_test" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -351,89 +276,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test1.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.372" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER" value="false" />
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/test1.jsp" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="tomcat_test:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/tomcat_test_war_exploded" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_tomcat_test_2" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="58109" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="tomcat_test:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Tomcat Server.Tomcat 8.5.372" />
-      <item itemvalue="Tomcat Server.test1.jsp" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Tomcat Server.test1.jsp" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -449,16 +291,17 @@
       <workItem from="1572250288874" duration="2479000" />
       <workItem from="1572255179488" duration="2195000" />
       <workItem from="1574136321203" duration="653000" />
+      <workItem from="1576663196394" duration="3273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8990000" />
+    <option name="totallyTimeSpent" value="12263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -496,17 +339,17 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/test1.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
         </state>
       </provider>
     </entry>

@@ -12,5 +12,7 @@
   </head>
   <body>
         hello world
+      <% String str="This is a String"; %>
+  What's that?<%=str%>
   </body>
 </html>
