@@ -21,7 +21,6 @@ public abstract class PizzaStore {
 		Pizza pizza;
 		pizza=createPizza(type);
 
-
 		return pizza;
 	}
 	protected abstract Pizza createPizza(String type);    //abstract Product factoryMethod(String type)

@@ -8,6 +8,8 @@
  */
 package abstractFactoryModel;
 
+import abstractFactoryModel.styles.*;
+
 /**
 * 如果每个工厂实例内都有某一种通用的“机制”需要实现，就可以把这个例子改成抽象类
 */

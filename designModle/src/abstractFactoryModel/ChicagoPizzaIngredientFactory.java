@@ -8,6 +8,8 @@
  */
 package abstractFactoryModel;
 
+import abstractFactoryModel.styles.*;
+
 public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory {
 	@Override
 	public Dough createDough() {
@@ -21,7 +23,7 @@ public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory {
 
 	@Override
 	public Cheese createCheese() {
-		return new ;
+		return new MozzarellaCheese();
 	}
 
 	@Override
@@ -31,11 +33,11 @@ public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory {
 
 	@Override
 	public Pepperoni createPepperoni() {
-		return new SllcedPepperonl();
+		return new SlicedPepperoni();
 	}
 
 	@Override
 	public Clams createClams() {
-		return null;
+		return new FrozenClams();
 	}
 }

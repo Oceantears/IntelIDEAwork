@@ -8,6 +8,8 @@
  */
 package abstractFactoryModel;
 
+import abstractFactoryModel.styles.*;
+
 public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
 	@Override
 	public Dough createDough() {

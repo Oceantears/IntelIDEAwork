@@ -9,9 +9,7 @@
 package abstractFactoryModel;
 
 
-import abstractFactoryModel.PizzaStyle.CheesePizza;
-import abstractFactoryModel.PizzaStyle.Pizza;
-import abstractFactoryModel.PizzaStyle.VeggiePizza;
+import abstractFactoryModel.PizzaStyle.*;
 
 public class NYPizzaStore extends PizzaStore {
 
@@ -25,10 +23,14 @@ public class NYPizzaStore extends PizzaStore {
 			pizza.setName("New York Style Cheese Pizza!");
 		}else if(type.equals("veggie")){
 			pizza=new VeggiePizza(ingredientFactory);
+			pizza.setName("New York Style Veggie Pizza!");
+		}else if(type.equals("clam")){
+			pizza=new ClamPizza(ingredientFactory);
+			pizza.setName("New York Style Clams Pizza!");
+		}else if(type.equals("pepperoni")){
+			pizza=new PepproniPizza(ingredientFactory);
+			pizza.setName("New York Style Pepperoni Pizza!");
 		}
-		Integer
-
-
 		return pizza;
 	}
 }
