@@ -2,31 +2,236 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f1b787f-2dd1-43a7-b5b4-88101edf28b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SpringMVC_test1/SpringMVC_test1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_test1/Spring_test1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatisdemo/.idea/artifacts/Spring_test1_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatisdemo/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatisdemo/.idea/libraries/mockito_core_3_2_4___2_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_test1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_test1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_test1/src/lib/mockito-core-3.2.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_test1/web/WEB-INF/lib/mockito-core-3.2.4.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_test1/src/lib/mockito-scala_2.12-1.10.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_test1/web/WEB-INF/lib/mockito-scala_2.12-1.10.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GanBuGuanLi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GanBuGuanLi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GanBuGuanLi/WebContent/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../GanBuGuanLi/WebContent/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajaxDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ajaxDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax_JQuery_easyUI/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ajax_JQuery_easyUI/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax_JQuery_easyUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ajax_JQuery_easyUI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/META-INF/designModle.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/AbstractPizzaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/AbstractPizzaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/ChicagoPizzaIngredientFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/ChicagoPizzaIngredientFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/NYPizzaIngredientFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/NYPizzaIngredientFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/NYPizzaStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/NYPizzaStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/PizzaIngredientFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/PizzaIngredientFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/PizzaStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/PizzaStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/PizzaStyle/CheesePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/PizzaStyle/CheesePizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/PizzaStyle/ClamPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/PizzaStyle/ClamPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/PizzaStyle/PepproniPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/PizzaStyle/PepproniPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/PizzaStyle/Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/PizzaStyle/Pizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/PizzaStyle/VeggiePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/PizzaStyle/VeggiePizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/Cheese.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/Cheese.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/Clams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/Clams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/Dough.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/Dough.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/FreshClams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/FreshClams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/FrozenClams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/FrozenClams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/Garlic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/Garlic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/MarinaraSauce.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/MarinaraSauce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/MozzarellaCheese.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/MozzarellaCheese.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/Mushroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/Mushroom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/Onion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/Onion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/Pepperoni.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/Pepperoni.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/PlumTomatoSauce.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/PlumTomatoSauce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/RedPepper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/RedPepper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/ReggianoCheese.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/ReggianoCheese.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/Sauce.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/Sauce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/SlicedPepperoni.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/SlicedPepperoni.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/ThinCrustDough.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/ThinCrustDough.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/Veggies.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/abstractFactoryModel/styles/Veggies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/decoratorModel/Beverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/decoratorModel/Beverage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/decoratorModel/CondimentDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/decoratorModel/CondimentDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/decoratorModel/DarkRoast.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/decoratorModel/DarkRoast.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/decoratorModel/Decat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/decoratorModel/Decat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/decoratorModel/Espresso.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/decoratorModel/Espresso.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/decoratorModel/HouseBlend.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/decoratorModel/HouseBlend.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/decoratorModel/Mocha.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/decoratorModel/Mocha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/decoratorModel/Soy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/decoratorModel/Soy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/decoratorModel/StarbuzzCoffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/decoratorModel/StarbuzzCoffee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/decoratorModel/Whip.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/decoratorModel/Whip.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/decoratorModel/java_io/InputTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/decoratorModel/java_io/InputTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/decoratorModel/java_io/LowerCaseInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/decoratorModel/java_io/LowerCaseInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/ducks/Duck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/ducks/Duck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/ducks/FlyBehavior.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/ducks/FlyBehavior.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/ducks/FlyNoWay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/ducks/FlyNoWay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/ducks/FlyWithWing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/ducks/FlyWithWing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/ducks/MallardDuck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/ducks/MallardDuck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/ducks/MiniDuckSimulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/ducks/MiniDuckSimulator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/ducks/MuteQuack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/ducks/MuteQuack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/ducks/Quack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/ducks/Quack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/ducks/QuackBehavior.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/ducks/QuackBehavior.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/ducks/Squeak.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/ducks/Squeak.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/factoryModel/ChicagoPizza/ChicagoStyleCheesePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/factoryModel/ChicagoPizza/ChicagoStyleCheesePizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/factoryModel/ChicagoPizza/ChicagoStyleClamPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/factoryModel/ChicagoPizza/ChicagoStyleClamPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/factoryModel/ChicagoPizza/ChicagoStylePepperoniPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/factoryModel/ChicagoPizza/ChicagoStylePepperoniPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/factoryModel/ChicagoPizza/ChicagoStyleVeggiePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/factoryModel/ChicagoPizza/ChicagoStyleVeggiePizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/factoryModel/ChicagoPizzaStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/factoryModel/ChicagoPizzaStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/factoryModel/NYPizza/NYStyleCheesePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/factoryModel/NYPizza/NYStyleCheesePizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/factoryModel/NYPizza/NYStyleClamPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/factoryModel/NYPizza/NYStyleClamPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/factoryModel/NYPizza/NYStylePepperoniPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/factoryModel/NYPizza/NYStylePepperoniPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/factoryModel/NYPizza/NYStyleVeggiePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/factoryModel/NYPizza/NYStyleVeggiePizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/factoryModel/NYPizzaStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/factoryModel/NYPizzaStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/factoryModel/Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/factoryModel/Pizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/factoryModel/PizzaStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/factoryModel/PizzaStore.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/designModle/factoryModel/PizzaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/factoryModel/PizzaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractFactoryModel/ChicagoPizzaIngredientFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactoryModel/ChicagoPizzaIngredientFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractFactoryModel/Dough.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactoryModel/styles/Dough.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractFactoryModel/NYPizzaIngredientFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactoryModel/NYPizzaIngredientFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractFactoryModel/NYPizzaStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactoryModel/NYPizzaStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractFactoryModel/PizzaIngredientFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactoryModel/PizzaIngredientFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractFactoryModel/PizzaStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactoryModel/PizzaStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractFactoryModel/PizzaStyle/CheesePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactoryModel/PizzaStyle/CheesePizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractFactoryModel/PizzaStyle/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractFactoryModel/PizzaStyle/Pizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatisdemo/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatisdemo/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatisdemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatisdemo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo/target/classes/mappers/MyMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/factoryModel/SimplePizzaFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/factoryModel/SimplePizzaFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/observerModel/CurrentConditionsDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/observerModel/CurrentConditionsDisplay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/observerModel/DisplayElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/observerModel/DisplayElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/observerModel/Observer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/observerModel/Observer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/observerModel/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/observerModel/Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/observerModel/WeatherData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/observerModel/WeatherData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/observerModel/WeatherStation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/observerModel/WeatherStation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/orderModel/remoteControl/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/orderModel/remoteControl/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/orderModel/remoteControl/LightOffCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/orderModel/remoteControl/LightOffCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/orderModel/remoteControl/NoCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/orderModel/remoteControl/NoCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/orderModel/remoteControl/RemoteControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/orderModel/remoteControl/RemoteControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/orderModel/remoteControl/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/orderModel/simpleRemoteControl/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/orderModel/simpleRemoteControl/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/orderModel/simpleRemoteControl/RemoteControlTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/orderModel/simpleRemoteControl/RemoteControlTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/orderModel/simpleRemoteControl/SimpleRemoteControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/orderModel/simpleRemoteControl/SimpleRemoteControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/orderModel/simpleRemoteControl/garageDoor/GarageDoor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/orderModel/simpleRemoteControl/garageDoor/GarageDoor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/orderModel/simpleRemoteControl/garageDoor/GarageDoorOpenCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/orderModel/simpleRemoteControl/garageDoor/GarageDoorOpenCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/orderModel/simpleRemoteControl/light/Light.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/orderModel/simpleRemoteControl/light/Light.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/orderModel/simpleRemoteControl/light/LightOnCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/orderModel/simpleRemoteControl/light/LightOnCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/singleton/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/singleton/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/singleton/Singleton1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/singleton/Singleton1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designModle/singleton/Singleton2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designModle/singleton/Singleton2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/artifacts/Spring_test1_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/dictionaries/sunmeng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/mybatisdemo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/out/production/mybatisdemo1/META-INF/mybatisdemo1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/src/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/src/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/src/main/java/com/sun/mybatis/Auth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/src/main/java/com/sun/mybatis/MybatisTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/src/main/resources/mappers/MyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/src/main/resources/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/target/classes/META-INF/mybatisdemo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/target/classes/com/sun/mybatis/Auth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/target/classes/com/sun/mybatis/MybatisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/src/main/java/com/it/bean/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/src/main/java/com/it/dao/IStudentDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/src/main/resources/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/src/main/resources/com/it/dao/IStudentDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/src/test/java/com/it/test/MybatisTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/target/classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/target/classes/com/it/bean/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/target/classes/com/it/dao/IStudentDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/target/classes/com/it/dao/IStudentDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/target/test-classes/com/it/test/MybatisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/dao/IStudentDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mapper/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/cfg/Configuration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/cfg/Mapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/io/Resources.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/sqlSession/SqlSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/sqlSession/SqlSessionFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/sqlSession/SqlSessionFactoryBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/sqlSession/defaults/DefaultSqlSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/sqlSession/defaults/DefaultSqlSessionFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/sqlSession/proxy/MapperProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/utils/DataSourceUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/utils/Executor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/utils/XMLConfigBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/resources/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/resources/com/it/dao/IStudentDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/test/java/com/it/test/MybatisTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/META-INF/mybatisdemo2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/dao/IStudentDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/dao/IStudentDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mapper/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/cfg/Configuration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/cfg/Mapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/io/Resources.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/sqlSession/SqlSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/sqlSession/SqlSessionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/sqlSession/SqlSessionFactoryBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/sqlSession/defaults/DefaultSqlSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/sqlSession/defaults/DefaultSqlSessionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/sqlSession/proxy/MapperProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/utils/DataSourceUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/utils/Executor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/utils/XMLConfigBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/test-classes/com/it/test/MybatisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle_test/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle_test/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle_test/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle_test/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle_test/lib/ojdbc6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle_test/oracle_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle_test/out/production/oracle_test/com/it/db/DBHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle_test/out/production/oracle_test/jdbcConnection/JDBCConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle_test/src/com/it/db/DBHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_service/target/classes/com/it/ssm/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_service/target/classes/com/it/ssm/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/classes/com/it/ssm/controller/LogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/classes/com/it/ssm/controller/LogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/classes/com/it/ssm/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/classes/com/it/ssm/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/classes/com/it/ssm/controller/RoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/classes/com/it/ssm/controller/RoleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/classes/com/it/ssm/controller/ShowUserNameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/classes/com/it/ssm/controller/ShowUserNameController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/classes/com/it/ssm/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/classes/com/it/ssm/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/LogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/LogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/RoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/RoleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/ShowUserNameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/ShowUserNameController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/lib/proj_ssm_dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/lib/proj_ssm_dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/lib/proj_ssm_domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/lib/proj_ssm_domain-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/lib/proj_ssm_service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/lib/proj_ssm_service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_in_action_demos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_in_action_demos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_in_action_demos/src/main/java/sia/profileBean/DevelopmentProfileConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_in_action_demos/src/main/java/sia/profileBean/DevelopmentProfileConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_in_action_demos/target/classes/META-INF/spring_in_action_demos.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_in_action_demos/target/classes/spring/knight.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_in_action_demos/target/classes/spring/knight.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootTest/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootTest/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootTest/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootTest/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootTest/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootTest/springbootTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/java/com/springboot/example/springboot_test/SpringbootTestApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/java/com/springboot/example/springboot_test/controller/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/test/java/com/springboot/example/springboot_test/SpringbootTestApplicationTests.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,75 +260,73 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/orderModel/remoteControl/Command.java">
+        <entry file="file://$PROJECT_DIR$/src/observerModel/CurrentConditionsDisplay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="54">
+              <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/observerModel/DisplayElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/observerModel/Observer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/observerModel/Subject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/orderModel/remoteControl/RemoteControl.java">
+        <entry file="file://$PROJECT_DIR$/src/observerModel/WeatherData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+            <state relative-caret-position="333">
+              <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
               <folding>
-                <element signature="e#615#616#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-                <element signature="e#691#692#0" expanded="true" />
-                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#886#887#0" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/orderModel/remoteControl/LightOffCommand.java">
+        <entry file="file://$PROJECT_DIR$/src/observerModel/WeatherStation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/orderModel/remoteControl/NoCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#186#187#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/orderModel/remoteControl/StereoOnWithCDCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-              <folding>
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/orderModel/remoteControl/Stereo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+            <state relative-caret-position="144">
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -246,14 +449,7 @@
               <item name="designModle" type="b2602c69:ProjectViewProjectNode" />
               <item name="designModle" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="orderModel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designModle" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="orderModel" type="462c0819:PsiDirectoryNode" />
-              <item name="remoteControl" type="462c0819:PsiDirectoryNode" />
+              <item name="observerModel" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -272,7 +468,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringMVC_test1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springboot" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -306,6 +502,26 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="WeatherStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="observerModel.WeatherStation" />
+      <module name="designModle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="observerModel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WeatherStation" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -348,16 +564,18 @@
       <workItem from="1577668343133" duration="10154000" />
       <workItem from="1577755002805" duration="1087000" />
       <workItem from="1577928574928" duration="7251000" />
+      <workItem from="1586857339699" duration="1856000" />
+      <workItem from="1586915465394" duration="211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134059000" />
+    <option name="totallyTimeSpent" value="136126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28091684" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28731343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -366,7 +584,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.26760563" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -410,67 +628,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/abstractFactoryModel/styles/Veggies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/abstractFactoryModel/PizzaStyle/PepproniPizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-          <folding>
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/abstractFactoryModel/PizzaStyle/ClamPizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/abstractFactoryModel/PizzaStyle/VeggiePizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factoryModel/PizzaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/abstractFactoryModel/styles/Sauce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/abstractFactoryModel/styles/Dough.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/abstractFactoryModel/styles/Onion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -792,17 +949,8 @@
     <entry file="file://$PROJECT_DIR$/src/orderModel/Student.java" />
     <entry file="file://$PROJECT_DIR$/src/orderModel/Person.java" />
     <entry file="file://$PROJECT_DIR$/src/orderModel/Test.java" />
-    <entry file="jar://D:/Java/lib/src.zip!/java.base/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="242" column="18" selection-start-line="242" selection-start-column="18" selection-end-line="242" selection-end-column="18" />
-          <folding>
-            <element signature="e#10105#10106#0" expanded="true" />
-            <element signature="e#10188#10189#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/Java/lib/src.zip!/java.base/java/lang/Object.java" />
+    <entry file="file://$PROJECT_DIR$/src/orderModel/remoteControl/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/orderModel/remoteControl/Command.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -810,10 +958,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/orderModel/remoteControl/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/orderModel/remoteControl/LightOffCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="270">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -846,19 +998,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/orderModel/remoteControl/LightOffCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/orderModel/remoteControl/RemoteControl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -868,6 +1007,73 @@
             <element signature="e#648#649#0" expanded="true" />
             <element signature="e#691#692#0" expanded="true" />
             <element signature="e#725#726#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observerModel/CurrentConditionsDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observerModel/DisplayElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observerModel/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observerModel/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observerModel/WeatherStation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/jdk1.8/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="313" column="15" selection-start-line="313" selection-start-column="15" selection-end-line="313" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observerModel/WeatherData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+          <folding>
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
           </folding>
         </state>
       </provider>

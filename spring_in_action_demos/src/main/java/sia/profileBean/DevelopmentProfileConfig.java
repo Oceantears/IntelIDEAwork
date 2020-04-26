@@ -16,11 +16,11 @@ import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType;
 
 import javax.sql.DataSource;
 
-@Configuration
-@Profile("dev")
-public class DevelopmentProfileConfig {
-	@Bean(destroyMethod = "shutdown")
-	public DataSource dataSource(){
-		return new EmbeddedDatabaseBuilder().setType(EmbeddedDatabaseType.H2).addScript("class")
-	}
-}
+// @Configuration
+// @Profile("dev")
+// public class DevelopmentProfileConfig {
+// 	@Bean(destroyMethod = "shutdown")
+// 	public DataSource dataSource(){
+// 		return new EmbeddedDatabaseBuilder().setType(EmbeddedDatabaseType.H2).addScript("class")
+// 	}
+// }

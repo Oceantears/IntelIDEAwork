@@ -7,70 +7,243 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80add0fd-6bde-4ea9-ae55-b42827d02301" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../javaWebPractice/javaWebPractice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC_servlet/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/src/servlet/LinkmanServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC_servlet/src/servlet/LinkmanServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/bean/Cst_customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/bean/Cst_linkman.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/bean/Sys_user.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/dao/cst_customer/Cst_customer_DAOImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/dao/cst_customer/Icst_customer_DAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/dao/cst_linkman/Cst_linkman_DAOImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/dao/cst_linkman/Icst_linkman_DAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/dao/sys_user/Isys_user_DAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/dao/sys_user/Sys_user_DAOImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/service/cst_customer/Cst_customerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/service/cst_customer/Icst_customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/service/cst_linkman/Cst_linkmanImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/service/cst_linkman/Icst_linkman.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/service/sys_user/Isys_user.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/service/sys_user/Sys_userImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/com/it/utils/JDBCUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC_servlet/web/WEB-INF/classes/servlet/Sys_userServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hometest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/JDBC_DBUtil/DBUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/JDBC_DBUtil/action/StudentAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/JDBC_DBUtil/dao/Students_dao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/JDBC_DBUtil/model/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/about_JDBC/JDBC_search.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/about_JDBC/Jdbc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/abstractTest/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/abstractTest/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/abstractTest/PersonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/abstractTest/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/inherit/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/inherit/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/inherit/C.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/inherit/D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/inherit/InheritTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest/Computer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest/Keyboard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest/Mouse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest/USB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest/USBtest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest1/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest1/EmployeeSortTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest1/Manager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest2/Base.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest2/Sub.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/interfaceTest2/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hometest/out/production/hometest/java_base/Int_test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaWeb_test/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaWeb_test/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaWeb_test/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaWeb_test/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaWeb_test/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaWeb_test/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaWeb_test/proj_web1029/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaWeb_test/proj_web1029/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaWeb_test/proj_web1029/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaWeb_test/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaWeb_test/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GanBuGuanLi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GanBuGuanLi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GanBuGuanLi/WebContent/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../GanBuGuanLi/WebContent/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajaxDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ajaxDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax_JQuery_easyUI/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ajax_JQuery_easyUI/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ajax_JQuery_easyUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ajax_JQuery_easyUI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/META-INF/designModle.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/AbstractPizzaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/AbstractPizzaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/ChicagoPizzaIngredientFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/ChicagoPizzaIngredientFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/NYPizzaIngredientFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/NYPizzaIngredientFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/NYPizzaStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/NYPizzaStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/PizzaIngredientFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/PizzaIngredientFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/PizzaStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/PizzaStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/PizzaStyle/CheesePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/PizzaStyle/CheesePizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/PizzaStyle/ClamPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/PizzaStyle/ClamPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/PizzaStyle/PepproniPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/PizzaStyle/PepproniPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/PizzaStyle/Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/PizzaStyle/Pizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/PizzaStyle/VeggiePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/PizzaStyle/VeggiePizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/Cheese.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/Cheese.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/Clams.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/Clams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/Dough.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/Dough.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/FreshClams.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/FreshClams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/FrozenClams.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/FrozenClams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/Garlic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/Garlic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/MarinaraSauce.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/MarinaraSauce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/MozzarellaCheese.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/MozzarellaCheese.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/Mushroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/Mushroom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/Onion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/Onion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/Pepperoni.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/Pepperoni.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/PlumTomatoSauce.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/PlumTomatoSauce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/RedPepper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/RedPepper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/ReggianoCheese.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/ReggianoCheese.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/Sauce.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/Sauce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/SlicedPepperoni.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/SlicedPepperoni.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/ThinCrustDough.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/ThinCrustDough.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/Veggies.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/abstractFactoryModel/styles/Veggies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/decoratorModel/Beverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/decoratorModel/Beverage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/decoratorModel/CondimentDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/decoratorModel/CondimentDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/decoratorModel/DarkRoast.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/decoratorModel/DarkRoast.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/decoratorModel/Decat.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/decoratorModel/Decat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/decoratorModel/Espresso.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/decoratorModel/Espresso.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/decoratorModel/HouseBlend.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/decoratorModel/HouseBlend.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/decoratorModel/Mocha.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/decoratorModel/Mocha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/decoratorModel/Soy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/decoratorModel/Soy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/decoratorModel/StarbuzzCoffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/decoratorModel/StarbuzzCoffee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/decoratorModel/Whip.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/decoratorModel/Whip.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/decoratorModel/java_io/InputTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/decoratorModel/java_io/InputTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/decoratorModel/java_io/LowerCaseInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/decoratorModel/java_io/LowerCaseInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/ducks/Duck.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/ducks/Duck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/ducks/FlyBehavior.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/ducks/FlyBehavior.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/ducks/FlyNoWay.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/ducks/FlyNoWay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/ducks/FlyWithWing.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/ducks/FlyWithWing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/ducks/MallardDuck.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/ducks/MallardDuck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/ducks/MiniDuckSimulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/ducks/MiniDuckSimulator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/ducks/MuteQuack.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/ducks/MuteQuack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/ducks/Quack.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/ducks/Quack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/ducks/QuackBehavior.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/ducks/QuackBehavior.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/ducks/Squeak.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/ducks/Squeak.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/factoryModel/ChicagoPizza/ChicagoStyleCheesePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/factoryModel/ChicagoPizza/ChicagoStyleCheesePizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/factoryModel/ChicagoPizza/ChicagoStyleClamPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/factoryModel/ChicagoPizza/ChicagoStyleClamPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/factoryModel/ChicagoPizza/ChicagoStylePepperoniPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/factoryModel/ChicagoPizza/ChicagoStylePepperoniPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/factoryModel/ChicagoPizza/ChicagoStyleVeggiePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/factoryModel/ChicagoPizza/ChicagoStyleVeggiePizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/factoryModel/ChicagoPizzaStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/factoryModel/ChicagoPizzaStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/factoryModel/NYPizza/NYStyleCheesePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/factoryModel/NYPizza/NYStyleCheesePizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/factoryModel/NYPizza/NYStyleClamPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/factoryModel/NYPizza/NYStyleClamPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/factoryModel/NYPizza/NYStylePepperoniPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/factoryModel/NYPizza/NYStylePepperoniPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/factoryModel/NYPizza/NYStyleVeggiePizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/factoryModel/NYPizza/NYStyleVeggiePizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/factoryModel/NYPizzaStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/factoryModel/NYPizzaStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/factoryModel/Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/factoryModel/Pizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/factoryModel/PizzaStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/factoryModel/PizzaStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/factoryModel/PizzaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/factoryModel/PizzaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/factoryModel/SimplePizzaFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/factoryModel/SimplePizzaFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/observerModel/CurrentConditionsDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/observerModel/CurrentConditionsDisplay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/observerModel/DisplayElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/observerModel/DisplayElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/observerModel/Observer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/observerModel/Observer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/observerModel/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/observerModel/Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/observerModel/WeatherData.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/observerModel/WeatherData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/observerModel/WeatherStation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/observerModel/WeatherStation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/orderModel/remoteControl/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/orderModel/remoteControl/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/orderModel/remoteControl/LightOffCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/orderModel/remoteControl/LightOffCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/orderModel/remoteControl/NoCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/orderModel/remoteControl/NoCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/orderModel/remoteControl/RemoteControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/orderModel/remoteControl/RemoteControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/orderModel/remoteControl/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/orderModel/simpleRemoteControl/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/orderModel/simpleRemoteControl/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/orderModel/simpleRemoteControl/RemoteControlTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/orderModel/simpleRemoteControl/RemoteControlTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/orderModel/simpleRemoteControl/SimpleRemoteControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/orderModel/simpleRemoteControl/SimpleRemoteControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/orderModel/simpleRemoteControl/garageDoor/GarageDoor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/orderModel/simpleRemoteControl/garageDoor/GarageDoor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/orderModel/simpleRemoteControl/garageDoor/GarageDoorOpenCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/orderModel/simpleRemoteControl/garageDoor/GarageDoorOpenCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/orderModel/simpleRemoteControl/light/Light.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/orderModel/simpleRemoteControl/light/Light.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/orderModel/simpleRemoteControl/light/LightOnCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/orderModel/simpleRemoteControl/light/LightOnCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/singleton/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/singleton/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/singleton/Singleton1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/singleton/Singleton1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModle/out/production/designModle/singleton/Singleton2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../designModle/out/production/designModle/singleton/Singleton2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/artifacts/Spring_test1_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/dictionaries/sunmeng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/mybatisdemo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/out/production/mybatisdemo1/META-INF/mybatisdemo1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/src/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/src/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/src/main/java/com/sun/mybatis/Auth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/src/main/java/com/sun/mybatis/MybatisTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/src/main/resources/mappers/MyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/src/main/resources/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/target/classes/META-INF/mybatisdemo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/target/classes/com/sun/mybatis/Auth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo/target/classes/com/sun/mybatis/MybatisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/src/main/java/com/it/bean/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/src/main/java/com/it/dao/IStudentDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/src/main/resources/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/src/main/resources/com/it/dao/IStudentDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/src/test/java/com/it/test/MybatisTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/target/classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/target/classes/com/it/bean/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/target/classes/com/it/dao/IStudentDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/target/classes/com/it/dao/IStudentDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/target/test-classes/com/it/test/MybatisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/dao/IStudentDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mapper/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/cfg/Configuration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/cfg/Mapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/io/Resources.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/sqlSession/SqlSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/sqlSession/SqlSessionFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/sqlSession/SqlSessionFactoryBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/sqlSession/defaults/DefaultSqlSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/sqlSession/defaults/DefaultSqlSessionFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/sqlSession/proxy/MapperProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/utils/DataSourceUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/utils/Executor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/utils/XMLConfigBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/resources/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/resources/com/it/dao/IStudentDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/test/java/com/it/test/MybatisTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/META-INF/mybatisdemo2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/dao/IStudentDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/dao/IStudentDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mapper/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/cfg/Configuration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/cfg/Mapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/io/Resources.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/sqlSession/SqlSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/sqlSession/SqlSessionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/sqlSession/SqlSessionFactoryBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/sqlSession/defaults/DefaultSqlSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/sqlSession/defaults/DefaultSqlSessionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/sqlSession/proxy/MapperProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/utils/DataSourceUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/utils/Executor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/utils/XMLConfigBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/test-classes/com/it/test/MybatisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle_test/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle_test/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle_test/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle_test/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle_test/lib/ojdbc6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle_test/oracle_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle_test/out/production/oracle_test/com/it/db/DBHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle_test/out/production/oracle_test/jdbcConnection/JDBCConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oracle_test/src/com/it/db/DBHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_service/target/classes/com/it/ssm/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_service/target/classes/com/it/ssm/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/classes/com/it/ssm/controller/LogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/classes/com/it/ssm/controller/LogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/classes/com/it/ssm/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/classes/com/it/ssm/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/classes/com/it/ssm/controller/RoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/classes/com/it/ssm/controller/RoleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/classes/com/it/ssm/controller/ShowUserNameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/classes/com/it/ssm/controller/ShowUserNameController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/classes/com/it/ssm/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/classes/com/it/ssm/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/LogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/LogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/RoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/RoleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/ShowUserNameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/ShowUserNameController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/lib/proj_ssm_dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/lib/proj_ssm_dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/lib/proj_ssm_domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/lib/proj_ssm_domain-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/lib/proj_ssm_service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/proj_ssm_web/target/proj_ssm_web/WEB-INF/lib/proj_ssm_service-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/servlet_login_war_exploded/WEB-INF/classes/com/it/dao/StudentsDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/servlet_login_war_exploded/WEB-INF/classes/com/it/dao/StudentsDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/servlet_login_war_exploded/WEB-INF/classes/com/it/utils/JDBCUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/servlet_login_war_exploded/WEB-INF/classes/com/it/utils/JDBCUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/it/dao/StudentsDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/it/dao/StudentsDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/it/utils/JDBCUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/it/utils/JDBCUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shiro/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shiro/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shiro/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shiro/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shiro/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shiro/shiro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_in_action_demos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_in_action_demos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_in_action_demos/src/main/java/sia/profileBean/DevelopmentProfileConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_in_action_demos/src/main/java/sia/profileBean/DevelopmentProfileConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_in_action_demos/target/classes/META-INF/spring_in_action_demos.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_in_action_demos/target/classes/spring/knight.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_in_action_demos/target/classes/spring/knight.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootTest/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootTest/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootTest/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootTest/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootTest/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootTest/springbootTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/java/com/springboot/example/springboot_test/SpringbootTestApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/java/com/springboot/example/springboot_test/controller/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_test/src/test/java/com/springboot/example/springboot_test/SpringbootTestApplicationTests.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,43 +258,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/servlet/RegServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-351">
-              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/servlet/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
+            <state>
               <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/servlet/QueryAllStudentsServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-333">
+            <state relative-caret-position="-9">
               <caret line="41" column="96" selection-start-line="41" selection-start-column="96" selection-end-line="41" selection-end-column="96" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -135,53 +287,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/servlet/UpdateServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="27">
               <caret line="48" column="47" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="119" column="73" selection-start-line="119" selection-start-column="73" selection-end-line="119" selection-end-column="73" />
-              <folding>
-                <element signature="n#style#0;n#h2#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="264" column="67" lean-forward="true" selection-start-line="264" selection-start-column="67" selection-end-line="264" selection-end-column="67" />
-              <folding>
-                <element signature="n#style#0;n#h2#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#4;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#div#0;n#div#5;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#6;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/update.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -263,8 +373,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -322,6 +432,12 @@
               <item name="servlet_login" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="servlet_login" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servlet_login" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -334,7 +450,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tomcat_test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MVC_servlet" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -465,23 +581,24 @@
       <workItem from="1573653318609" duration="1182000" />
       <workItem from="1573693138038" duration="2734000" />
       <workItem from="1574136225563" duration="94000" />
+      <workItem from="1587464096457" duration="111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63661000" />
+    <option name="totallyTimeSpent" value="63772000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6511376" visible="true" weight="0.23081024" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7432286" visible="true" weight="0.23347548" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" sideWeight="0.3488624" side_tool="true" visible="true" weight="0.23081024" />
+      <window_info id="Web" order="7" sideWeight="0.2567714" side_tool="true" visible="true" weight="0.23347548" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.39328277" />
@@ -550,13 +667,6 @@
     <entry file="file://$PROJECT_DIR$/web/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-162" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/queryAllStudents.html" />
@@ -684,10 +794,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/RegServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/DelServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="264" column="67" selection-start-line="264" selection-start-column="67" selection-end-line="264" selection-end-column="67" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#4;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#div#0;n#div#5;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#6;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -703,37 +871,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/register.html">
+    <entry file="file://$PROJECT_DIR$/src/servlet/UpdateServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="264" column="67" lean-forward="true" selection-start-line="264" selection-start-column="67" selection-end-line="264" selection-end-column="67" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#4;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#5;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#6;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/update.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/DelServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="27">
+          <caret line="48" column="47" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -744,37 +885,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/servlet/QueryAllStudentsServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-333">
+        <state relative-caret-position="-9">
           <caret line="41" column="96" selection-start-line="41" selection-start-column="96" selection-end-line="41" selection-end-column="96" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/RegServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-351">
-          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/UpdateServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="48" column="47" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
         </state>
       </provider>
     </entry>

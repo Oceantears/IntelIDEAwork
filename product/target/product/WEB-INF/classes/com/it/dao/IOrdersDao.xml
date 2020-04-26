@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.it.dao.IOrdersDao">
+
+    <!--<resultMap id="queryAllDetail" type="com.it.domain.FrontEndOrders">-->
+
+    <!--</resultMap>-->
+
+
+    <select id="queryAllDetails" resultType="com.it.domain.FrontEndOrders" parameterType="com.it.domain.FrontEndOrders" >
+        select od.order_id,od.numbers,f.farmers_name,p.product_name,c.cus_name,os.pay_time,os.order_status,os.is_done from
+        order_sum os,farmers f,product p,customer c,order_details od
+        where os.customer_id = c.cus_id and od.farmers_id=f.farmers_id and od.product_id=p.product_id and f.farmers_id=p.farmers_id and os.order_id=od.order_id
+        <if test="farmers_name !=null and farmers_name !='' ">
+            and f.farmers_name= #{farmers_name}
+        </if>
+
+        <if test="product_name != null and product_name !='' ">
+            and p.product_name = #{product_name}
+        </if>
+        <if test="order_status !=null and order_status !=''">
+            and o.order_status = #{order_status}
+        </if>
+
+    </select>
+</mapper>

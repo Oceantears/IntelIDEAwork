@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wechatcontext.contextdemo.dao.StudentDao">
+    <insert id="addStudent" parameterType="com.wechatcontext.contextdemo.model.StudentDomain">
+        insert into student
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="sNo !=null and sNo !=''">
+                sNo,
+            </if>
+            <if test="sName !=null and sName !=''">
+                sName,
+            </if>
+            <if test="sSex !=null and sSex !=''">
+                sSex,
+            </if>
+            <if test="sBirthday !=null and sBirthday !=''">
+                sBirthday,
+            </if>
+            <if test="classes !=null and classes !=''">
+                classes
+            </if>
+        </trim>
+        <trim prefix="values(" suffix=")" suffixOverrides=",">
+            <if test="sNo !=null and sNo !=''">
+                #{sNo,jdbcType=int},
+            </if>
+            <if test="sName !=null and sName !=''">
+                #{sName,jdbcType=VARCHAR},
+            </if>
+            <if test="sSex !=null and sSex !=''">
+                #{sSex,jdbcType=VARCHAR},
+            </if>
+            <if test="sBirthday !=null and sBirthday !=''">
+                #{sBirthday,jdbcType=date},
+            </if>
+            <if test="classes !=null and classes !=''">
+                #{classes,jdbcType=VARCHAR},
+            </if>
+        </trim>
+    </insert>
+
+    <select id="findAllStudents" parameterType="com.wechatcontext.contextdemo.model.StudentDomain" resultType="com.wechatcontext.contextdemo.model.StudentDomain">
+        select * from student
+        <where>
+            <if test="sName !=null and sName !=''">
+                sName like #{sName}
+            </if>
+            <if test="sSex != null and sSex !=''">
+                and sSex = #{sSex}
+            </if>
+            <if test="sBirthday !=null and sBirthday !=''">
+                and sBirthday = #{sBirthday}
+            </if>
+            <if test="classes !=null and classes !=''">
+                and classes = #{classes}
+            </if>
+        </where>
+    </select>
+</mapper>

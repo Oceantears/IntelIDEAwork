@@ -20,7 +20,6 @@
   </bean>
   <aop:config expose-proxy="true">
 
-
     <aop:aspect ref="minstrel">
 
       <!--定义切点-->
