@@ -7,55 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3730fba1-c907-4212-8869-b1a321943f34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../leetCode/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../My_demo1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_demo1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../My_demo1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My_demo1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../contextdemo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../contextdemo/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../demo2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo2/out/production/homework/META-INF/homework.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo2/out/production/homework/homework20190911/JewelryCompany.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/out/production/homework/homework20190911/JewelryCompany.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo2/out/production/homework/homework20190916/StringMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/out/production/homework/homework20190916/StringMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo2/out/production/homework/homework20190916/StringPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/out/production/homework/homework20190916/StringPractice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo2/out/production/homework/homework20190916/Test01.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/out/production/homework/homework20190916/Test01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo2/out/production/homework/homework20190918/IntegerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/out/production/homework/homework20190918/IntegerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191009/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191009/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191011/ClassifyFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191011/ClassifyFiles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191011/DeleteFolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191011/DeleteFolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191011/File_test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191011/File_test1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191011/File_test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191011/File_test2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191011/MyFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191011/MyFileFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191011/PrintFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191011/PrintFiles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191013/CopyWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191013/CopyWords.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191014/StudentList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191014/StudentList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191015/Country.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191015/Country.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191015/OlympicsList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191015/OlympicsList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191015/StringPrint.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/out/production/homework/homework20191015/StringPrint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetCode/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetCode/out/production/leetCode/META-INF/leetCode.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCode20191018/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCode20191018/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCode20191018/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCode20191018/TwoSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCode20191021/LongerString.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCode20191021/LongerString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCode20191021/NumSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCode20191021/NumSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCode20191022/BackNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCode20191022/BackNum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCode20191022/LongestPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCode20191022/LongestPalindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCodeTest/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCodeTest/Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCodeTest/MathSymbol.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCodeTest/MathSymbol.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCodeTest/Operator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCodeTest/Operator$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCodeTest/Operator$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCodeTest/Operator$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCodeTest/Operator$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCodeTest/Operator$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCodeTest/Operator$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCodeTest/Operator$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCodeTest/Operator$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCodeTest/Operator$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCodeTest/Operator$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCodeTest/Operator$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCodeTest/Operator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCodeTest/Operator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCodeTest/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCodeTest/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCodeTest/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCodeTest/Test1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/product.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/product/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/product/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/orders/queryAllOrders.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/orders/queryAllOrders.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -115,18 +69,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/it/controller/AdminController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1944">
-              <caret line="121" column="43" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/it/domain/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
@@ -172,11 +114,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
               <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/orders/queryAllOrders.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/it/controller/OrdersController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="44" column="33" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/it/controller/OrdersSumController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -257,7 +226,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/it/controller/OrdersController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/it/domain/FrontEndOrders.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/it/test/MybatisTest.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/orders/queryAllOrders.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/it/controller/FarmersController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/it/dao/IAdminDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/it/service/Impl/AdminServiceImpl.java" />
@@ -265,6 +233,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/it/utils/UUIDUtils.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/orders/queryAllOrders.jsp" />
       </list>
     </option>
   </component>
@@ -303,7 +272,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -473,6 +441,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -482,7 +451,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../uploadImage" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -638,6 +607,9 @@
       <workItem from="1590565929404" duration="3224000" />
       <workItem from="1590580258149" duration="585000" />
       <workItem from="1590630475829" duration="88000" />
+      <workItem from="1591004286585" duration="193000" />
+      <workItem from="1591004798988" duration="1422000" />
+      <workItem from="1591063312883" duration="66000" />
     </task>
     <servers />
   </component>
@@ -674,12 +646,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118323000" />
+    <option name="totallyTimeSpent" value="120004000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23027718" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23827292" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -755,13 +727,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://0c18929f-5763-4f1c-9aca-9e3d9d3267b7/schema/farmer/table/order_details.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://0c18929f-5763-4f1c-9aca-9e3d9d3267b7/schema/farmer/table/order_sum.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -926,13 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/it/controller/OrdersController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="44" column="33" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/it/dao/IOrdersDao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -971,13 +929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3060">
           <caret line="67" column="26" lean-forward="true" selection-start-line="64" selection-start-column="25" selection-end-line="67" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/orders/queryAllOrders.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="118" column="34" lean-forward="true" selection-start-line="118" selection-start-column="34" selection-end-line="118" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1169,6 +1120,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/it/controller/OrdersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="44" column="33" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/it/controller/OrdersSumController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1183,10 +1155,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/orders/queryAllOrders.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        <state relative-caret-position="360">
+          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
         </state>
       </provider>
     </entry>

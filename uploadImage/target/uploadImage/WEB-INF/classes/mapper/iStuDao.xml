@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.it.dao.IStuDao">
+    <select id="querryAllStu" parameterType="com.it.domain.Student" resultType="com.it.domain.Student">
+        select sNo,sName,sClasses from student
+        <where>
+            <if test="sName != null and sName != '' ">
+                sName like #{sName}
+            </if>
+            <if test="sSex != null and sSex != ''">
+                sSex = #{sSex}
+            </if>
+            <if test="sBirthday != null and sBirthday != ''">
+                sBirthday = #{sBirthday}
+            </if>
+            <if test="sClasses != null and sClasses != ''">
+                sClasses = #{sClasses}
+            </if>
+        </where>
+    </select>
+</mapper>

@@ -124,7 +124,7 @@
                                     // })
 
                                     var list=data.extend();
-                                    alert(list)
+                                    alert(list);
 
                                     form.render();//菜单渲染 把内容加载进去
                                 }
