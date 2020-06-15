@@ -23,7 +23,7 @@
         <maven.compiler.target>1.7</maven.compiler.target>
         <!-- 提取版本号 统一jar包版本-->
         <spring.version>5.1.6.RELEASE</spring.version>
-        <spring.security.version>5.1.6.RELEASE</spring.security.version>
+        <spring.security.version>5.3.3.RELEASE</spring.security.version>
         <!--  <spring.version>5.0.2.RELEASE</spring.version>
           <spring.security.version>5.0.2.RELEASE</spring.security.version>-->
     </properties>
