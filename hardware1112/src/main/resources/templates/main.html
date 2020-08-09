@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>设备信息</title>
+
+    <link rel="stylesheet" th:href="@{/css/bootstrap.css}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<script>
+
+
+</script>
+</head>
+<body class="container">
+
+<div class="row">
+    <div class="col-md-4"></div>
+
+        <div class="col-md-4 col-xs-12">
+            <br/><br/>
+           <center><h5>设备列表</h5></center>
+
+            <button class="btn btn-primary form-control" style="height:50px"><a th:href="@{/insert}"><font color="black"> 添加用户</font></a></button>
+            <br/><br/>
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th style="text-align: center" th:width="70px">序号</th>
+                    <th style="text-align: center"th:width="110px">设备名称</th>
+                    <th style="text-align: center" colspan="4">查看详情</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:each="HwEquipment:${hwEquipment}">
+                    <th scope="row" th:text="${HwEquipment.KEYID}" style="text-align: center;vertical-align:middle">1</th>
+                    <td th:text="${HwEquipment.EQ_NAME}+${HwEquipment.EQ_SN}" style="text-align: center;vertical-align:middle"> neo</td>
+                    <td  style="text-align: center;vertical-align:middle" th:width="180px"><a th:href="@{/query(EQ_SN=${HwEquipment.EQ_SN})}">查看</a>|
+                        <a th:href="@{/updateems(KEYID=${HwEquipment.KEYID})}">修改</a>|
+                        <a th:href="@{/deleteem(KEYID=${HwEquipment.KEYID})}">删除</a>
+
+                    </td>
+                    <!--<td><a th:href="@{/query(EQ_SN=${Hw_Equipment.EQ_SN})}">详情</ a></td>-->
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    <div class="col-md-4"></div>
+</div>
+</body>
+</html>

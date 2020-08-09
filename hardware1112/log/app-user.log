@@ -1,0 +1,19 @@
+2019-11-29 13:40:34.398  INFO 3952 --- [main] com.SpringredeismybatisApplication       : Starting SpringredeismybatisApplication on ZH-JAVA with PID 3952 (E:\hardware1112\target\classes started by Administrator in E:\hardware1112)
+2019-11-29 13:40:34.400  INFO 3952 --- [main] com.SpringredeismybatisApplication       : No active profile set, falling back to default profiles: default
+2019-11-29 13:40:34.505  WARN 3952 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2019-11-29 13:40:36.072  INFO 3952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-29 13:40:36.075  INFO 3952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-29 13:40:36.754  INFO 3952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 667ms. Found 0 repository interfaces.
+2019-11-29 13:40:37.133  INFO 3952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-29 13:40:37.150  INFO 3952 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-29 13:40:37.150  INFO 3952 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-11-29 13:40:37.236  INFO 3952 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-29 13:40:37.237  INFO 3952 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2794 ms
+2019-11-29 13:40:38.037  INFO 3952 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-11-29 13:40:38.600  INFO 3952 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-29 13:40:38.892  INFO 3952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-29 13:40:38.894  INFO 3952 --- [main] com.SpringredeismybatisApplication       : Started SpringredeismybatisApplication in 4.881 seconds (JVM running for 5.641)
+2019-11-29 13:40:42.874  INFO 3952 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-29 13:40:42.874  INFO 3952 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-29 13:40:42.878  INFO 3952 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2019-11-29 13:40:46.820  INFO 3952 --- [http-nio-8080-exec-5] com.controllers.HwEquipmentController    : 查询详细信息

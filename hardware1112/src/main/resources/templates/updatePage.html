@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>修改设备</title>
+
+    <link rel="stylesheet" th:href="@{/css/bootstrap.css}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <script th:src="@{/js/jquery.js}"></script>
+    <script>
+        function company() {
+
+            $("#EQ_company_id").val($("#p").find("option:selected").val());
+            $("#p").change(function () {
+                $("#EQ_company_id").val($("#p").find("option:selected").val());
+            });
+
+            //alert("aaa");
+            //公司的id
+            var company_id = $("#p").val();
+            //proid.empty();
+            $.ajax({
+                type: "post",
+                url: "/queryCity.shtml" + "?" + company_id,
+                data: {"company_id": company_id},
+                dataType: "json",
+                success: function (data) {
+                    //城市下拉菜单id
+                    var c = $("#c");
+                    //清空菜单
+                    c.empty();
+                    //json格式的城市对象数组
+                    var citys = eval(data);
+                    c.append("<option value='0'>请选择</option>");
+                    $.each(citys, function (index, item) {
+                        //城市名称与id
+                        var cname = citys[index].place_title;
+                        var cid = citys[index].id;
+
+                        c.append("<option value='" + cid + "'>" + cname + "</option>");
+                    });
+                }
+
+            });
+
+            $("#EQ_place_id").val($("#c").find("option:selected").val());
+            $("#c").change(function () {
+                $("#EQ_place_id").val($("#c").find("option:selected").val());
+            });
+        }
+    </script>
+</head>
+<body class="container">
+
+<div class="row">
+    <div class="col-md-4"></div>
+
+    <div class="col-md-4 col-xs-12">
+
+        <center><h5>修改设备</h5></center>
+        <form action="/update" th:object="${hw_equipment}" method="post">
+            <!--ID：--><input class="form-control" style="display: none" type="text" th:value="${hw_equipment.KEYID}"
+                             name="KEYID"><br>
+            用户名：
+            <input style="width: 100%" class="form-control" type="text" th:value="${hw_equipment.EQ_NAME}"
+                   name="EQ_NAME"><br>
+            地址：
+            <input style="width: 100%" class="form-control" type="text" th:value="${hw_equipment.EQ_ADDRESS}"
+                   name="EQ_ADDRESS"><br>
+            SN：
+            <input style="width: 100%" class="form-control" type="text" th:value="${hw_equipment.EQ_SN}"
+                   name="EQ_SN"><br>
+            日期：
+            <input style="width: 100%" class="form-control" type="date"
+                   th:value="${#dates.format(hw_equipment.EQ_DATE,'yyyy-MM-dd')}"
+                   name="EQ_DATE"><br>
+            经度：
+            <input style="width: 100%" class="form-control" type="text" th:value="${hw_equipment.EQ_LONGITUDE}"
+                   name="EQ_LONGITUDE"><br>
+            纬度：
+            <input style="width: 100%" class="form-control" type="text" th:value="${hw_equipment.EQ_LATITUDE}"
+                   name="EQ_LATITUDE"><br>
+            设备公司id:
+            <input class="form-control" th:value="${hw_equipment.EQ_company_id}" id="EQ_company_id" name="EQ_company_id"
+                   style="width: 100%">
+
+            <select style="width: 100%" name="p" id="p" onchange="company()" class="form-control">
+                <option value="0">===请选择公司===</option>
+                <option th:each="car:${company_ifos}" th:value="${car.ID}" th:text="${car.company_name}"></option>
+            </select>
+
+            <br><br>
+            设备基地id：<input class="form-control" th:value="${hw_equipment.EQ_place_id}" type="text" name="EQ_place_id"
+                          id="EQ_place_id" style="width: 100%">
+
+            <select style="width: 100%" name="c" id="c" class="form-control">
+                <option value="0">===请选择基地===</option>
+            </select>
+
+            <br><br>
+            海康设备序列号：
+            <input style="width: 100%" class="form-control" type="text" th:value="${hw_equipment.SBNO}" name="SBNO"><br>
+
+            海康设备验证码：
+            <input style="width: 100%" class="form-control" type="text" th:value="${hw_equipment.SBYZM}"
+                   name="SBYZM"><br>
+
+            <button class="btn btn-primary btn-lg btn-block" type="submit">提交</button>
+        </form>
+    </div>
+    <div class="col-md-4"></div>
+</div>
+</body>
+</html>

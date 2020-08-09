@@ -7,9 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3730fba1-c907-4212-8869-b1a321943f34" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../demo2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/orders/queryAllOrders.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/orders/queryAllOrders.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GanBuGuanLi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GanBuGuanLi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../contextdemo/src/main/java/com/wechatcontext/contextdemo/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../contextdemo/src/main/java/com/wechatcontext/contextdemo/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCode20191022/BackNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCode20191022/BackNum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCode20200526/RandomNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCode20200526/RandomNum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetCode/src/leetCode20191022/BackNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/src/leetCode20191022/BackNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetCode/src/leetCode20200526/RandomNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/src/leetCode20200526/RandomNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj_ssm_parent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_ssm_parent/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -123,11 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/orders/queryAllOrders.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+              <caret line="110" selection-start-line="110" selection-end-line="110" />
             </state>
           </provider>
         </entry>
@@ -159,11 +164,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+            <state relative-caret-position="-1836">
+              <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -271,7 +276,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -442,6 +446,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -451,7 +456,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../uploadImage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -610,6 +615,7 @@
       <workItem from="1591004286585" duration="193000" />
       <workItem from="1591004798988" duration="1422000" />
       <workItem from="1591063312883" duration="66000" />
+      <workItem from="1594045070424" duration="44000" />
     </task>
     <servers />
   </component>
@@ -646,12 +652,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120004000" />
+    <option name="totallyTimeSpent" value="120048000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23827292" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24093817" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1148,17 +1154,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/orders/queryAllOrders.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1836">
+          <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
         </state>
       </provider>
     </entry>

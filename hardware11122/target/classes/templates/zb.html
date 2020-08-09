@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
+<head>
+    <meta charset="UTF-8">
+    <title>实时环境直播</title>
+
+</head>
+<body>
+
+<div>
+    <link href="http://www.tree-iot.com/stzhs/resources/style/default/css/report/style.css" type="text/css"
+          rel="stylesheet"/>
+    <link href="http://www.tree-iot.com/stzhs/resources/lib/video5.18.4/css/video-js.css" rel="stylesheet">
+    <script src="../static/js/video.min.js"></script>
+    <script src="../static/js/hls.js"></script>
+    <center>
+        <header class="title_bar subPage_title">实时环境直播</header>
+        <div class="sub_wrap" style="width:100%;height:300px">
+
+            <video id="my-video" class="video-js vjs-big-play-centered" controls preload="auto"
+                   style="width:100%;height:100%"
+                   th:poster="${getliveinfo.GEJPG}" data-setup="{}">
+                <source th:src="${getliveinfo.GETLIVEINFO}" type='application/x-mpegURL'/>
+
+            </video>
+        </div>
+    </center>
+    <script>
+        var player = videojs('#example-video');
+        player.play();
+    </script>
+    <script src="http://www.tree-iot.com/stzhs/resources/lib/jquery/jquery-1.10.2.min.gzjs"
+            type="text/javascript"></script>
+    <script src="http://www.tree-iot.com/stzhs/resources/lib/video5.18.4/js/video.min.js"
+            type="text/javascript"></script>
+    <script src="http://www.tree-iot.com/stzhs/resources/lib/video5.18.4/js/videojs-contrib-hls.min.js"
+            type="text/javascript"></script>
+
+</div>
+
+
+</body>
+</html>
+

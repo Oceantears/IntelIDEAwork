@@ -35,6 +35,7 @@ public class BackNum {
 		}
 		int revertedNumber = 0;
 		while (revertedNumber<x){
+			//只需要对比x的一半和revertedNumber的一半是否相同即可
 			revertedNumber=revertedNumber*10+x%10;
 			x=x/10;
 		}
@@ -44,6 +45,6 @@ public class BackNum {
 
 	public static void main(String[] args) {
 		//isPalindrome(12345);
-		System.out.println(isPalindrome(121));
+		System.out.println(isPalindrome(12321));
 	}
 }

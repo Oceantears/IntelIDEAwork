@@ -1,0 +1,101 @@
+﻿html,body
+{
+    height:100%;
+}
+.content
+{
+    width:100%;
+    height:100%;
+}
+.videoCss
+{
+    width:100%;
+    
+}
+.row3
+{
+    width:100%;
+    height:200px;
+    line-height:200px;
+   
+    
+}
+.row2
+{
+    width:100%;
+    height:145px;
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:10px;
+    
+}
+.dataItem
+{
+   background-color:#97FFFF;
+   float:left;
+   margin-left:10px;
+   width:120px;
+   height:120px;
+   border-radius:100%; 
+}
+
+
+.rowTop
+{
+   width:100%;
+   height:40px;
+   line-height:40px;
+   border-bottom:solid 3px #CFCFCF;
+   margin-bottom:3px;
+}
+.rowLeft
+{
+    width:40%;
+    border-left-width:0px;
+
+}
+.rowRight
+{
+    width:60%;
+    margin:0 auto;
+}
+.zhexiantu
+{
+ width:98%;
+ margin-left:10px;
+ 
+    }
+
+
+
+
+
+div,img
+{
+   margin:0;
+   padding:0;
+}
+          
+  img
+  {
+      float:left;
+      height:280px;
+      margin-left:10px;
+  }
+         
+ #div1
+ {
+     width:100%;
+     height:300px;
+     overflow: hidden;
+     border:solid #CFCFCF 1px;
+ }
+ #div2,#div3
+ {
+     float:left;
+ }
+ #div4
+ {
+     width:1000%;/*这个属性很重要 让容器有足够的宽度实现滚动*/
+     float:left;        
+ }

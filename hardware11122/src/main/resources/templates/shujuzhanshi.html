@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>气象站感知数据查询</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+
+
+    <script th:src="@{/js/jquery.js}"></script>
+    <script th:src="@{/js/bootstrap.js}"></script>
+    <script th:src="@{/min-js/echarts/echarts-all.js}"></script>
+    <script th:src="@{/js/content.js}"></script>
+    <!--自定义数据-->
+    <script th:src="@{/js/init-queryshuju.js}"></script>
+    <script th:src="@{/js/ajax-queryshuju.js}"></script>
+
+    <script src="https://cdn.jsdelivr.net/hls.js/latest/hls.min.js"></script>
+</head>
+<body>
+<div class="content">
+    <div class="rowTop">
+        <span style="font-size:20px; font-family:Microsoft YaHei; color:#2F4F4F; font-weight:bold; float:left; width:60%;" id="sp1"></span>
+        <span style="font-size:20px; font-family:Microsoft YaHei; color:#2F4F4F; font-weight:bold; float:right; width:40%; text-align:right;">
+                <select id="shebei" style=" height:30px;" onchange="company()">
+<option value="1">请选择</option>
+            <option th:each="gongsijidis:${gongsijidis}" th:value="${gongsijidis.KEYID}" th:text="${gongsijidis.company_name}+'('+${gongsijidis.place_title}+')'+${gongsijidis.EQ_NAME}"></option>
+        </select>
+            </span>
+    </div>
+    <table>
+        <tr>
+
+            <td class="rowLeft" id="cscs">
+
+                <video id="video"style=" height:300px; width:600px;" type="application/x-mpegURL"></video>
+
+            </td>
+
+            <td class="rowRight">
+                <div class="zhexiantu">
+                    <div id="echarts-line-chart" style=" height:300px; width:650px;"></div>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <div class="row2">
+        <div class="dataItem">
+            <div style=" font-size:20px; font-weight:bold;margin-top:40px;"><span id="d1"></span></div>
+            <div style=" font-size:16px; margin-top:10px; color:#969696;">温度</div>
+        </div>
+
+        <div class="dataItem">
+            <div style=" font-size:20px; font-weight:bold;margin-top:40px;"><span id="d2"></span></div>
+            <div style=" font-size:16px; margin-top:10px; color:#969696;">湿度</div>
+        </div>
+        <div class="dataItem">
+            <div style=" font-size:20px; font-weight:bold;margin-top:40px;"><span id="d3"></span></div>
+            <div style=" font-size:16px; margin-top:10px; color:#969696;">风向</div>
+        </div>
+        <div class="dataItem">
+            <div style=" font-size:20px; font-weight:bold;margin-top:40px;"><span id="d4"></span></div>
+            <div style=" font-size:16px; margin-top:10px; color:#969696;">风速</div>
+        </div>
+        <div class="dataItem">
+            <div style=" font-size:20px; font-weight:bold;margin-top:40px;"><span id="d5"></span></div>
+            <div style=" font-size:16px; margin-top:10px; color:#969696;">光照</div>
+        </div>
+        <div class="dataItem">
+            <div style=" font-size:20px; font-weight:bold;margin-top:40px;"><span id="d6"></span> </div>
+            <div style=" font-size:16px; margin-top:10px; color:#969696;">PM2.5</div>
+        </div>
+        <div class="dataItem">
+            <div style=" font-size:20px; font-weight:bold;margin-top:40px;"><span id="d7"></span></div>
+            <div style=" font-size:16px; margin-top:10px; color:#969696;">降雨量</div>
+        </div>
+        <div class="dataItem">
+            <div style=" font-size:20px; font-weight:bold;margin-top:40px;"><span id="d8"></span></div>
+            <div style=" font-size:16px; margin-top:10px; color:#969696;">土壤PH</div>
+        </div>
+        <div class="dataItem">
+            <div style=" font-size:20px; font-weight:bold;margin-top:40px;"><span id="d9"></span></div>
+            <div style=" font-size:16px; margin-top:10px; color:#969696;">海拔</div>
+        </div>
+        <div class="dataItem">
+            <div style=" font-size:20px; font-weight:bold;margin-top:40px;"><span id="d10"></span></div>
+            <div style=" font-size:16px; margin-top:10px; color:#969696;">气压</div>
+        </div>
+
+    </div>
+
+    <div class="row3">
+        <div id="div1">
+            <div id="div4">
+                <div id="div2">
+
+                </div>
+                <div id="div3"></div><!--这个容器是用来防止图片滚动时会出现空白的区域-->
+            </div>
+        </div>
+    </div>
+</div>
+<script src="http://www.tree-iot.com/stzhs/resources/lib/jquery/jquery-1.10.2.min.gzjs"
+        type="text/javascript"></script>
+<script src="http://www.tree-iot.com/stzhs/resources/lib/video5.18.4/js/video.min.js"
+        type="text/javascript"></script>
+<script src="http://www.tree-iot.com/stzhs/resources/lib/video5.18.4/js/videojs-contrib-hls.min.js"
+        type="text/javascript"></script>
+
+<script type="text/javascript">
+
+    window.onload=function(){
+        var v1=document.getElementById('div1');
+        var v2=document.getElementById('div2');
+        var v3=document.getElementById('div3');
+
+        v3.innerHTML= v2.innerHTML;//将v2容器里面的图片插入到v3容器里面  使其空白区域被遮住。
+        function fun()
+        {
+            if (v1.scrollLeft <= 0)
+            {
+                v1.scrollLeft=600;
+            }
+            else
+            {
+                v1.scrollLeft--;
+            }
+        }
+
+        var fun1=setInterval(fun,10);
+
+        v1.onmouseover = function() {//鼠标经过时  清除定时器  停止图片的滚动
+            clearInterval(fun1)
+        };
+        v1.onmouseout = function() {//鼠标离开后  继续滚动图片
+            fun1 = setInterval(fun, 10)
+        };
+    }
+
+</script>
+</body>
+</html>
+
+

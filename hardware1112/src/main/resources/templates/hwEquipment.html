@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>产地信息</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.css}"></link>
+
+
+    <style type="text/css">
+        html, body {
+            margin: 5PX;
+            padding: 0;
+        }
+
+        .iw_poi_title {
+            color: #CC5522;
+            font-size: 14px;
+            font-weight: bold;
+            overflow: hidden;
+            padding-right: 13px;
+            white-space: nowrap
+        }
+
+        .iw_poi_content {
+            font: 12px arial, sans-serif;
+            overflow: visible;
+            padding-top: -50px;
+            white-space: -moz-pre-wrap;
+            word-wrap: break-word
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: "微软雅黑";
+            font-size: 14px;
+        }
+
+        ul, li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .box {
+            width: 100%;
+            height: 280px;
+            margin: 20px auto;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .box-1 ul {
+        }
+
+        .box-1 ul li {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .box-1 ul li img {
+            display: block;
+        }
+
+        .box-1 ul li h2 {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            background: rgba(125, 125, 120, .4);
+            text-indent: 2em;
+            padding-right: 500px;
+            font-size: 15px;
+            line-height: 40px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            font-weight: normal;
+            color: ghostwhite
+        }
+
+        .box-2 {
+            position: absolute;
+            right: 10px;
+            bottom: 14px;
+        }
+
+        .box-2 ul li {
+            float: left;
+            width: 12px;
+            height: 12px;
+            overflow: hidden;
+            margin: 0 5px;
+            border-radius: 50%;
+            background: rgba(0, 0, 0, 0.5);
+            text-indent: 100px;
+            cursor: pointer;
+        }
+
+        .box-2 ul .on {
+            background: rgba(255, 255, 255, 0.6);
+        }
+
+        .box-3 span {
+            position: absolute;
+            color: white;
+            background: rgba(125, 125, 120, .3);
+            width: 50px;
+            height: 80px;
+            top: 50%;
+            font-family: "宋体";
+            line-height: 80px;
+            font-size: 60px;
+            margin-top: -40px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .box-3 .prev {
+            left: 10px;
+        }
+
+        .box-3 .next {
+            right: 10px;
+        }
+
+        .box-3 span::selection {
+            background: transparent;
+        }
+
+        .box-3 span:hover {
+            background: rgba(125, 125, 120, .8);
+        }
+    </style>
+
+    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+
+    <script>
+
+        function on1(){
+
+            //注册新增按钮的事件
+
+              alert("885");
+
+            $('#myModal').modal();
+
+
+        }
+
+    </script>
+
+
+    <script th:src="@{/js/jquery.js}"></script>
+    <script th:src="@{/js/bootstrap.js}"></script>
+    <script th:src="@{/js/echarts.min.js}"></script>
+
+</head>
+<body class="container">
+<div class="row">
+    <div class="col-md-4 "></div>
+
+    <div class="col-md-4 col-xs-12">
+        <div>
+<br>
+            <center><h4>地区风采</h4></center>
+            <div class="box">
+                <div class="box-1">
+                    <ul>
+                        <li>
+                            <img style="width: 100%;height:280px;" th:src="@{/images/1.jpg}"/>
+                        </li>
+                        <li>
+                            <img style="width: 100%;height:280px;" th:src="@{/images/2.jpg}"/>
+                        </li>
+                        <li>
+                            <img style="width: 100%;height:280px;" th:src="@{/images/3.jpg}"/>
+                        </li>
+                        <li>
+                            <img style="width: 100%;height:280px;" th:src="@{/images/7.jpg}"/>
+                        </li>
+                        <li>
+                            <img style="width: 100%;height:280px;" th:src="@{/images/6.jpg}"/>
+                        </li>
+                    </ul>
+                </div>
+                <div class="box-2">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="box-3">
+                    <span class="prev"> < </span>
+                    <span class="next"> > </span>
+                </div>
+            </div>
+
+            <br/>
+            <div style="width: 100%">
+                <p th:text="${place.place_content}"></p>
+            </div>
+        </div>
+        <br/>
+        <div>
+            </center>
+            <table class="table table-hover">
+                <tr>
+                    <th colspan="3">
+                        <center><h4>环境数据</h4></center>
+                    </th>
+                </tr>
+                <tr>
+                    <th style="text-align: center" onclick="on1()">大气压力</th>
+                    <th style="text-align: center">大气湿度</th>
+                </tr>
+                <tr>
+                    <td th:text=" ${yali}" style="text-align: center"></td>
+                    <td th:text=" ${shidu}" style="text-align: center"></td>
+                </tr>
+                <tr>
+                    <th style="text-align: center">光照强度</th>
+                    <th style="text-align: center">空气PM2.5</th>
+                </tr>
+                <tr>
+                    <td th:text=" ${guangzhao}" style="text-align: center"></td>
+                    <td th:text=" ${pm}" style="text-align: center"></td>
+                </tr>
+                <tr>
+                    <th style="text-align: center">降雨量</th>
+                    <th style="text-align: center">土壤PH</th>
+                </tr>
+                <td th:text=" ${yuliang}" style="text-align: center"></td>
+                <td th:text=" ${turang}" style="text-align: center"></td>
+                <tr>
+                    <th style="text-align: center">温度</th>
+                    <th style="text-align: center">风向</th>
+                </tr>
+                <tr>
+                    <td th:text=" ${wendu}" style="text-align: center"></td>
+                    <td th:text=" ${fengxiang}" style="text-align: center"></td>
+                </tr>
+                <tr>
+                    <th style="text-align: center">风速</th>
+                    <th style="text-align: center">海拔</th>
+                </tr>
+                <tr>
+                    <td th:text=" ${fengsu}" style="text-align: center"></td>
+                    <td th:text=" ${haiba}" style="text-align: center"></td>
+                </tr>
+                <tr>
+                    <th style="text-align: center">图片</th>
+                    <th style="text-align: center">视频</th>
+                </tr>
+                <tr>
+
+                    <td style="text-align: center"><a th:href="@{/test2(EQ_SN=${hw_equipment.EQ_SN})}">查看</a></td>
+                    <td style="text-align: center"><a th:href="@{/zhibo(EQ_SN=${hw_equipment.EQ_SN})}">查看</a></td>
+                </tr>
+            </table>
+            <br/>
+            <div>
+                <center><h4>设备地址</h4></center>
+                <!--百度地图容器-->
+               <!-- <div style="padding-bottom: 5px">
+                    &nbsp;经度:&nbsp;<input type="text" th:value="${jingdu}" readonly="readonly"/><br>
+                    &nbsp;纬度:&nbsp;<input type="text" th:value="${weidu}"/>
+                    <br>
+                </div>-->
+
+                <div style="width:100%;height:300px;border:#ccc solid 1px;" id="dituContent"></div>
+                <!--<div>广东省>河源市>紫金县南岭镇庄田村嶂背小组</div>-->
+                <div>
+
+                    设备地址：<br> <img th:src="@{/images/2019-11-27T01-00-17.476Z.png}">
+                    <span th:text=" ${hw_equipment.EQ_ADDRESS}"></span>
+                    <br><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4"></div>
+</div>
+
+</body>
+
+
+<script type="text/javascript">
+    window.onload = function () {
+        function $(param) {
+            if (arguments[1] == true) {
+                return document.querySelectorAll(param);
+            } else {
+                return document.querySelector(param);
+            }
+        }
+
+        var $box = $(".box");
+        var $box1 = $(".box-1 ul li", true);
+        var $box2 = $(".box-2 ul");
+        var $box3 = $(".box-3");
+        var $length = $box1.length;
+
+        var str = "";
+        for (var i = 0; i < $length; i++) {
+            if (i == 0) {
+                str += "<li class='on'>" + (i + 1) + "</li>";
+            } else {
+                str += "<li>" + (i + 1) + "</li>";
+            }
+        }
+        $box2.innerHTML = str;
+
+        var current = 0;
+
+        var timer;
+        timer = setInterval(go, 2000);
+
+        function go() {
+            for (var j = 0; j < $length; j++) {
+                $box1[j].style.display = "none";
+                $box2.children[j].className = "";
+            }
+            if ($length == current) {
+                current = 0;
+            }
+            $box1[current].style.display = "block";
+            $box2.children[current].className = "on";
+            current++;
+        }
+
+        for (var k = 0; k < $length; k++) {
+            $box1[k].onmouseover = function () {
+                clearInterval(timer);
+            }
+            $box1[k].onmouseout = function () {
+                timer = setInterval(go, 1000);
+            }
+        }
+        for (var p = 0; p < $box3.children.length; p++) {
+            $box3.children[p].onmouseover = function () {
+                clearInterval(timer);
+            };
+            $box3.children[p].onmouseout = function () {
+                timer = setInterval(go, 1000);
+            }
+        }
+
+        for (var u = 0; u < $length; u++) {
+            $box2.children[u].index = u;
+            $box2.children[u].onmouseover = function () {
+                clearInterval(timer);
+                for (var j = 0; j < $length; j++) {
+                    $box1[j].style.display = "none";
+                    $box2.children[j].className = "";
+                }
+                this.className = "on";
+                $box1[this.index].style.display = "block";
+                current = this.index + 1;
+            }
+            $box2.children[u].onmouseout = function () {
+                timer = setInterval(go, 2000);
+            }
+        }
+
+        $box3.children[0].onclick = function () {
+            back();
+        }
+        $box3.children[1].onclick = function () {
+            go();
+        }
+
+        function back() {
+            for (var j = 0; j < $length; j++) {
+                $box1[j].style.display = "none";
+                $box2.children[j].className = "";
+            }
+            if (current == 0) {
+                current = $length;
+            }
+            $box1[current - 1].style.display = "block";
+            $box2.children[current - 1].className = "on";
+            current--;
+        }
+    }
+</script>
+
+<script
+        th:inline="javascript">
+    //创建和初始化地图函数：
+    function initMap() {
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+        addMarker();//向地图中添加marker
+    }
+
+    //创建地图函数：
+    function createMap() {
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point([[${hw_equipment.EQ_LONGITUDE}]], [[${hw_equipment.EQ_LATITUDE}]]);//定义一个中心点坐标
+        map.centerAndZoom(point, 17);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+    }
+
+    //地图事件设置函数：
+    function setMapEvent() {
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+        map.enableKeyboard();//启用键盘上下左右键移动地图
+    }
+
+    //地图控件添加函数：
+    function addMapControl() {
+        //向地图中添加缩放控件
+        var ctrl_nav = new BMap.NavigationControl({
+            anchor: BMAP_ANCHOR_TOP_LEFT,
+            type: BMAP_NAVIGATION_CONTROL_LARGE
+        });
+        map.addControl(ctrl_nav);
+        //向地图中添加缩略图控件
+        var ctrl_ove = new BMap.OverviewMapControl({anchor: BMAP_ANCHOR_BOTTOM_RIGHT, isOpen: 1});
+        map.addControl(ctrl_ove);
+        //向地图中添加比例尺控件
+        var ctrl_sca = new BMap.ScaleControl({anchor: BMAP_ANCHOR_BOTTOM_LEFT});
+        map.addControl(ctrl_sca);
+    }
+
+    //标注点数组
+    var markerArr = [{
+        title: "我在这里 ",
+        content: "设备坐标",
+        point: "[[${hw_equipment.EQ_LONGITUDE}]]|[[${hw_equipment.EQ_LATITUDE}]]",
+        isOpen: 0,
+        icon: {w: 21, h: 21, l: 0, t: 0, x: 6, lb: 5}
+    }
+    ];
+
+    //创建marker
+    function addMarker() {
+        for (var i = 0; i < markerArr.length; i++) {
+            var json = markerArr[i];
+            var p0 = json.point.split("|")[0];
+            var p1 = json.point.split("|")[1];
+            var point = new BMap.Point(p0, p1);
+            var iconImg = createIcon(json.icon);
+            var marker = new BMap.Marker(point, {icon: iconImg});
+            var iw = createInfoWindow(i);
+            var label = new BMap.Label(json.title, {"offset": new BMap.Size(json.icon.lb - json.icon.x + 10, -20)});
+            marker.setLabel(label);
+            map.addOverlay(marker);
+            label.setStyle({
+                borderColor: "#808080",
+                color: "#333",
+                cursor: "pointer"
+            });
+            (function () {
+                var index = i;
+                var _iw = createInfoWindow(i);
+                var _marker = marker;
+                _marker.addEventListener("click", function () {
+                    this.openInfoWindow(_iw);
+                });
+                _iw.addEventListener("open", function () {
+                    _marker.getLabel().hide();
+                })
+                _iw.addEventListener("close", function () {
+                    _marker.getLabel().show();
+                })
+                label.addEventListener("click", function () {
+                    _marker.openInfoWindow(_iw);
+                })
+                if (!!json.isOpen) {
+                    label.hide();
+                    _marker.openInfoWindow(_iw);
+                }
+            })()
+        }
+    }
+
+    //创建InfoWindow
+    function createInfoWindow(i) {
+        var json = markerArr[i];
+        var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>" + json.content + "</div>");
+        return iw;
+    }
+
+    //创建一个Icon
+    function createIcon(json) {
+        var icon = new BMap.Icon("http://api.map.baidu.com/lbsapi/createmap/images/icon.png",  new BMap.Size(json.w, json.h), {
+            imageOffset: new BMap.Size(-json.l, -json.t),
+            infoWindowOffset: new BMap.Size(json.lb + 5, 1),
+            offset: new BMap.Size(json.x, json.h)
+        })
+        return icon;
+    }
+
+    initMap();//创建和初始化地图
+</script>
+
+
+
+</html>

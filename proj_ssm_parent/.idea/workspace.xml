@@ -8,146 +8,12 @@
   <component name="ChangeListManager">
     <list default="true" id="6a413146-93e6-42ae-851d-d0cffeb4afd1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../GanBuGuanLi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GanBuGuanLi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GanBuGuanLi/WebContent/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../GanBuGuanLi/WebContent/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ajaxDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ajaxDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ajax_JQuery_easyUI/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ajax_JQuery_easyUI/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ajax_JQuery_easyUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ajax_JQuery_easyUI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/artifacts/Spring_test1_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/dictionaries/sunmeng.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo/mybatisdemo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo/out/production/mybatisdemo1/META-INF/mybatisdemo1.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo/src/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo/src/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo/src/main/java/com/sun/mybatis/Auth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo/src/main/java/com/sun/mybatis/MybatisTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo/src/main/resources/mappers/MyMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo/src/main/resources/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo/target/classes/META-INF/mybatisdemo.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo/target/classes/com/sun/mybatis/Auth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo/target/classes/com/sun/mybatis/MybatisTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/src/main/java/com/it/bean/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/src/main/java/com/it/dao/IStudentDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/src/main/resources/SqlMapConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/src/main/resources/com/it/dao/IStudentDAO.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/src/main/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/src/test/java/com/it/test/MybatisTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/target/classes/SqlMapConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/target/classes/com/it/bean/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/target/classes/com/it/dao/IStudentDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/target/classes/com/it/dao/IStudentDAO.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo1/target/test-classes/com/it/test/MybatisTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/dao/IStudentDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mapper/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/cfg/Configuration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/cfg/Mapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/io/Resources.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/sqlSession/SqlSession.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/sqlSession/SqlSessionFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/sqlSession/SqlSessionFactoryBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/sqlSession/defaults/DefaultSqlSession.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/sqlSession/defaults/DefaultSqlSessionFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/sqlSession/proxy/MapperProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/utils/DataSourceUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/utils/Executor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/java/com/it/mybatis/utils/XMLConfigBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/resources/SqlMapConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/resources/com/it/dao/IStudentDAO.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/main/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/src/test/java/com/it/test/MybatisTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/META-INF/mybatisdemo2.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/SqlMapConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/dao/IStudentDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/dao/IStudentDAO.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mapper/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/cfg/Configuration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/cfg/Mapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/io/Resources.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/sqlSession/SqlSession.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/sqlSession/SqlSessionFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/sqlSession/SqlSessionFactoryBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/sqlSession/defaults/DefaultSqlSession.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/sqlSession/defaults/DefaultSqlSessionFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/sqlSession/proxy/MapperProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/utils/DataSourceUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/utils/Executor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/com/it/mybatis/utils/XMLConfigBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisdemo2/target/test-classes/com/it/test/MybatisTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oracle_test/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oracle_test/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oracle_test/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oracle_test/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oracle_test/lib/ojdbc6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oracle_test/oracle_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oracle_test/out/production/oracle_test/com/it/db/DBHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oracle_test/out/production/oracle_test/jdbcConnection/JDBCConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oracle_test/src/com/it/db/DBHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj_ssm_service/target/classes/com/it/ssm/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/proj_ssm_service/target/classes/com/it/ssm/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj_ssm_web/target/classes/com/it/ssm/controller/LogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/proj_ssm_web/target/classes/com/it/ssm/controller/LogController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj_ssm_web/target/classes/com/it/ssm/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/proj_ssm_web/target/classes/com/it/ssm/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj_ssm_web/target/classes/com/it/ssm/controller/RoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/proj_ssm_web/target/classes/com/it/ssm/controller/RoleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj_ssm_web/target/classes/com/it/ssm/controller/ShowUserNameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/proj_ssm_web/target/classes/com/it/ssm/controller/ShowUserNameController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj_ssm_web/target/classes/com/it/ssm/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/proj_ssm_web/target/classes/com/it/ssm/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj_ssm_web/target/proj_ssm_web/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/proj_ssm_web/target/proj_ssm_web/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/LogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/LogController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/RoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/RoleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/ShowUserNameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/ShowUserNameController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/proj_ssm_web/target/proj_ssm_web/WEB-INF/classes/com/it/ssm/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj_ssm_web/target/proj_ssm_web/WEB-INF/lib/proj_ssm_dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/proj_ssm_web/target/proj_ssm_web/WEB-INF/lib/proj_ssm_dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj_ssm_web/target/proj_ssm_web/WEB-INF/lib/proj_ssm_domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/proj_ssm_web/target/proj_ssm_web/WEB-INF/lib/proj_ssm_domain-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj_ssm_web/target/proj_ssm_web/WEB-INF/lib/proj_ssm_service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/proj_ssm_web/target/proj_ssm_web/WEB-INF/lib/proj_ssm_service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_in_action_demos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_in_action_demos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_in_action_demos/src/main/java/sia/profileBean/DevelopmentProfileConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_in_action_demos/src/main/java/sia/profileBean/DevelopmentProfileConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_in_action_demos/target/classes/META-INF/spring_in_action_demos.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_in_action_demos/target/classes/spring/knight.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_in_action_demos/target/classes/spring/knight.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springbootTest/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springbootTest/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springbootTest/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springbootTest/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springbootTest/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springbootTest/springbootTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_test/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_test/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_test/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_test/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_test/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_test/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_test/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/java/com/springboot/example/springboot_test/SpringbootTestApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/java/com/springboot/example/springboot_test/controller/IndexController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/static/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_test/src/main/resources/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_test/src/test/java/com/springboot/example/springboot_test/SpringbootTestApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../contextdemo/src/main/java/com/wechatcontext/contextdemo/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../contextdemo/src/main/java/com/wechatcontext/contextdemo/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCode20191022/BackNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCode20191022/BackNum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCode20200526/RandomNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/out/production/leetCode/leetCode20200526/RandomNum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetCode/src/leetCode20191022/BackNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/src/leetCode20191022/BackNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetCode/src/leetCode20200526/RandomNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/src/leetCode20200526/RandomNum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/proj_ssm_utils/target/" />
     <ignored path="$PROJECT_DIR$/proj_ssm_service/target/" />
@@ -169,17 +35,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proj_ssm_web/src/main/webapp/pages/product-update.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
+            <state relative-caret-position="1746">
               <caret line="97" column="30" selection-start-line="97" selection-start-column="30" selection-end-line="97" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proj_ssm_web/src/main/java/com/it/ssm/controller/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="558">
-              <caret line="65" column="44" lean-forward="true" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
+              <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proj_ssm_web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="56" column="25" lean-forward="true" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1350">
+              <caret line="105" column="25" selection-start-line="104" selection-start-column="34" selection-end-line="105" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -190,6 +74,7 @@
     <findStrings>
       <find>product</find>
       <find>id</find>
+      <find>tomcat</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -256,58 +141,6 @@
               <item name="proj_ssm_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="proj_ssm_parent" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="proj_ssm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proj_ssm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="proj_ssm_web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proj_ssm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proj_ssm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="proj_ssm_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proj_ssm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proj_ssm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="proj_ssm_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proj_ssm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proj_ssm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="proj_ssm_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proj_ssm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proj_ssm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="proj_ssm_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proj_ssm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proj_ssm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="proj_ssm_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proj_ssm_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proj_ssm_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="proj_ssm_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -319,7 +152,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../product" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -454,17 +287,17 @@
       <workItem from="1583973908119" duration="1237000" />
       <workItem from="1583979763121" duration="101000" />
       <workItem from="1585130615617" duration="4881000" />
+      <workItem from="1594044923183" duration="144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60100000" />
+    <option name="totallyTimeSpent" value="60244000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2196162" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2217484" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -660,13 +493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3798">
-          <caret line="211" column="19" selection-start-line="211" selection-start-column="19" selection-end-line="212" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/proj_ssm_service/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -674,13 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proj_ssm_web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-299">
-          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -873,7 +692,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/proj_ssm_web/src/main/webapp/pages/product-update.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
+        <state relative-caret-position="1746">
           <caret line="97" column="30" selection-start-line="97" selection-start-column="30" selection-end-line="97" selection-end-column="30" />
         </state>
       </provider>
@@ -881,7 +700,21 @@
     <entry file="file://$PROJECT_DIR$/proj_ssm_web/src/main/java/com/it/ssm/controller/ProductController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
-          <caret line="65" column="44" lean-forward="true" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
+          <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj_ssm_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="56" column="25" lean-forward="true" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="105" column="25" selection-start-line="104" selection-start-column="34" selection-end-line="105" selection-end-column="25" />
         </state>
       </provider>
     </entry>

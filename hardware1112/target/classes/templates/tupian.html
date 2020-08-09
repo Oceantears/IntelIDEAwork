@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>图片信息展示</title>
+
+    <link rel="stylesheet" th:href="@{/css/bootstrap.css}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <script th:src="@{/js/jquery.js}"></script>
+    <script th:src="@{/js/bootstrap.js}"></script>
+
+    <script th:inline="javascript">
+
+
+        function month1(){
+            var message = [[${month1}]];
+            if(message.length==0){
+                alert("暂无图片信息！！！");
+            }
+            for (var i=0;i<message.length;i++){
+                $(".d1")[i].style.display='block';
+            }
+        }
+
+
+        function month2(){
+            var message = [[${month2}]];
+            if(message.length==0){
+                alert("暂无图片信息！！！");
+            }
+            for (var i=0;i<message.length;i++){
+                $(".d2")[i].style.display='block';
+            }
+        }
+
+
+        function month3(){
+            var message = [[${month3}]];
+            if(message.length==0){
+                alert("暂无图片信息！！！");
+            }
+            for (var i=0;i<message.length;i++){
+                $(".d3")[i].style.display='block';
+            }
+        }
+
+
+        function month4(){
+            var message = [[${month4}]];
+            if(message.length==0){
+                alert("暂无图片信息！！！");
+            }
+            for (var i=0;i<message.length;i++){
+                $(".d4")[i].style.display='block';
+            }
+        }
+
+
+        function month5(){
+            var message = [[${month5}]];
+            if(message.length==0){
+                alert("暂无图片信息！！！");
+            }
+            for (var i=0;i<message.length;i++){
+                $(".d5")[i].style.display='block';
+            }
+        }
+
+
+
+        function month6(){
+            var message = [[${month6}]];
+            if(message.length==0){
+                alert("暂无图片信息！！！");
+            }
+            for (var i=0;i<message.length;i++){
+                $(".d6")[i].style.display='block';
+            }
+        }
+
+
+
+        function month7(){
+            var message = [[${month7}]];
+            if(message.length==0){
+                alert("暂无图片信息！！！");
+            }
+            for (var i=0;i<message.length;i++){
+                $(".d7")[i].style.display='block';
+            }
+        }
+
+        function month8(){
+            var message = [[${month8}]];
+            if(message.length==0){
+                alert("暂无图片信息！！！");
+            }
+            for (var i=0;i<message.length;i++){
+                $(".d8")[i].style.display='block';
+            }
+        }
+
+
+        function month9(){
+            var message = [[${month9}]];
+            if(message.length==0){
+                alert("暂无图片信息！！！");
+            }
+            for (var i=0;i<message.length;i++){
+                $(".d9")[i].style.display='block';
+            }
+        }
+
+        function month10(){
+            var message = [[${month10}]];
+            if(message.length==0){
+                alert("暂无图片信息！！！");
+            }
+            for (var i=0;i<message.length;i++){
+                $(".d10")[i].style.display='block';
+            }
+        }
+
+
+
+        function month11(){
+            var message = [[${month11}]];
+            if(message.length==0){
+                alert("暂无图片信息！！！");
+            }
+            for (var i=0;i<message.length;i++){
+                $(".d11")[i].style.display='block';
+            }
+        }
+
+        function month12(){
+         var message = [[${month12}]];
+            if(message.length==0 ){
+                alert("暂无图片信息！！！");
+            }
+
+            for (var i=0;i<message.length;i++){
+               $(".d12")[i].style.display='block';
+            }
+
+        }
+
+
+    </script>
+
+</head>
+
+<body class="container">
+<div class="row">
+    <div class="col-md-4" style="background-color:#F5F5F5">
+       <!-- <div>
+            <center>
+            <ul style="margin:0px;padding:0px;list-style:none;">
+                <li ><a href="#div1">1月份图片信息</a></li>
+                <li><a href="#div2">2月份图片信息</a></li>
+                <li><a href="#div3">3月份图  片信息</a></li>
+                <li><a href="#div4">4月份图片信息</a></li>
+                <li><a href="#div5">5月份图片信息</a></li>
+                <li><a href="#div6">6月份图片信息</a></li>
+                <li><a href="#div7">7月份图片信息</a></li>
+                <li><a href="#div8">8月份图片信息</a></li>
+                <li><a href="#div9">9月份图片信息</a></li>
+                <li><a href="#div10">10月份图片信息</a></li>
+                <li><a href="#div11">11月份图片信息</a></li>
+                <li><a href="#div12">12月份图片信息</a></li>
+
+
+
+
+            </ul>
+            </center>
+        </div>-->
+
+
+    </div>
+
+
+
+
+    <div class="col-xs-12 col-md-4">
+        <br>
+        <center><h5 th:text="${data1}+'年图片信息展示'"></h5></center>
+
+        <div>
+            <br>
+                <div id="div1"><center><h6>1月份图片信息</h6></center></div>
+            <img th:src="@{/images/1.jpg}" style="width: 100%;" th:onclick="'month2()'"title="点击查看更多图片" />
+                <div th:each="month1:${month1}">
+
+                     <img th:src="${month1}"  style="width: 100%;display: none" class="d1"/>
+
+                </div>
+                <br>
+                <div id="div2"><center><h6>2月份图片信息</h6></center></div>
+            <img th:src="@{/images/1.jpg}" style="width: 100%;" th:onclick="'month2()'"title="点击查看更多图片" />
+                <div th:each="month2:${month2}">
+                    <img th:src="${month2}" style="width: 50%;display: none" class="d2"/>
+                </div>
+
+
+                <br> <br>
+                <div id="div3"><center><h6>3月份图片信息</h6></center></div>
+            <img th:src="@{/images/1.jpg}" style="width: 100%;" th:onclick="'month3()'"title="点击查看更多图片" />
+                <div th:each="month3:${month3}">
+                     <img th:src="${month3}" style="width: 100%;display: none" class="d3"/>
+                </div>
+
+                <br><br>
+                <div id="div4"><center><h6>4月份图片信息</h6></center></div>
+            <img th:src="@{/images/1.jpg}" style="width: 100%;" th:onclick="'month4()'"title="点击查看更多图片" />
+                <div th:each="month4:${month4}">
+                    <img th:src="${month4}" style="width: 100%;display: none" class="d4"/>
+                </div>
+
+
+                <br><br>
+                <div id="div5"><center><h6>5月份图片信息</h6></center></div>
+            <img th:src="@{/images/1.jpg}" style="width: 100%;" th:onclick="'month5()'"title="点击查看更多图片" />
+                <div th:each="month5:${month5}">
+                    <img th:src="${month5}" style="width: 100%;display: none" class="d5"/>
+                </div>
+
+
+                <br><br>
+                <div id="div6"><center><h6>6月份图片信息</h6></center></div>
+            <img th:src="@{/images/1.jpg}" style="width: 100%;" th:onclick="'month6()'"title="点击查看更多图片" />
+                <div th:each="month6:${month6}">
+                   <img th:src="${month6}" style="width: 100%;display: none" class="d6"/>
+                </div>
+
+
+                <br><br>
+                <div id="div7"><center><h6>7月份图片信息</h6></center></div>
+            <img th:src="@{/images/1.jpg}" style="width: 100%;" th:onclick="'month7()'"title="点击查看更多图片" />
+                <div th:each="month7:${month7}">
+                   <img th:src="${month7}" style="width: 100%;display: none" class="d7"/>
+                </div>
+
+
+                <br><br>
+                <div id="div8"><center><h6>8月份图片信息</h6></center></div>
+            <img th:src="@{/images/1.jpg}" style="width: 100%;" th:onclick="'month8()'"title="点击查看更多图片" />
+                <div th:each="month8:${month8}">
+                   <img th:src="${month8}" style="width: 100%;display: none" class="d8"/>
+                </div>
+
+                <br><br>
+                <div id="div9"><center><h6>9月份图片信息</h6></center></div>
+            <img th:src="@{/images/1.jpg}" style="width: 100%;" th:onclick="'month9()'"title="点击查看更多图片" />
+                <div th:each="month9:${month9}">
+                    <img th:src="${month9}" style="width: 100%;display: none" class="d9"/>
+                </div>
+
+
+                <br><br>
+                <div id="div10"><center><h6>10月份图片信息</h6></center></div>
+            <img th:src="@{/images/1.jpg}" style="width: 100%;" th:onclick="'month10()'"title="点击查看更多图片" />
+                <div th:each="month10:${month10}">
+                     <img th:src="${month10}" style="width: 100%;display: none" class="d10"/>
+                </div>
+
+
+                <br><br>
+                <div id="div11"><center><h6>11月份图片信息</h6></center></div>
+            <img th:src="@{/images/1.jpg}" style="width: 100%;" th:onclick="'month11()'"title="点击查看更多图片" />
+                <div th:each="month11:${month11}">
+                    <img th:src="${month11}" style="width: 100%;display: none" class="d11"/>
+                </div>
+
+                <br><br>
+
+                <div id="div12"><center><h6>12月份图片信息</h6></center></div>
+
+
+            <img th:src="@{/images/1.jpg}" style="width: 100%;" th:onclick="'month12()'"title="点击查看更多图片" />
+                <div th:each="month12:${month12}">
+                   <img th:src="${month12}" style="width: 100%;display: none" class="d12"/>
+                </div>
+
+        </div>
+    </div>
+    <div class="col-md-4"style="background-color:#F5F5F5"></div>
+
+</div>
+</body>
+</html>

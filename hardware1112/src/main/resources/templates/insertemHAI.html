@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en"xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.css}"></link>
+    <script th:src="@{/js/jquery.js}"></script>
+
+    <script type="text/javascript">
+
+        /*  function company2(){
+              var company_name = $("#p").text().val();
+
+              alert(company_name);
+  alert("4156115");
+          $.ajax({
+              type: "post" ,
+              url: "/insert"+"?"+company_name,
+              data: {"company_name":company_name},
+              dataType: "json",
+              success : function (data){
+                  //城市下拉菜单id
+                  var p = $("#p");
+                  //清空菜单
+                  p.empty();
+                  //json格式的城市对象数组
+                  var citys = eval(data);
+                  p.append("<option value='0'>请选择</option>");
+                  $.each(citys,function(index , item){
+                      //城市名称与id
+                      var cname = citys[index].company_name;
+                      var cid = citys[index].ID;
+
+                      p.append("<option value='"+cid+"'>"+cname+"</option>");
+                  });
+              }
+
+          });
+
+          }
+
+  */
+        function company(){
+
+            $("#EQ_company_id").val($("#p").find("option:selected").val());
+            $("#p").change(function () {
+                $("#EQ_company_id").val($("#p").find("option:selected").val());
+            });
+
+            //alert("aaa");
+            //公司的id
+            var company_id = $("#p").val();
+            //proid.empty();
+            $.ajax({
+                type: "post" ,
+                url: "/queryCity.shtml"+"?"+company_id,
+                data: {"company_id":company_id},
+                dataType: "json",
+                success : function (data){
+                    //城市下拉菜单id
+                    var c = $("#c");
+                    //清空菜单
+                    c.empty();
+                    //json格式的城市对象数组
+                    var citys = eval(data);
+                    c.append("<option value='0'>请选择</option>");
+                    $.each(citys,function(index , item){
+                        //城市名称与id
+                        var cname = citys[index].place_title;
+                        var cid = citys[index].id;
+
+                        c.append("<option value='"+cid+"'>"+cname+"</option>");
+                    });
+                }
+
+            });
+
+            $("#EQ_place_id").val($("#c").find("option:selected").val());
+            $("#c").change(function () {
+                $("#EQ_place_id").val($("#c").find("option:selected").val());
+            });
+        }
+    </script>
+
+</head>
+<body>
+<center><h4>添加页面</h4></center>
+<div style="width:800px;height:100%;margin-left:270px;">
+    <form th:action="@{/inserts}" method="post">
+        <!--id：<input class="form-control" type="text"  name="KEYID"><br>-->
+        设备公司id:
+        <input class="form-control" id="EQ_company_id" name="EQ_company_id" style="width:400px;">
+
+        <select name="p" id="p" onchange="company()"class="form-control" style="width:300px;">
+            <option value="0">===请选择公司===</option>
+            <option th:each="car:${company_ifos}" th:value="${car.ID}" th:text="${car.company_name}"></option>
+        </select>
+
+        <br><br>
+        设备基地id：<input class="form-control" type="text"  name="EQ_place_id" id="EQ_place_id" style="width: 400px">
+
+        <select name="c" id="c"class="form-control"style="width:300px;">
+            <option value="0">===请选择基地===</option>
+        </select>
+
+
+
+        <br>
+
+        设备参数：
+        <input class="form-control" id="SB_CS_KEYID" name="SB_CS_KEYID" style="width:400px;">
+
+        <select name="sb" id="sb" onchange="company()"class="form-control" style="width:300px;">
+            <option value="0">===选择参数===</option>
+            <option th:each="qxpres:${qxpres}" th:value="${qxpres.KEYID}" th:text="${qxpres.NAME}"></option>
+        </select>
+
+        设备sn：<input class="form-control" type="text"  name="EQ_SN"style="width: 400px"><br>
+        设备名称：<input class="form-control" type="text"  name="EQ_NAME"style="width: 400px"><br>
+        设备地址：<input class="form-control" type="text"  name="EQ_ADDRESS"style="width: 400px"><br>
+        设备验证码：<input class="form-control" type="text"  name="SP_YZM"style="width: 400px"><br>
+        设备经度：<input class="form-control" type="text"  name="EQ_LONGITUDE"style="width: 400px"><br>
+        设备纬度：<input class="form-control" type="text"  name="EQ_LATITUDE"style="width: 400px"><br>
+        <br>
+        日期：<input class="form-control" type="date"  name="EQ_DATE"style="width: 400px"><br>
+
+        <button class="btn btn-primary btn-lg btn-block">保存</button>
+    </form>
+
+</div>
+
+</body>
+</html>

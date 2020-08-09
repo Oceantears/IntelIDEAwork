@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="author" content="featon inc.">
+    <link rel="stylesheet" href="../../ft.map/lib/openlayers/ol.css">
+    <link rel="stylesheet" href="../../ft.plugin/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../ft.plugin/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../ft.plugin/bootstrap-select/dist/css/bootstrap-select.css">
+    <link rel="stylesheet" href="../../ft.map/css/cicle-marker.7.css">
+    <link rel="stylesheet" href="../../ft.skin/ftskin.css">
+    <link rel="stylesheet" href="css/ft-ol.css">
+    <title>试验示范站+</title>
+    <style>
+        html {
+            -ms-content-zooming: none;
+        }
+
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        #site-list-box {
+            z-index: 1034;
+            width: 300px;
+            height: 700px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+
+        #site-list-ul {
+            padding: 6px;
+            overflow-y: auto;
+            height: 660px;
+        }
+
+        #site-list-ul li {
+            cursor: pointer;
+            padding: 8px;
+            font-size: 16px;
+            border-radius: 4px;
+        }
+
+        #site-list-ul li:hover {
+            background-color: #F6F6F6;
+            color: #5781FC;
+        }
+
+        #site-list-ul li.cur {
+            background-color: #6AC1FF;
+            color: #fff;
+        }
+
+        #site-list-ul li img {
+            width: 34px;
+        }
+    </style>
+    <link rel="stylesheet" href="http://ui2018.featon.com/sys/ft.plugin/layer/theme/default/layer.css?v=3.1.1"
+          id="layuicss-layer">
+</head>
+<body>
+<div id="map">
+    <div class="ol-viewport" data-view="3"
+         style="position: relative; overflow: hidden; width: 100%; height: 100%; touch-action: none;">
+        <canvas class="ol-unselectable" width="1139" height="545"
+                style="width: 100%; height: 100%; display: block;"></canvas>
+        <div class="ol-overlaycontainer"></div>
+        <div class="ol-overlaycontainer-stopevent">
+            <div class="ol-overlay-container ol-selectable" style="position: absolute; left: 531px; top: 230px;">
+                <div id="cicroMarkerBox_28" style="z-index: 900; position: absolute; ">
+                    <div class="marker_navbar marker_jidi" id="marker_029">
+                        <ul class="menu">
+                            <li><a href="#" class="" onclick="openSite_Info(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_VR(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ol-overlay-container ol-selectable" style="position: absolute; left: 531px; top: 229px;">
+                <div id="cicroMarkerBox_27" style="z-index: 900; position: absolute; ">
+                    <div class="marker_navbar marker_jidi" id="marker_028">
+                        <ul class="menu">
+                            <li><a href="#" class="" onclick="openSite_Info(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_VR(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ol-overlay-container ol-selectable" style="position: absolute; left: 532px; top: 229px;">
+                <div id="cicroMarkerBox_26" style="z-index: 900; position: absolute; ">
+                    <div class="marker_navbar marker_jidi" id="marker_027">
+                        <ul class="menu">
+                            <li><a href="#" class="" onclick="openSite_Info(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_VR(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ol-overlay-container ol-selectable" style="position: absolute; left: 533px; top: 230px;">
+                <div id="cicroMarkerBox_25" style="z-index: 900; position: absolute; ">
+                    <div class="marker_navbar marker_jidi" id="marker_026">
+                        <ul class="menu">
+                            <li><a href="#" class="" onclick="openSite_Info(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_VR(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ol-overlay-container ol-selectable" style="position: absolute; left: 505px; top: 213px;">
+                <div id="cicroMarkerBox_24" style="z-index: 900; position: absolute; ">
+                    <div class="marker_navbar marker_jidi" id="marker_025">
+                        <ul class="menu">
+                            <li><a href="#" class="" onclick="openSite_Info(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_VR(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ol-overlay-container ol-selectable" style="position: absolute; left: 504px; top: 212px;">
+                <div id="cicroMarkerBox_23" style="z-index: 900; position: absolute; ">
+                    <div class="marker_navbar marker_jidi" id="marker_024">
+                        <ul class="menu">
+                            <li><a href="#" class="" onclick="openSite_Info(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_VR(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ol-overlay-container ol-selectable" style="position: absolute; left: 506px; top: 215px;">
+                <div id="cicroMarkerBox_22" style="z-index: 900; position: absolute; ">
+                    <div class="marker_navbar marker_jidi" id="marker_023">
+                        <ul class="menu">
+                            <li><a href="#" class="" onclick="openSite_Info(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_VR(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ol-overlay-container ol-selectable" style="position: absolute; left: 563px; top: 189px;">
+                <div id="cicroMarkerBox_21" style="z-index: 900; position: absolute; ">
+                    <div class="marker_navbar marker_jidi" id="marker_022">
+                        <ul class="menu">
+                            <li><a href="#" class="" onclick="openSite_Info(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_VR(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ol-overlay-container ol-selectable" style="position: absolute; left: 566px; top: 203px;">
+                <div id="cicroMarkerBox_20" style="z-index: 900; position: absolute; ">
+                    <div class="marker_navbar marker_site" id="marker_021">
+                        <ul class="menu">
+                            <li><a href="#" class="" onclick="openSite_Info(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_VR(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ol-overlay-container ol-selectable" style="position: absolute; left: 578px; top: 149px;">
+                <div id="cicroMarkerBox_19" style="z-index: 900; position: absolute; ">
+                    <div class="marker_navbar marker_site" id="marker_020">
+                        <ul class="menu">
+                            <li><a href="#" class="" onclick="openSite_Info(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_VR(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ol-overlay-container ol-selectable" style="position: absolute; left: 540px; top: 260px;">
+                <div id="cicroMarkerBox_18" style="z-index: 900; position: absolute; ">
+                    <div class="marker_navbar marker_site" id="marker_019">
+                        <ul class="menu">
+                            <li><a href="#" class="" onclick="openSite_Info(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_VR(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ol-overlay-container ol-selectable" style="position: absolute; left: 499px; top: 238px;">
+                <div id="cicroMarkerBox_17" style="z-index: 900; position: absolute; ">
+                    <div class="marker_navbar marker_site" id="marker_018">
+                        <ul class="menu">
+                            <li><a href="#" class="" onclick="openSite_Info(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_VR(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ol-overlay-container ol-selectable" style="position: absolute; left: 401px; top: 168px;">
+                <div id="cicroMarkerBox_16" style="z-index: 900; position: absolute; ">
+                    <div class="marker_navbar marker_site" id="marker_017">
+                        <ul class="menu">
+                            <li><a href="#" class="" onclick="openSite_Info(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_VR(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ol-overlay-container ol-selectable" style="position: absolute; left: 528px; top: 181px;">
+                <div id="cicroMarkerBox_15" style="z-index: 900; position: absolute; ">
+                    <div class="marker_navbar marker_site" id="marker_016">
+                        <ul class="menu">
+                            <li><a href="#" class="" onclick="openSite_Info(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_VR(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ol-overlay-container ol-selectable" style="position: absolute; left: 574px; top: 250px;">
+                <div id="cicroMarkerBox_14" style="z-index: 900; position: absolute; ">
+                    <div class="marker_navbar marker_site" id="marker_015">
+                        <ul class="menu">
+                            <li><a href="#" class="" onclick="openSite_Info(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_VR(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ol-overlay-container ol-selectable" style="position: absolute; left: 549px; top: 213px;">
+                <div id="cicroMarkerBox_13" style="z-index: 900; position: absolute; ">
+                    <div class="marker_navbar marker_site" id="marker_014">
+                        <ul class="menu">
+                            <li><a href="#" class="" onclick="openSite_Info(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_VR(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ol-overlay-container ol-selectable" style="position: absolute; left: 522px; top: 265px;">
+                <div id="cicroMarkerBox_12" style="z-index: 900; position: absolute; ">
+                    <div class="marker_navbar marker_site" id="marker_013">
+                        <ul class="menu">
+                            <li><a href="#" class="" onclick="openSite_Info(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_VR(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ol-overlay-container ol-selectable" style="position: absolute; left: 560px; top: 219px;">
+                <div id="cicroMarkerBox_11" style="z-index: 900; position: absolute; ">
+                    <div class="marker_navbar marker_site" id="marker_012">
+                        <ul class="menu">
+                            <li><a href="#" class="" onclick="openSite_Info(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_VR(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ol-overlay-container ol-selectable" style="position: absolute; left: 561px; top: 218px;">
+                <div id="cicroMarkerBox_10" style="z-index: 900; position: absolute; ">
+                    <div class="marker_navbar marker_site" id="marker_011">
+                        <ul class="menu">
+                            <li><a href="#" class="" onclick="openSite_Info(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_VR(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ol-overlay-container ol-selectable" style="position: absolute; left: 530px; top: 229px;">
+                <div id="cicroMarkerBox_9" style="z-index: 900; position: absolute; ">
+                    <div class="marker_navbar marker_site" id="marker_010">
+                        <ul class="menu">
+                            <li><a href="#" class="" onclick="openSite_Info(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_VR(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ol-overlay-container ol-selectable" style="position: absolute; left: 571px; top: 113px;">
+                <div id="cicroMarkerBox_8" style="z-index: 900; position: absolute; ">
+                    <div class="marker_navbar marker_site" id="marker_009">
+                        <ul class="menu">
+                            <li><a href="#" class="" onclick="openSite_Info(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_VR(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ol-overlay-container ol-selectable" style="position: absolute; left: 554px; top: 252px;">
+                <div id="cicroMarkerBox_7" style="z-index: 900; position: absolute; ">
+                    <div class="marker_navbar marker_site" id="marker_008">
+                        <ul class="menu">
+                            <li><a href="#" class="" onclick="openSite_Info(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_VR(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ol-overlay-container ol-selectable" style="position: absolute; left: 635px; top: 265px;">
+                <div id="cicroMarkerBox_6" style="z-index: 900; position: absolute; ">
+                    <div class="marker_navbar marker_site" id="marker_007">
+                        <ul class="menu">
+                            <li><a href="#" class="" onclick="openSite_Info(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_VR(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ol-overlay-container ol-selectable" style="position: absolute; left: 510px; top: 219px;">
+                <div id="cicroMarkerBox_5" style="z-index: 900; position: absolute; ">
+                    <div class="marker_navbar marker_site" id="marker_006">
+                        <ul class="menu">
+                            <li><a href="#" class="" onclick="openSite_Info(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_VR(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ol-overlay-container ol-selectable" style="position: absolute; left: 530px; top: 234px;">
+                <div id="cicroMarkerBox_4" style="z-index: 900; position: absolute; ">
+                    <div class="marker_navbar marker_site" id="marker_005">
+                        <ul class="menu">
+                            <li><a href="#" class="" onclick="openSite_Info(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_VR(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ol-overlay-container ol-selectable" style="position: absolute; left: 562px; top: 188px;">
+                <div id="cicroMarkerBox_3" style="z-index: 900; position: absolute; ">
+                    <div class="marker_navbar marker_site" id="marker_004">
+                        <ul class="menu">
+                            <li><a href="#" class="" onclick="openSite_Info(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_VR(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ol-overlay-container ol-selectable" style="position: absolute; left: 552px; top: 220px;">
+                <div id="cicroMarkerBox_2" style="z-index: 900; position: absolute; ">
+                    <div class="marker_navbar marker_site" id="marker_003">
+                        <ul class="menu">
+                            <li><a href="#" class="" onclick="openSite_Info(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_VR(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ol-overlay-container ol-selectable" style="position: absolute; left: 578px; top: 203px;">
+                <div id="cicroMarkerBox_1" style="z-index: 900; position: absolute; ">
+                    <div class="marker_navbar marker_site" id="marker_002">
+                        <ul class="menu">
+                            <li><a href="#" class="" onclick="openSite_Info(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_VR(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ol-overlay-container ol-selectable" style="position: absolute; left: 558px; top: 216px;">
+                <div id="cicroMarkerBox_0" style="z-index: 900; position: absolute; ">
+                    <div class="marker_navbar marker_site" id="marker_001">
+                        <ul class="menu">
+                            <li><a href="#" class="" onclick="openSite_Info(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_VR(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                            <li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ol-rotate ol-unselectable ol-control ol-hidden">
+                <button class="ol-rotate-reset" type="button" title="Reset rotation"><span class="ol-compass"
+                                                                                           style="transform: rotate(0rad);">⇧</span>
+                </button>
+            </div>
+            <div class="ol-scale-line ol-unselectable">
+                <div class="ol-scale-line-inner" style="width: 124px;">500 km</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="toolsbox" class="map-tools-r"
+     style="top: 8px; right: 80px; width: auto; background-color: transparent; border:none;">
+    <div class="btn-group" role="group" aria-label="...">
+        <button id="getmapmaker" type="button" class="btn btn-info" title="拾取"><span
+                class="glyphicon glyphicon-map-marker"></span><span> 拾取</span></button>
+        <button id="move" onclick="move()" type="button" class="btn btn-info" title="平移"><span
+                class="glyphicon glyphicon-move"></span><span> 平移</span></button>
+        <button id="distance" onclick="measure(this)" type="button" class="btn btn-info" title="测距"><span
+                class="glyphicon glyphicon-resize-horizontal"></span><span> 测距</span></button>
+        <button id="area" onclick="measure(this)" type="button" class="btn btn-info" title="测面"><span
+                class="glyphicon glyphicon-unchecked"></span><span> 测面</span></button>
+        <button id="mapclear" onclick="mapclear()" type="button" class="btn btn-info" title="清除"><span
+                class="glyphicon glyphicon-trash"></span><span> 清除</span></button>
+        <button id="reduction" onclick="reduction()" type="button" class="btn btn-info" title="平移"><span
+                class="glyphicon glyphicon-refresh"></span><span> 还原</span></button>
+    </div>
+
+    <div>
+        <select id="selectLayer" class="selectpicker show-tick form-control bs-select-hidden" data-actions-box="true">
+            <option selected="selected" value="img_w">卫星影像</option>
+            <option value="vec_w">图路网</option>
+        </select>
+        <div class="btn-group bootstrap-select show-tick form-control">
+            <button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" data-id="selectLayer"
+                    title="卫星影像" aria-expanded="false"><span class="filter-option pull-left">卫星影像</span>&nbsp;<span
+                    class="caret"></span></button>
+            <div class="dropdown-menu open" style="max-height: 451px; overflow: hidden; min-height: 0px;">
+                <ul class="dropdown-menu inner" role="menu"
+                    style="max-height: 439px; overflow-y: auto; min-height: 0px;">
+                    <li data-original-index="0" class="selected"><a tabindex="0" class="" style=""
+                                                                    data-tokens="null"><span
+                            class="text">卫星影像</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+                    <li data-original-index="1"><a tabindex="0" class="" style="" data-tokens="null"><span class="text">图路网</span><span
+                            class="glyphicon glyphicon-ok check-mark"></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="site-list-box" style="border-radius: 3px;">
+    <!-- <div>
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="" >
+            <span class="input-group-btn ft-input-group-btn">
+                 <button class="btn btn-info" type="button"><span class="fa fa-search" aria-hidden="true"></span> 查询</button>
+            </span>
+        </div>
+    </div> -->
+    <div style="text-align: center; font-size: 18px; line-height: 200%; background-color: #F8F8F8;">
+        试验示范站+
+    </div>
+    <ul id="site-list-ul">
+        <!-- <li id="123">
+            <img src="../../ft.map/images/marker2/dtico001.png">
+            卫星影像示范站
+        </li>
+        <li id="123">
+            <img src="../../ft.map/images/marker2/dtico001.png">
+            卫星影像示范站
+        </li>
+        <li id="123">
+            <img src="../../ft.map/images/marker2/dtico001.png">
+            卫星影像示范站
+        </li> -->
+        <li id="site_001" onclick="dingMarker('001')"><img src="../../ft.map/images/marker2/dtico001.png"> 富平现代农业综合试验示范站
+        </li>
+        <li id="site_002" onclick="dingMarker('002')"><img src="../../ft.map/images/marker2/dtico001.png"> 合阳葡萄试验示范站
+        </li>
+        <li id="site_003" onclick="dingMarker('003')"><img src="../../ft.map/images/marker2/dtico001.png"> 三原斗口小麦试验站
+        </li>
+        <li id="site_004" onclick="dingMarker('004')"><img src="../../ft.map/images/marker2/dtico001.png"> 延安市洛川苹果试验示范站
+        </li>
+        <li id="site_005" onclick="dingMarker('005')"><img src="../../ft.map/images/marker2/dtico001.png"> 眉县猕猴桃试验示范站
+        </li>
+        <li id="site_006" onclick="dingMarker('006')"><img src="../../ft.map/images/marker2/dtico001.png"> 千阳苹果试验示范站
+        </li>
+        <li id="site_007" onclick="dingMarker('007')"><img src="../../ft.map/images/marker2/dtico001.png"> 南阳小麦试验示范站
+        </li>
+        <li id="site_008" onclick="dingMarker('008')"><img src="../../ft.map/images/marker2/dtico001.png"> 镇安板栗试验示范站
+        </li>
+        <li id="site_009" onclick="dingMarker('009')"><img src="../../ft.map/images/marker2/dtico001.png"> 榆林玉米试验示范站
+        </li>
+        <li id="site_010" onclick="dingMarker('010')"><img src="../../ft.map/images/marker2/dtico001.png"> 杨凌综合试验示范站
+        </li>
+        <li id="site_011" onclick="dingMarker('011')"><img src="../../ft.map/images/marker2/dtico001.png"> 阎良甜瓜试验示范站
+        </li>
+        <li id="site_012" onclick="dingMarker('012')"><img src="../../ft.map/images/marker2/dtico001.png"> 阎良蔬菜试验示范站
+        </li>
+        <li id="site_013" onclick="dingMarker('013')"><img src="../../ft.map/images/marker2/dtico001.png"> 西乡茶叶试验示范站
+        </li>
+        <li id="site_014" onclick="dingMarker('014')"><img src="../../ft.map/images/marker2/dtico001.png"> 铜川果树试验示范站
+        </li>
+        <li id="site_015" onclick="dingMarker('015')"><img src="../../ft.map/images/marker2/dtico001.png"> 山阳核桃试验示范站
+        </li>
+        <li id="site_016" onclick="dingMarker('016')"><img src="../../ft.map/images/marker2/dtico001.png"> 庆城苹果试验示范站
+        </li>
+        <li id="site_017" onclick="dingMarker('017')"><img src="../../ft.map/images/marker2/dtico001.png">
+            青海乐都现代设施农业试验示范站
+        </li>
+        <li id="site_018" onclick="dingMarker('018')"><img src="../../ft.map/images/marker2/dtico001.png"> 凤县花椒试验示范站
+        </li>
+        <li id="site_019" onclick="dingMarker('019')"><img src="../../ft.map/images/marker2/dtico001.png"> 安康水产试验示范站
+        </li>
+        <li id="site_020" onclick="dingMarker('020')"><img src="../../ft.map/images/marker2/dtico001.png"> 清涧红枣试验示范站
+        </li>
+        <li id="site_021" onclick="dingMarker('021')"><img src="../../ft.map/images/marker2/dtico001.png"> 白水苹果试验示范站
+        </li>
+        <li id="site_022" onclick="dingMarker('022')"><img src="../../ft.map/images/marker2/dtico002.png"> 洛川养猪试验示范站（基地）
+        </li>
+        <li id="site_023" onclick="dingMarker('023')"><img src="../../ft.map/images/marker2/dtico002.png"> 陇县奶山羊试验示范基地
+        </li>
+        <li id="site_024" onclick="dingMarker('024')"><img src="../../ft.map/images/marker2/dtico002.png"> 宝鸡陇县核桃试验示范基地
+        </li>
+        <li id="site_025" onclick="dingMarker('025')"><img src="../../ft.map/images/marker2/dtico002.png"> 陇县奶牛试验示范基地
+        </li>
+        <li id="site_026" onclick="dingMarker('026')"><img src="../../ft.map/images/marker2/dtico002.png">
+            西北农林科技大学南庄高效设施农业示范园
+        </li>
+        <li id="site_027" onclick="dingMarker('027')"><img src="../../ft.map/images/marker2/dtico002.png">
+            西北农林科技大学高效畜牧养殖科技示范园
+        </li>
+        <li id="site_028" onclick="dingMarker('028')"><img src="../../ft.map/images/marker2/dtico002.png">
+            西北农林科技大学杨凌王上村草莓科技示范园
+        </li>
+        <li id="site_029" onclick="dingMarker('029')"><img src="../../ft.map/images/marker2/dtico002.png">
+            西北农林科技大学五星高效设施农业示范园
+        </li>
+    </ul>
+</div>
+
+
+<div id="lonlatText"
+     style="display: none; position: absolute; bottom: 0; right: 0; background-color: #FFFFFF; color: 000; line-height: 180%; padding: 3px 20px;"></div>
+
+<div id="overLayBox">
+
+</div>
+<!-- <div id="cicroMarkerBox" style="z-index: 999; position: absolute; ">
+	<div class="marker_navbar">
+		<ul class="menu">
+				<li><a href="#" class=""></a></li>
+				<li><a href="#" class="" onclick="openSiteInfo(23)"></a></li>
+				<li><a href="#" class=""></a></li>
+				<li><a href="#" class=""></a></li>
+				<li><a href="#" class=""></a></li>
+		</ul>
+	</div>
+</div> -->
+
+
+<div id="popup" class="ol-popup" style="display: none;">
+    <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+    <div id="popup-content"></div>
+</div>
+
+
+<script src="../../ft.plugin/jquery/jquery-3.3.1.min.js"></script>
+<script src="../../ft.plugin/bootstrap/js/bootstrap.min.js"></script>
+<script src="../../ft.plugin/bootstrap-select/dist/js/bootstrap-select.js"></script>
+<script src="../../ft.plugin/layer/layer.js"></script>
+<script src="../../ft.map/lib/openlayers/ol.js"></script>
+<script src="js/ft-ol-tianditu.js"></script>
+<script src="js/ft-ol-measure.js"></script>
+<script src="js/demo-sites.js"></script>
+<script>
+    jQuery(function ($) {
+        $('.selectpicker').selectpicker();
+
+        $("#selectLayer").on('changed.bs.select', function (e) {
+            var layerKey = $('#selectLayer').val();
+            console.log("Layer==" + layerKey);
+            switchLayer(layerKey);
+        });
+
+        $(".marker_navbar").on("click", function (event) {
+            if (!(("LI,A").indexOf($(event.target)[0].tagName.toUpperCase()) > -1)) {
+                if ($(this).hasClass("cur")) {
+                    $(this).removeClass("cur");
+                    return;
+                }
+                $(".marker_navbar").removeClass("cur").parent().css("z-index", "900");
+                $(this).addClass("cur");
+                $(this).parent().css("z-index", "901");
+            }
+        });
+
+    });
+
+    //基本信息
+    function openSite_Info(siteID) {
+        layer.open({
+            type: 2,
+            skin: 'layui-layer-rim',
+            title: false,
+            area: ['960px', '600px'],
+            shade: 0.6,
+            closeBtn: 1,
+            shadeClose: false,
+            content: 'siteinfo/site-info.html?sid=' + siteID
+        });
+    }
+
+    //图说
+    function openSite_TuShuo(siteID) {
+        layer.open({
+            type: 2,
+            skin: 'layui-layer-rim',
+            title: false,
+            area: ['960px', '600px'],
+            shade: 0.6,
+            closeBtn: 1,
+            shadeClose: false,
+            content: 'siteinfo/site-img.html?sid=' + siteID
+        });
+    }
+
+    //专家团队
+    function openSite_ZhuanJia(siteID) {
+        layer.open({
+            type: 2,
+            skin: 'layui-layer-rim',
+            title: false,
+            area: ['960px', '600px'],
+            shade: 0.6,
+            closeBtn: 1,
+            shadeClose: false,
+            content: 'siteinfo/site-zhuanjia.html?sid=' + siteID
+        });
+    }
+
+    //360全景
+    function openSite_VR(siteID) {
+        layer.open({
+            type: 2,
+            skin: 'layui-layer-rim',
+            title: false,
+            area: ['960px', '600px'],
+            shade: 0.6,
+            closeBtn: 1,
+            shadeClose: false,
+            content: 'https://card.weixin96114.com/vr/vr20190621/index.html?sid=' + siteID
+        });
+    }
+
+    //视频直播
+    function openSite_Vod(siteID) {
+        layer.open({
+            type: 2,
+            skin: 'layui-layer-rim',
+            title: false,
+            area: ['960px', '600px'],
+            shade: 0.6,
+            closeBtn: 1,
+            shadeClose: false,
+            content: 'siteinfo/site-vod.html?sid=' + siteID
+        });
+    }
+
+
+    //新技术新成果发布
+    function openSite_ChengGuo(siteID) {
+        layer.open({
+            type: 2,
+            skin: 'layui-layer-rim',
+            title: false,
+            area: ['960px', '600px'],
+            shade: 0.6,
+            closeBtn: 1,
+            shadeClose: false,
+            content: 'siteinfo/site-chengguo.html?sid=' + siteID
+        });
+    }
+
+
+    function dingMarker(siteid) {
+        $("#site-list-ul li").removeClass("cur");
+        $("#site_" + siteid).addClass("cur");
+        $(".marker_navbar").removeClass("cur").parent().css("z-index", "900");
+        for (var i = 0; i < sitesObj.sites.length; i++) {
+            if (sitesObj.sites[i].id == siteid) {
+                flyTo(gpsTransForm(sitesObj.sites[i].lonlat), function () {
+                    $("#marker_" + siteid).addClass("cur");
+                    $("#marker_" + siteid).parent().css("z-index", "901");
+                });
+                return;
+            }
+        }
+    }
+
+
+    var overlays = [];
+    for (var i = 0; i < sitesObj.sites.length; i++) {
+        var overlayHtml = '';
+        var sitelist = '';
+        var siteid = sitesObj.sites[i].id + "";
+
+        overlayHtml += '<div id="cicroMarkerBox_' + i + '" style="z-index: 900; position: absolute; ">';
+        sitelist += '		<li id="site_' + siteid + '" onclick="dingMarker(\'' + siteid + '\')">';
+        console.log("===" + sitesObj.sites[i].type);
+
+        if (sitesObj.sites[i].type == "1") {
+            overlayHtml += '	<div class="marker_navbar marker_site" id="marker_' + siteid + '">';
+            sitelist += '			<img src="../../ft.map/images/marker2/dtico001.png">';
+        } else {
+            overlayHtml += '	<div class="marker_navbar marker_jidi" id="marker_' + siteid + '">';
+            sitelist += '			<img src="../../ft.map/images/marker2/dtico002.png">';
+        }
+        overlayHtml += '		<ul class="menu">';
+        overlayHtml += '				<li><a href="#" class="" onclick="openSite_Info(23)"></a></li>';  //基本信息
+        overlayHtml += '				<li><a href="#" class="" onclick="openSite_TuShuo(23)"></a></li>';   //图说试验站
+        overlayHtml += '				<li><a href="#" class="" onclick="openSite_ZhuanJia(23)"></a></li>';   //专家团队
+        overlayHtml += '				<li><a href="#" class="" onclick="openSite_VR(23)"></a></li>';   //360全景
+        overlayHtml += '				<li><a href="#" class="" onclick="openSite_Vod(23)"></a></li>';   //视频直播
+        overlayHtml += '				<li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>';   //生命周期
+        overlayHtml += '				<li><a href="#" class="" onclick="openSite_ChengGuo(23)"></a></li>';   //新技术新成果发布
+        overlayHtml += '		</ul>';
+        overlayHtml += '	</div>	';
+        overlayHtml += '</div>';
+        sitelist += '			' + sitesObj.sites[i].name + '';
+        sitelist += '		</li>';
+        $("#overLayBox").after(overlayHtml);
+        $("#site-list-ul").append(sitelist);
+
+        var cicleMarkerContainer = document.getElementById('cicroMarkerBox_' + i);
+        var cicleMarkerBox = new ol.Overlay({
+            offset: [-20, -40],
+            element: cicleMarkerContainer,
+            autoPan: true,
+            autoPanAnimation: {
+                duration: 250
+            }
+        });
+        cicleMarkerBox.setPosition(gpsTransForm(sitesObj.sites[i].lonlat));
+        overlays.push(cicleMarkerBox);
+        map.addOverlay(cicleMarkerBox);
+    }
+
+    map.on('click', function (evt) {
+        //var pixel = map.getEventPixel(evt.originalEvent);
+        //console.log("pixel==="+pixel);
+        var feature = map.forEachFeatureAtPixel(evt.pixel,
+            function (feature) {
+                return feature;
+            });
+        var fType = null;
+        try {
+            fType = feature.get('type');
+        } catch (e) {
+            return;
+        }
+        console.log("fType==" + fType);
+        if (feature && fType == "icon") {
+            var coordinates = feature.getGeometry().getCoordinates();
+            console.log("coordinates===" + coordinates);
+            let iconName = feature.get('name');
+            console.log("====" + iconName);
+            cicleMarkerBox.setPosition(coordinates);
+            //content.innerHTML = '<p>You clicked here:</p>'
+            //popup.setPosition(center);
+        }
+    });
+
+    map.on('pointermove', function (e) {
+        var pixel = map.getEventPixel(e.originalEvent);
+        var hit = map.hasFeatureAtPixel(pixel);
+        map.getTargetElement().style.cursor = hit ? 'pointer' : '';
+    });
+
+</script>
+
+</body>
+</html>

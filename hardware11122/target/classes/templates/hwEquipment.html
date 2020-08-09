@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>实时环境数据</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.css}"></link>
+
+    <style type="text/css">
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: "微软雅黑";
+            font-size: 14px;
+        }
+
+        ul, li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .box {
+            width: 100%;
+            height: 280px;
+            margin: 0 auto;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .title {
+            width: 100%;
+            height: 40px;
+            line-height: 40px;
+            color: white;
+            background: green;
+            font-size: 16px;
+
+        }
+
+        .box-1 ul {
+        }
+
+        .box-1 ul li {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .box-1 ul li img {
+            display: block;
+        }
+
+        .box-1 ul li h2 {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            background: rgba(125, 125, 120, .4);
+            text-indent: 2em;
+            padding-right: 500px;
+            font-size: 15px;
+            line-height: 40px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            font-weight: normal;
+            color: ghostwhite
+        }
+
+        .box-2 {
+            position: absolute;
+            right: 10px;
+            bottom: 14px;
+        }
+
+        .box-2 ul li {
+            float: left;
+            width: 12px;
+            height: 12px;
+            overflow: hidden;
+            margin: 0 5px;
+            border-radius: 50%;
+            background: rgba(0, 0, 0, 0.5);
+            text-indent: 100px;
+            cursor: pointer;
+        }
+
+        .box-2 ul .on {
+            background: rgba(255, 255, 255, 0.6);
+        }
+
+        .box-3 span {
+            position: absolute;
+            color: white;
+            background: rgba(125, 125, 120, .3);
+            width: 50px;
+            height: 80px;
+            top: 50%;
+            font-family: "宋体";
+            line-height: 80px;
+            font-size: 60px;
+            margin-top: -40px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .box-3 .prev {
+            left: 10px;
+        }
+
+        .box-3 .next {
+            right: 10px;
+        }
+
+        .box-3 span::selection {
+            background: transparent;
+        }
+
+        .box-3 span:hover {
+            background: rgba(125, 125, 120, .8);
+        }
+    </style>
+
+
+    <script>
+
+        function on1() {
+
+            //注册新增按钮的事件
+
+            alert("885");
+
+            $('#myModal').modal();
+
+
+        }
+    </script>
+    <script th:src="@{/js/jquery.js}"></script>
+    <script th:src="@{/js/bootstrap.js}"></script>
+    <script th:src="@{/js/echarts.min.js}"></script>
+</head>
+<body class="container" style="width: 100%">
+<div class="row">
+    <div class="col-md-4 "></div>
+    <div class="col-md-4 col-xs-12">
+        <div>
+            <center class="title"><span>产地环境数据</span></center>
+            <!-- <div class="box">
+                 <div class="box-1">
+                     <ul>
+                         <li>
+                             <img style="width: 100%;height:280px;" th:src=" ${picpath}"/>
+                         </li>
+                         <li>
+                             <img style="width: 100%;height:280px;" th:src=" ${picpath}"/>
+                         </li>
+                         <li>
+                             <img style="width: 100%;height:280px;" th:src=" ${picpath}"/>
+                         </li>
+                     </ul>
+                 </div>
+                 <div class="box-2">
+                     <ul>
+
+                     </ul>
+                 </div>
+                 <div class="box-3">
+                     <span class="prev"> < </span>
+                     <span class="next"> > </span>
+                 </div>
+             </div>-->
+            <div><img style="width: 100%;height:260px;" th:src=" ${picpath}"/></div>
+            <div style="width: 100%">
+                <p th:text="${place.place_content}"></p>
+            </div>
+        </div>
+        <div>
+            </center>
+            <table class="table table-hover">
+                <tr>
+                    <th colspan="3">
+                        <center><h4>环境数据</h4></center>
+                    </th>
+                </tr>
+                <tr>
+                    <th style="text-align: center" onclick="on1()">大气压力</th>
+                    <th style="text-align: center">大气湿度</th>
+                </tr>
+                <tr>
+                    <td th:text=" ${yali}" style="text-align: center"></td>
+                    <td th:text=" ${shidu}" style="text-align: center"></td>
+                </tr>
+                <tr>
+                    <th style="text-align: center">光照强度</th>
+                    <th style="text-align: center">空气PM2.5</th>
+                </tr>
+                <tr>
+                    <td th:text=" ${guangzhao}" style="text-align: center"></td>
+                    <td th:text=" ${pm}" style="text-align: center"></td>
+                </tr>
+                <tr>
+                    <th style="text-align: center">降雨量</th>
+                    <th style="text-align: center">土壤PH</th>
+                </tr>
+                <td th:text=" ${yuliang}" style="text-align: center"></td>
+                <td th:text=" ${turang}" style="text-align: center"></td>
+                <tr>
+                    <th style="text-align: center">温度</th>
+                    <th style="text-align: center">风向</th>
+                </tr>
+                <tr>
+                    <td th:text=" ${wendu}" style="text-align: center"></td>
+                    <td th:text=" ${fengxiang}" style="text-align: center"></td>
+                </tr>
+                <tr>
+                    <th style="text-align: center">风速</th>
+                    <th style="text-align: center">海拔</th>
+                </tr>
+                <tr>
+                    <td th:text=" ${fengsu}" style="text-align: center"></td>
+                    <td th:text=" ${haiba}" style="text-align: center"></td>
+                </tr>
+                <tr>
+                    <th style="text-align: center">图片</th>
+                    <th style="text-align: center">视频</th>
+                </tr>
+                <tr>
+                    <td style="text-align: center"><a class="btn btn-info btn-xs"
+                                                      th:href="@{/test4(EQ_SN=${hw_equipment.EQ_SN})}">查看</a></td>
+                    <td style="text-align: center"><a class="btn btn-info btn-xs"
+                                                      th:href="@{/zhibo(EQ_SN=${hw_equipment.EQ_SN})}">查看</a></td>
+                </tr>
+            </table>
+            <div>
+                <center><h4>设备地址</h4></center>
+                <!--百度地图容器-->
+                <div style="padding-bottom: 5px">
+                    <input type="hidden" id="lng" th:value="${jingdu}">
+                    <input type="hidden" id="lat" th:value="${weidu}">
+                    <div id="mapMain" style="width: 100%;height: 289px;"></div>
+                </div>
+                <div>
+                    设备地址： <img th:src="@{/images/2019-11-27T01-00-17.476Z.png}">
+                    <span th:text=" ${hw_equipment.EQ_ADDRESS}"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4"></div>
+</div>
+</body>
+
+<script type="text/javascript">
+    window.onload = function () {
+        function $(param) {
+            if (arguments[1] == true) {
+                return document.querySelectorAll(param);
+            } else {
+                return document.querySelector(param);
+            }
+        }
+
+        var $box = $(".box");
+        var $box1 = $(".box-1 ul li", true);
+        var $box2 = $(".box-2 ul");
+        var $box3 = $(".box-3");
+        var $length = $box1.length;
+
+        var str = "";
+        for (var i = 0; i < $length; i++) {
+            if (i == 0) {
+                str += "<li class='on'>" + (i + 1) + "</li>";
+            } else {
+                str += "<li>" + (i + 1) + "</li>";
+            }
+        }
+        $box2.innerHTML = str;
+
+        var current = 0;
+
+        var timer;
+        timer = setInterval(go, 2000);
+
+        function go() {
+            for (var j = 0; j < $length; j++) {
+                $box1[j].style.display = "none";
+                $box2.children[j].className = "";
+            }
+            if ($length == current) {
+                current = 0;
+            }
+            $box1[current].style.display = "block";
+            $box2.children[current].className = "on";
+            current++;
+        }
+
+        for (var k = 0; k < $length; k++) {
+            $box1[k].onmouseover = function () {
+                clearInterval(timer);
+            }
+            $box1[k].onmouseout = function () {
+                timer = setInterval(go, 1000);
+            }
+        }
+        for (var p = 0; p < $box3.children.length; p++) {
+            $box3.children[p].onmouseover = function () {
+                clearInterval(timer);
+            };
+            $box3.children[p].onmouseout = function () {
+                timer = setInterval(go, 1000);
+            }
+        }
+
+        for (var u = 0; u < $length; u++) {
+            $box2.children[u].index = u;
+            $box2.children[u].onmouseover = function () {
+                clearInterval(timer);
+                for (var j = 0; j < $length; j++) {
+                    $box1[j].style.display = "none";
+                    $box2.children[j].className = "";
+                }
+                this.className = "on";
+                $box1[this.index].style.display = "block";
+                current = this.index + 1;
+            }
+            $box2.children[u].onmouseout = function () {
+                timer = setInterval(go, 2000);
+            }
+        }
+
+        $box3.children[0].onclick = function () {
+            back();
+        }
+        $box3.children[1].onclick = function () {
+            go();
+        }
+
+        function back() {
+            for (var j = 0; j < $length; j++) {
+                $box1[j].style.display = "none";
+                $box2.children[j].className = "";
+            }
+            if (current == 0) {
+                current = $length;
+            }
+            $box1[current - 1].style.display = "block";
+            $box2.children[current - 1].className = "on";
+            current--;
+        }
+    }
+</script>
+
+<script type="text/javascript">
+
+    $(function () {
+        loadJScript();
+
+    });
+
+    //百度地图API功能
+    var loadJScript = function () {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = "http://api.map.baidu.com/api?v=2.0&ak=GPfA7ht0jdUUtGRmuSUiD4YxZH7UxKL0&callback=init";
+        document.body.appendChild(script);
+    };
+    var init = function () {
+        // 百度地图API功能
+        var map = new BMap.Map("mapMain");
+        var lng = $('#lng').val();
+        var lat = $('#lat').val();
+        map.centerAndZoom(new BMap.Point(lng, lat), 12); // 初始化地图,设置中心点坐标和地图级别
+        map.enableScrollWheelZoom(true); // 开启鼠标滚轮缩放
+        var marker = '';
+        var label = '';
+        var point = new BMap.Point(lng, lat);
+        marker = new BMap.Marker(point); // 创建标注
+        map.addOverlay(marker); // 将标注添加到地图中
+        marker.setAnimation(BMAP_ANIMATION_BOUNCE); // 跳动的动画
+
+    };
+</script>
+
+</html>

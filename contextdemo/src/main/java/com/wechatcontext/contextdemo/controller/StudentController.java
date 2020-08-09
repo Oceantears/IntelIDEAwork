@@ -38,4 +38,9 @@ public class StudentController {
 	){
 		return studentService.findAllStudents(stu,pageNum,pageSize);
 	}
+
+	@RequestMapping("/hello")
+	public String hello(){
+		return "hello";
+	}
 }

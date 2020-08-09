@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
+<head>
+    <meta charset="UTF-8">
+    <title>添加设备</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.css}"></link>
+    <script th:src="@{/js/jquery.js}"></script>
+
+    <script type="text/javascript">
+        function company() {
+
+            $("#EQ_company_id").val($("#p").find("option:selected").val());
+            $("#p").change(function () {
+                $("#EQ_company_id").val($("#p").find("option:selected").val());
+            });
+
+            //alert("aaa");
+            //公司的id
+            var company_id = $("#p").val();
+            //proid.empty();
+            $.ajax({
+                type: "post",
+                url: "/queryCity.shtml" + "?" + company_id,
+                data: {"company_id": company_id},
+                dataType: "json",
+                success: function (data) {
+                    //城市下拉菜单id
+                    var c = $("#c");
+                    //清空菜单
+                    c.empty();
+                    //json格式的城市对象数组
+                    var citys = eval(data);
+                    c.append("<option value='0'>请选择</option>");
+                    $.each(citys, function (index, item) {
+                        //城市名称与id
+                        var cname = citys[index].place_title;
+                        var cid = citys[index].id;
+
+                        c.append("<option value='" + cid + "'>" + cname + "</option>");
+                    });
+                }
+            });
+
+            $("#EQ_place_id").val($("#c").find("option:selected").val());
+            $("#c").change(function () {
+                $("#EQ_place_id").val($("#c").find("option:selected").val());
+            });
+        }
+
+        function company2() {
+
+            $("#SB_CHANGJIA").val($("#cs").find("option:selected").val());
+            $("#cs").change(function () {
+                $("#SB_CHANGJIA").val($("#cs").find("option:selected").val());
+            });
+            var changjia_id = $("#cs").val();
+            $.ajax({
+                type: "post",
+                url: "/queryqx.shtml" + "?" + changjia_id,
+                data: {"changjia_id": changjia_id},
+                dataType: "json",
+                success: function (data) {
+                    //城市下拉菜单id
+                    var cscs = $("#cscs");
+                    //清空菜单
+                    cscs.empty();
+                    //json格式的城市对象数组
+                    var citys = eval(data);
+                    cscs.append("<option value='0'>请选择基地</option>");
+                    $.each(citys, function (index, item) {
+                        //城市名称与id
+                        var cname = data[index].NAME;
+                        var cid = data[index].KEYID;
+                        cscs.append("<option value='" + cid + "'>" + cname + "</option>");
+                    });
+                }
+            });
+
+            $.ajax({
+                type: "post",
+                url: "/queryHAI.shtml" + "?" + changjia_id,
+                data: {"changjia_id": changjia_id},
+                dataType: "json",
+                success: function (data) {
+                    //城市下拉菜单id
+                    var cscs = $("#cscs");
+                    //清空菜单
+                    cscs.empty();
+                    //json格式的城市对象数组
+                    var citys = eval(data);
+                    cscs.append("<option value='0'>请选择参数</option>");
+                    $.each(citys, function (index, item) {
+                        //城市名称与id
+                        var cname = citys[index].NAME;
+                        var cid = citys[index].KEYID;
+
+                        cscs.append("<option value='" + cid + "'>" + cname + "</option>");
+                    });
+                }
+
+            });
+
+            $("#SB_CS_KEYID").val($("#cscs").find("option:selected").val());
+            $("#cscs").change(function () {
+                $("#SB_CS_KEYID").val($("#cscs").find("option:selected").val());
+            });
+        }
+
+        function company3() {
+
+            $("#EQ_STATE").val($("#st").find("option:selected").val());
+            $("#st").change(function () {
+                $("#EQ_STATE").val($("#st").find("option:selected").val());
+            });
+        }
+
+    </script>
+
+</head>
+<body class="container" style="width: 100%">
+<div class="row">
+    <div class="col-md-4"></div>
+
+    <div class="col-md-4 col-xs-12">
+
+        <br/><br/>
+        <table class="table table-hover">
+            <center><h5>添加设备信息</h5></center>
+            <div style="width:100%;height:100%;">
+                <form th:action="@{/inserts}" method="post">
+                    <!--id：<input class="form-control" type="text"  name="KEYID"><br>-->
+                    设备公司id:
+                    <input class="form-control" id="EQ_company_id" name="EQ_company_id" style="width:100%;">
+
+                    <select name="p" id="p" onchange="company()" class="form-control" style="width:100%;">
+                        <option value="0">===请选择公司===</option>
+                        <option th:each="car:${company_ifos}" th:value="${car.ID}"
+                                th:text="${car.company_name}"></option>
+                    </select>
+                    <br>
+                    设备基地id：<input class="form-control" type="text" name="EQ_place_id" id="EQ_place_id"
+                                  style="width:100%">
+                    <select name="c" id="c" class="form-control" style="width:100%;">
+                        <option value="0">===请选择基地===</option>
+                    </select>
+                    <br>
+                    厂商id：
+                    <input class="form-control" id="SB_CHANGJIA" name="SB_CHANGJIA" style="width:100%;">
+
+                    <select name="cs" id="cs" onchange="company2()" class="form-control" style="width:100%;">
+                        <option value="0">===请选择厂商===</option>
+                        <option th:each="changjias:${changjias}" th:value="${changjias.KEYID}"
+                                th:text="${changjias.TITLE}"></option>
+                    </select>
+                    <br>
+                    厂商参数id：<input class="form-control" type="text" name="SB_CS_KEYID" id="SB_CS_KEYID"
+                                  style="width: 100%">
+
+                    <select name="cscs" id="cscs" class="form-control" style="width:100%;">
+                        <option value="0">===请选择参数===</option>
+                    </select>
+                    <br>
+
+                    设备sn：<select name="EQ_SN" id="EQ_SN" class="form-control" style="width:100%;">
+                    <option value="0">===请选择设备sn===</option>
+                    <option th:each="array:${arrayList}" th:value="${array}"
+                            th:text="${array}"></option>
+                </select><br>
+                    设备名称：<input class="form-control" type="text" name="EQ_NAME" style="width:100%"><br>
+                    设备地址：<input class="form-control" type="text" name="EQ_ADDRESS" style="width: 100%"><br>
+                    设备验证码：<input class="form-control" type="text" name="SP_YZM" style="width: 100%"><br>
+                    <!-- 设备经度：<input class="form-control" type="text" name="EQ_LONGITUDE" style="width: 100%"><br>
+                     设备纬度：<input class="form-control" type="text" name="EQ_LATITUDE" style="width: 100%"><br>-->
+                    日期：<input class="form-control" type="date" name="EQ_DATE" style="width: 100%"><br>
+                    设备状态：<input class="form-control" type="text" name="EQ_STATE" id="EQ_STATE" style="width: 100%">
+
+                    <select name="st" id="st" class="form-control" style="width:300px;" onchange="company3()">
+                        <option value="">==请选择==</option>
+                        <option value="0">在列表中显示</option>
+                        <option value="1">不在列表中显示</option>
+                    </select>
+                    <button class="btn btn-primary btn-lg btn-block" style="width: 100%">保存</button>
+                </form>
+
+            </div>
+        </table>
+    </div>
+    <div class="col-md-4"></div>
+</div>
+
+
+</body>
+</html>

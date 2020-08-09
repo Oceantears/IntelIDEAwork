@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
+<head>
+    <meta charset="UTF-8">
+    <title>气象站感知数据查询</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+    <script href="../static/css/bootstrap.css" rel="styesheet" type="text/css"></script>
+    <script href="../static/css/bootstrap.min.css" rel="styesheet" type="text/css"></script>
+    <link href="http://www.tree-iot.com/stzhs/resources/lib/video5.18.4/css/video-js.css" rel="stylesheet">
+    <script th:src="@{/js/jquery.js}"></script>
+    <script th:src="@{/js/video.min.js}"></script>
+    <!-- 全局js -->
+    <script th:src="@{/js/bootstrap.js}"></script>
+    <script th:src="@{/js/echarts.min.js}"></script>
+    <script th:src="@{/min-js/echarts/echarts-all.js}"></script>
+    <script th:src="@{/js/content.js}"></script>
+
+</head>
+<body>
+<div class="content">
+
+    <script type="application/javascript">
+        function shebei() {
+
+            //alert("aaa");
+            //公司的id
+            var keyid = $("#shebei").val();
+            //proid.empty();
+            $.ajax({
+                type: "post",
+                url: "/shuju" + "?" + keyid,
+                data: {"keyid": keyid},
+                dataType: "html",
+                success: function (data) {
+                    window.location.href = "/shuju" + "?" + "keyid=" + keyid;
+
+                }
+
+            });
+        }
+    </script>
+    <div class="rowTop">
+        <span style="font-size:20px; font-family:Microsoft YaHei; color:#2F4F4F; font-weight:bold; float:left; width:40%;">西安纵横资讯有限责任公司（绿茶种植基地）</span>
+        <span style="font-size:20px; font-family:Microsoft YaHei; color:#2F4F4F; font-weight:bold; float:right; width:60%; text-align:right;">
+               <!--<select name="EQ_SN" id="EQ_SN" class="form-control" style="width:100%;">
+                    <option value="0">===请选择设备sn===</option>
+                    <option th:each="array:${arrayList}" th:value="${array}"
+                            th:text="${array}"></option>
+                    </select>-->
+                <select id="shebei" name="EQ_SN" onchange="shebei()" style=" height:30px;">
+                     <option value="1" >-----选择基地-----</option>
+                    <option th:each="hwEquipment:${hwEquipments}" th:value="${hwEquipment.KEYID}"
+                            th:text="${hwEquipment.EQ_NAME}"></option>
+                </select>
+            </span>
+    </div>
+    <table style="width:100%;">
+        <tr>
+            <td class="rowLeft">
+                <div style="width:600px;height:300px">
+                   <!-- <iframe th:src="${str}" style=" width: 100%; height: 100%;" id="ysopen" allowfullscreen>
+                    </iframe>-->
+                    <video id="my-video" class="video-js  vjs-big-play-centered " controls preload="auto" style="width:100%;height:100%"
+                           th:poster="${gejpg}" data-setup="{}">
+                        <source th:src="${string}" type='application/x-mpegURL'/>
+                    </video>
+                </div>
+            </td>
+            <td class="rowRight">
+                <div class="zhexiantu">
+                    <div id="echarts-line-chart" style=" height:300px; width:650px;"></div>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <div class="row2">
+        <div class="dataItem">
+            <div th:text="${wendu}" style=" font-size:20px; font-weight:bold;margin-top:40px;">34度</div>
+            <div style=" font-size:16px; margin-top:10px; color:#969696;">气温</div>
+        </div>
+        <div class="dataItem">
+            <div th:text="${shidu}" style=" font-size:20px; font-weight:bold;margin-top:40px;">68.0%RH</div>
+            <div style=" font-size:16px; margin-top:10px; color:#969696;">湿度</div>
+        </div>
+        <div class="dataItem">
+            <div th:text="${fengxiang}" style=" font-size:20px; font-weight:bold;margin-top:40px;">0.0</div>
+            <div style=" font-size:16px; margin-top:10px; color:#969696;">风向</div>
+        </div>
+        <div class="dataItem">
+            <div th:text="${fengsu}" style=" font-size:20px; font-weight:bold;margin-top:40px;">0.0m/s</div>
+            <div style=" font-size:16px; margin-top:10px; color:#969696;">风速</div>
+        </div>
+        <div class="dataItem">
+            <div th:text="${guangzhao}" style=" font-size:20px; font-weight:bold;margin-top:40px;">1344.0lux</div>
+            <div style=" font-size:16px; margin-top:10px; color:#969696;">光照</div>
+        </div>
+        <div class="dataItem">
+            <div th:text="${pm}" style=" font-size:20px; font-weight:bold;margin-top:40px;">0.0g/m3</div>
+            <div style=" font-size:16px; margin-top:10px; color:#969696;">PM2.5</div>
+        </div>
+        <div class="dataItem">
+            <div th:text="${yuliang}" style=" font-size:20px; font-weight:bold;margin-top:40px;">0.0mm</div>
+            <div style=" font-size:16px; margin-top:10px; color:#969696;">降雨量</div>
+        </div>
+        <div class="dataItem">
+            <div th:text="${turang}" style=" font-size:20px; font-weight:bold;margin-top:40px;">0.0PH</div>
+            <div style=" font-size:16px; margin-top:10px; color:#969696;">土壤PH</div>
+        </div>
+        <div class="dataItem">
+            <div th:text="${haiba}" style=" font-size:20px; font-weight:bold;margin-top:40px;">59.0m</div>
+            <div style=" font-size:16px; margin-top:10px; color:#969696;">海拔</div>
+        </div>
+        <div class="dataItem">
+            <div th:text="${yali}" style=" font-size:20px; font-weight:bold;margin-top:40px;">0.00hpa</div>
+            <div style=" font-size:16px; margin-top:10px; color:#969696;">气压</div>
+        </div>
+    </div>
+    <div class="row3">
+        <div id="div1">
+            <div id="div4">
+                <div id="div5" th:each="list:${lists}">
+                    <img th:src="${list.GETDEVICEIMAGEDATA}" style="width: 500px;"/>
+                </div>
+                <div id="div2" th:each="getdeviceImagedata:${getdeviceImagedatas}">
+                    <img th:src="${getdeviceImagedata.GETDEVICEIMAGEDATATow}" style="width: 500px;" class="d1"/>
+                </div>
+                <div id="div3"></div><!--这个容器是用来防止图片滚动时会出现空白的区域-->
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+    var myPlayer = videojs('my-video');
+    videojs("my-video").ready(function () {
+        var myPlayer = this;
+        myPlayer.play();
+    });
+
+
+    window.onload = function () {
+        var v1 = document.getElementById('div1');
+        var v2 = document.getElementById('div2');
+        var v3 = document.getElementById('div3');
+        v3.innerHTML = v2.innerHTML;//将v2容器里面的图片插入到v3容器里面  使其空白区域被遮住。
+        function fun() {
+            if (v1.scrollLeft <= 0) {
+                v1.scrollLeft = 600;
+            } else {
+                v1.scrollLeft--;
+            }
+        }
+
+        var fun1 = setInterval(fun, 10);
+        v1.onmouseover = function () {//鼠标经过时  清除定时器  停止图片的滚动
+            clearInterval(fun1)
+        };
+        v1.onmouseout = function () {//鼠标离开后  继续滚动图片
+            fun1 = setInterval(fun, 10)
+        };
+    }
+</script>
+
+<script type="text/javascript">
+    $(function () {
+        var lineChart = echarts.init(document.getElementById("echarts-line-chart"));
+        var wd = [[${wd}]];
+        var sd = [[${sd}]];
+        var fs = [[${fs}]];
+        var gz = [[${gz}]];
+        var pm = [[${pm2}]];
+        var jy = [[${jy}]];
+        /*console.log(wd);
+        console.log(sd);
+        console.log(fs);
+        console.log(gz);
+        console.log(pm);
+        console.log(jy);*/
+
+        var lineoption = {
+            title: {
+                text: '今日环境数据走势'
+            },
+            tooltip: {
+                trigger: 'axis'
+            },
+            legend: {
+                data: ['温度', '湿度', '风速', /*'光照',*/ 'PM2.5', '降雨']
+            },
+            grid: {
+                x: 40,
+                x2: 40,
+                y2: 24
+            },
+            calculable: true,
+            xAxis: [
+                {
+                    type: 'category',
+                    boundaryGap: false,
+                    data: ['0:00', '2:00', '4:00', '6:00', '8:00', '10:00', '12:00', '14:00', '16:00', '18:00', '20:00', '22:00', '24:00']
+                }
+            ],
+            yAxis: [
+                {
+                    type: 'value',
+                    axisLabel: {
+                        formatter: '{value} '
+                        /*formatter: '{value} °C'*/
+                    }
+                }
+            ],
+            series: [
+                {
+                    name: '温度',
+                    type: 'line',
+                    data: wd,
+                    markPoint: {
+                        data: [
+                            {type: 'max', name: '最大值'},
+                            {type: 'min', name: '最小值'}
+                        ]
+                    },
+                    markLine: {
+                        data: [
+                            {type: 'average', name: '平均值'}
+                        ]
+                    }
+                },
+                {
+                    name: '湿度',
+                    type: 'line',
+                    data: sd,
+                    markPoint: {
+                        data: [
+                            {type: 'max', name: '最大值'},
+                            {type: 'min', name: '最小值'}
+                        ]
+                    },
+                    markLine: {
+                        data: [
+                            {type: 'average', name: '平均值'}
+                        ]
+                    }
+                },
+                {
+                    name: '风速',
+                    type: 'line',
+                    data: fs,
+                    markPoint: {
+                        data: [
+                            {type: 'max', name: '最大值'},
+                            {type: 'min', name: '最小值'}
+                        ]
+                    },
+                    markLine: {
+                        data: [
+                            {type: 'average', name: '平均值'}
+                        ]
+                    }
+                },
+               /* {
+                    name: '光照',
+                    type: 'line',
+                    data: gz,
+                    markPoint: {
+                        data: [
+                            {type: 'max', name: '最大值'},
+                            {type: 'min', name: '最小值'}
+                        ]
+                    },
+                    markLine: {
+                        data: [
+                            {type: 'average', name: '平均值'}
+                        ]
+                    }
+                },*/
+                {
+                    name: 'PM2.5',
+                    type: 'line',
+                    data: pm,
+                    markPoint: {
+                        data: [
+                            {type: 'max', name: '最大值'},
+                            {type: 'min', name: '最小值'}
+                        ]
+                    },
+                    markLine: {
+                        data: [
+                            {type: 'average', name: '平均值'}
+                        ]
+                    }
+                },
+                {
+                    name: '降雨',
+                    type: 'line',
+                    data: jy,
+                    markPoint: {
+                        data: [
+                            {type: 'max', name: '最大值'},
+                            {type: 'min', name: '最小值'}
+                        ]
+                    },
+                    markLine: {
+                        data: [
+                            {type: 'average', name: '平均值'}
+                        ]
+                    }
+                }
+            ]
+        };
+        lineChart.setOption(lineoption);
+        $(window).resize(lineChart.resize);
+
+    });
+
+</script>
