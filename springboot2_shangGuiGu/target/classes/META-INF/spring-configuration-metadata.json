@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "mycar",
+      "type": "com.springboot2.start.entity.Car",
+      "sourceType": "com.springboot2.start.entity.Car"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mycar.brand",
+      "type": "java.lang.String",
+      "sourceType": "com.springboot2.start.entity.Car"
+    },
+    {
+      "name": "mycar.price",
+      "type": "java.lang.String",
+      "sourceType": "com.springboot2.start.entity.Car"
+    }
+  ],
+  "hints": []
+}
